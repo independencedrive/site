@@ -332,7 +332,7 @@ p#tgPitBE {
         <item-body id="czfdUuB">
           <item-title id="HbAvStf" contenteditable="true">Permis B Manuel</item-title>
           <item-desc id="mVdZzCi" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="uOshabK" href="#" data-type="a-link">Lorem </a>
+          <a id="uOshabK" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('pxNXYeN')">-</button>
       </grid-item><grid-item id="XLatBKS">
@@ -340,9 +340,9 @@ p#tgPitBE {
           <img id="yuCBsbV" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxOHx8Y29sb3JzfGVufDB8MHx8fDE3MTY2NjQ0NDV8MA&amp;ixlib=rb-4.0.3&amp;w=200&amp;h=200&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="AswhHSz">
-          <item-title id="HquIJPM" contenteditable="true">Lorem ipsum</item-title>
+          <item-title id="HquIJPM" contenteditable="true">Permis B Automatique</item-title>
           <item-desc id="UgSzkGZ" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="jsblwkU" href="#" data-type="a-link">Lorem </a>
+          <a id="jsblwkU" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('XLatBKS')">-</button>
       </grid-item><grid-item id="wRiIkXC">
@@ -350,9 +350,9 @@ p#tgPitBE {
           <img id="otDQHMz" src="https://images.unsplash.com/photo-1502622796232-e88458466c33?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyOHx8Y29sb3JzfGVufDB8MHx8fDE3MTY2NjQ0NjJ8MA&amp;ixlib=rb-4.0.3&amp;w=200&amp;h=200&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="azDKUKK">
-          <item-title id="FwZEwZc" contenteditable="true">Lorem ipsum</item-title>
+          <item-title id="FwZEwZc" contenteditable="true">Permis B Accéléré</item-title>
           <item-desc id="lwtMUUK" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="vWefORc" href="#" data-type="a-link">Lorem </a>
+          <a id="vWefORc" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('wRiIkXC')">-</button>
       </grid-item><grid-item id="gxYSkPy">
@@ -360,9 +360,9 @@ p#tgPitBE {
           <img id="sQWGbsE" src="https://images.unsplash.com/photo-1529600497935-f5fd7ccf888e?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw0NXx8Y29sb3JzfGVufDB8MHx8fDE3MTY2NjQ0ODB8MA&amp;ixlib=rb-4.0.3&amp;w=200&amp;h=200&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="wvxiiAi">
-          <item-title id="qmOmMOC" contenteditable="true">Lorem ipsum</item-title>
+          <item-title id="qmOmMOC" contenteditable="true">Permis B Heures illimitées</item-title>
           <item-desc id="HuneNik" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="UybbugY" href="#" data-type="a-link">Lorem </a>
+          <a id="UybbugY" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('gxYSkPy')">-</button>
       </grid-item><grid-item id="zjimwJa">
@@ -370,9 +370,9 @@ p#tgPitBE {
           <img id="cNmxVES" src="https://images.unsplash.com/photo-1509664158680-07c5032b51e5?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw1NHx8Y29sb3JzfGVufDB8MHx8fDE3MTY2NjQ0ODB8MA&amp;ixlib=rb-4.0.3&amp;w=200&amp;h=200&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="jRmwcld">
-          <item-title id="DJKLnEe" contenteditable="true">Lorem ipsum</item-title>
+          <item-title id="DJKLnEe" contenteditable="true">Permis AAC Conduite Accompagnée</item-title>
           <item-desc id="SBtALLX" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="RrPOtPU" href="#" data-type="a-link">Lorem </a>
+          <a id="RrPOtPU" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('zjimwJa')">-</button>
       </grid-item><button id="NzWwriK" class="no-export grid-add-item" onclick="items200x200('LLlrTkC','NzWwriK', '../global/file/empty.svg')">+</button>
