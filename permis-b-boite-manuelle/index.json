@@ -139,6 +139,9 @@ p#HNDUHob {
                   <grid-item id="WluHxcn">
         <a id="NhtRHUI" href="#" data-type="a-link">Lorem ipsum</a>
         <button class="no-export button-delete-item" onclick="deleteItem('WluHxcn')">-</button>
+    </grid-item><grid-item id="EItJkwG">
+        <a id="XpjhtSF" href="#" data-type="a-link">Lorem ipsum</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('EItJkwG')">-</button>
     </grid-item><button id="JgmmXMI" class="no-export grid-add-item" onclick="itemsButtons('GpRJgFI','JgmmXMI')">+</button>
                 </grid-box>
                 
