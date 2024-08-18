@@ -784,7 +784,7 @@ p#tgPitBE {
 
           <grid-item id="SLfsEpf">
             <grid-box id="UybQYLA">
-              <h2 id="IFjiGUJ" contenteditable="true"></h2><h2 id="FoFpIVH" style="outline: none;">Infos</h2>
+              <h2 id="IFjiGUJ" contenteditable="true">Infos</h2>
               <grid-item id="qtYogFf">
         <a id="JqQycwh" href="#" data-type="a-link" target="_self" class="">A propos</a>
         <button class="no-export button-delete-item" onclick="deleteItem('qtYogFf')">-</button>
