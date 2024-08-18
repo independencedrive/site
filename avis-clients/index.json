@@ -129,7 +129,7 @@ p#pzImOKD {
           </div> 
         </grid-bg>
 
-        <grid-box id="JdxWSbj">
+        <grid-box id="JdxWSbj" style="background-color: rgba(6, 6, 6, 0.42);">
             
             <grid-item id="tTwuZaF">
                 <h2 id="gErsnVD" contenteditable="true">Avis Clients</h2>
