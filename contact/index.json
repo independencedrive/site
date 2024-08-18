@@ -52,7 +52,6 @@ grid-box#IOPbHgG {
   grid-auto-rows: auto;
   width: 100%;
   height: 80vh;
-  place-content: center;
 }
 
 grid-item#RvEXnFH {
@@ -141,6 +140,15 @@ p#aBprSON {
                   <grid-item id="sfPSJBA">
         <a id="kbKAycw" href="#" data-type="a-link">Lorem ipsum</a>
         <button class="no-export button-delete-item" onclick="deleteItem('sfPSJBA')">-</button>
+    </grid-item><grid-item id="YvCJaNH">
+        <a id="ZpPTZHL" href="#" data-type="a-link">Lorem ipsum</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('YvCJaNH')">-</button>
+    </grid-item><grid-item id="LeFCMza">
+        <a id="KkyYFon" href="#" data-type="a-link">Lorem ipsum</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('LeFCMza')">-</button>
+    </grid-item><grid-item id="Fxqrbtq">
+        <a id="zPHDqAa" href="#" data-type="a-link">Lorem ipsum</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('Fxqrbtq')">-</button>
     </grid-item><button id="unuaeGd" class="no-export grid-add-item" onclick="itemsButtons('RFEzFuq','unuaeGd')">+</button>
                 </grid-box>
                 
