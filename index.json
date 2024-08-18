@@ -762,12 +762,13 @@ a#iReVUOi {
           <button class="no-export button-delete-item" onclick="deleteItem('kxFdtGz')">-</button>
         </grid-item><grid-item id="ObTgPrt">
           <a id="iReVUOi" href="https://www.facebook.com/share/5rUeTrLHtpJt3UWt/" data-type="a-link" target="_blank" class="">
-            <img class="facebook" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/facebook_50x50.png" alt="Facebook" style="width: 20px; height: 20px;">
-            Facebook
+            <img class="facebook" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/facebook_50x50.png" alt="Facebook" style="width: 20px; height: 20px;"> Facebook
           </a>
           <button class="no-export button-delete-item" onclick="deleteItem('ObTgPrt')">-</button>
         </grid-item><grid-item id="pzJgETt">
-          <a id="QBUJeeR" href="https://www.tiktok.com/@drivingschool_tv?_t=8ojG0WE6Cob&amp;_r=1" data-type="a-link" target="_self" class="">Tiktok</a>
+          <a id="QBUJeeR" href="https://www.tiktok.com/@drivingschool_tv?_t=8ojG0WE6Cob&amp;_r=1" data-type="a-link" target="_self" class="">
+            <img class="tiktok" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/tiktok_50x50.png" alt="Titktok" style="width: 20px; height: 20px;">Tiktok
+          </a>
           <button class="no-export button-delete-item" onclick="deleteItem('pzJgETt')">-</button>
         </grid-item><grid-item id="ZptisHS">
           <a id="zLwJfuG" href="https://www.instagram.com/independencedrivetv?igsh=MXEwaDJtaW5laW12Mg==" data-type="a-link" target="_self" class="">Instagram</a>
