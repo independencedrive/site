@@ -121,7 +121,7 @@ p#mwZNgho {
             <picture id="UZECRbK">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="QaRUmGR" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
+              <img id="QaRUmGR" src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyMHx8Y29va2llcyUyMHdlYnxlbnwwfDB8fHwxNzI0MDE0NzQzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
             </picture>
           </div> 
           <!-- bg-video -->
@@ -133,13 +133,10 @@ p#mwZNgho {
         <grid-box id="bGvicTP">
             
             <grid-item id="tGjrZoX">
-                <h2 id="friRSgQ" contenteditable="true">Lorem ipsum</h2>
+                <h2 id="friRSgQ" contenteditable="true">Politique de cookies</h2>
                 <p id="mwZNgho" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
                 <grid-box id="xtLgWFo">
-                  <grid-item id="nPGfoNg">
-        <a id="aVBOqLj" href="#" data-type="a-link">Lorem ipsum</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('nPGfoNg')">-</button>
-    </grid-item><button id="DoadDnL" class="no-export grid-add-item" onclick="itemsButtons('xtLgWFo','DoadDnL')">+</button>
+                  <button id="DoadDnL" class="no-export grid-add-item" onclick="itemsButtons('xtLgWFo','DoadDnL')">+</button>
                 </grid-box>
                 
             </grid-item>
