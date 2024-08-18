@@ -552,7 +552,7 @@ p#tgPitBE {
         <item-body id="DqHcjQM">
           <item-title id="yxHwvnM" contenteditable="true">Pack Disney Drive</item-title>
           <item-desc id="OYCBbaS" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="dgesgow" href="#" data-type="a-link">Lorem </a>
+          <a id="dgesgow" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('wVJAyxA')">-</button>
       </grid-item><grid-item id="RGvSQeu">
@@ -562,7 +562,7 @@ p#tgPitBE {
         <item-body id="JKSkfpq">
           <item-title id="bKkKVwY" contenteditable="true">Pack Unlimited Drive</item-title>
           <item-desc id="EscEWGB" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="bzcSuCL" href="#" data-type="a-link">Lorem </a>
+          <a id="bzcSuCL" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('RGvSQeu')">-</button>
       </grid-item><grid-item id="LpiVwZN">
@@ -572,7 +572,7 @@ p#tgPitBE {
         <item-body id="ShYsfrL">
           <item-title id="uaiCiBc" contenteditable="true">Pack Fast Drive</item-title>
           <item-desc id="VPSYIXP" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="SWfKyMT" href="#" data-type="a-link">Lorem </a>
+          <a id="SWfKyMT" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('LpiVwZN')">-</button>
       </grid-item><grid-item id="jAeaPLW">
@@ -582,7 +582,7 @@ p#tgPitBE {
         <item-body id="VLHfbhR">
           <item-title id="VvlMCvN" contenteditable="true">Pack team Drive</item-title>
           <item-desc id="kOnktHM" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="bSZyscN" href="#" data-type="a-link">Lorem </a>
+          <a id="bSZyscN" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('jAeaPLW')">-</button>
       </grid-item><button id="vGeySOs" class="no-export grid-add-item" onclick="items200x200('rUaaatH','vGeySOs', '../global/file/empty.svg')">+</button>
