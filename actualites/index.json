@@ -133,7 +133,7 @@ p#SoOnmap {
         <grid-box id="ToKdIUa">
             
             <grid-item id="eiWFIzQ">
-                <h2 id="zcRqNRp" contenteditable="true">Lorem ipsum</h2>
+                <h2 id="zcRqNRp" contenteditable="true">Actualités</h2>
                 <p id="SoOnmap" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
                 <grid-box id="KOACdaO">
                   <grid-item id="ERGVfAW">
@@ -145,7 +145,7 @@ p#SoOnmap {
             </grid-item>
 
             <grid-item id="GWeKAOV">
-              <video id="OTiBReU" class="grid-item" autoplay="" loop="" muted="" data-type="video-fg" loading="lazy" src="https://github.com/IAMEDIA360/videos/raw/main/1795203691-1.mp4"></video>    
+              <video id="OTiBReU" class="grid-item" autoplay="" loop="" muted="" data-type="video-fg" loading="lazy" src="https://videos.pexels.com/video-files/4874629/4874629-hd_1280_720_50fps.mp4"></video>    
             </grid-item>
 
           </grid-box>
