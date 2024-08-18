@@ -770,16 +770,16 @@ p#tgPitBE {
         <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
         <button class="no-export button-delete-item" onclick="deleteItem('pltjDLA')">-</button>
     </grid-item><grid-item id="TIufMxK">
-        <a id="eQkcVnB" href="#" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
+        <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
         <button class="no-export button-delete-item" onclick="deleteItem('TIufMxK')">-</button>
     </grid-item><grid-item id="kOfZrct">
-        <a id="IKrvXsc" href="#" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
+        <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
         <button class="no-export button-delete-item" onclick="deleteItem('kOfZrct')">-</button>
     </grid-item><grid-item id="hiBSRqE">
-        <a id="cmQoVzf" href="#" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
+        <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
         <button class="no-export button-delete-item" onclick="deleteItem('hiBSRqE')">-</button>
     </grid-item><grid-item id="OjbYQRM">
-        <a id="etEgHaW" href="#" data-type="a-link" target="_self" class="">Permis AAC Conduite Accompagnée</a>
+        <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis AAC Conduite Accompagnée</a>
         <button class="no-export button-delete-item" onclick="deleteItem('OjbYQRM')">-</button>
     </grid-item><button id="dKJXakP" class="no-export grid-add-item" onclick="itemsButtons('rRToYvo','dKJXakP')">+</button>
             </grid-box>
@@ -789,16 +789,16 @@ p#tgPitBE {
             <grid-box id="UybQYLA">
               <h2 id="IFjiGUJ" contenteditable="true">Infos</h2>
               <grid-item id="qtYogFf">
-        <a id="JqQycwh" href="#" data-type="a-link" target="_self" class="">A propos</a>
+        <a id="JqQycwh" href="./a-propos" data-type="a-link" target="_self" class="">A propos</a>
         <button class="no-export button-delete-item" onclick="deleteItem('qtYogFf')">-</button>
     </grid-item><grid-item id="wQYzUMl">
-        <a id="nMOQKwg" href="#" data-type="a-link" target="_self" class="">Contact</a>
+        <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
         <button class="no-export button-delete-item" onclick="deleteItem('wQYzUMl')">-</button>
     </grid-item><grid-item id="lKuUGHy">
-        <a id="jNSOoCC" href="#" data-type="a-link" target="_self" class="">News</a>
+        <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
         <button class="no-export button-delete-item" onclick="deleteItem('lKuUGHy')">-</button>
     </grid-item><grid-item id="yeMoevK">
-        <a id="vjZwEXD" href="#" data-type="a-link" target="_self" class="">Avis</a>
+        <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
         <button class="no-export button-delete-item" onclick="deleteItem('yeMoevK')">-</button>
     </grid-item><button id="tLgAlji" class="no-export grid-add-item" onclick="itemsButtons('UybQYLA','tLgAlji')">+</button>
             </grid-box>
