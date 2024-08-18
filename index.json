@@ -726,13 +726,13 @@ img#oStanlI {
       <div id="XOwRsQI" data-type="html"><grid-container id="FQAmRAq">
   <grid-bg id="jNVivaa" data-type="grid-bg">
     <!-- bg-color -->
-    <div id="kMbKNTc" data-type="bg-color" class="div-visible">
+    <div id="kMbKNTc" data-type="bg-color" class="div-hidden">
       <div id="bDttxoW" data-type="solid-color" class="div-visible" style="background: rgb(98, 98, 98);"></div>
       <div id="iiysVnt" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
       <div id="byCidBs" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
     </div>
     <!-- bg-image -->
-    <div id="JvwieGb" data-type="bg-image" class="div-hidden">
+    <div id="JvwieGb" data-type="bg-image" class="div-visible">
       <picture id="Wkkiihz">
         <source srcset="" media="(max-width:640px)">
         <source srcset="" media="(min-width:641px) and (max-width:1024px)">
@@ -759,7 +759,7 @@ img#oStanlI {
           <button class="no-export button-delete-item" onclick="deleteItem('kxFdtGz')">-</button>
         </grid-item><grid-item id="ObTgPrt">
           <a id="iReVUOi" href="https://www.facebook.com/share/5rUeTrLHtpJt3UWt/" data-type="a-link" target="_blank" class="">
-            <img src="ruta_de_la_imagen.jpg" alt="Facebook" style="width: 20px; height: 20px;">
+            <img class="facebook" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/facebook_50x50.png" alt="Facebook" style="width: 20px; height: 20px;">
           </a>
           <button class="no-export button-delete-item" onclick="deleteItem('ObTgPrt')">-</button>
         </grid-item><grid-item id="pzJgETt">
