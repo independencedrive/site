@@ -771,7 +771,9 @@ a#iReVUOi {
           </a>
           <button class="no-export button-delete-item" onclick="deleteItem('pzJgETt')">-</button>
         </grid-item><grid-item id="ZptisHS">
-          <a id="zLwJfuG" href="https://www.instagram.com/independencedrivetv?igsh=MXEwaDJtaW5laW12Mg==" data-type="a-link" target="_self" class="">Instagram</a>
+          <a id="zLwJfuG" href="https://www.instagram.com/independencedrivetv?igsh=MXEwaDJtaW5laW12Mg==" data-type="a-link" target="_self" class="">
+            <img class="instagram" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/instagram_50x50.png" alt="Instagram" style="width: 20px; height: 20px;">Instagram
+          </a>
           <button class="no-export button-delete-item" onclick="deleteItem('ZptisHS')">-</button>
         </grid-item>
         <button id="XvsnvLR" class="no-export grid-add-item" onclick="itemsButtons('rkqUGeB','XvsnvLR')">+</button>
