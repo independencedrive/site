@@ -723,125 +723,120 @@ img#oStanlI {
   }</style>
       
       <!--HTML-->
-      <div id="XOwRsQI" data-type="html">
-        <grid-container id="FQAmRAq">
-        
-        <grid-bg id="jNVivaa" data-type="grid-bg">
-          <!-- bg-color -->
-          <div id="kMbKNTc" data-type="bg-color" class="div-visible">
-            <div id="bDttxoW" data-type="solid-color" class="div-visible" style="background: rgb(98, 98, 98);"></div>
-            <div id="iiysVnt" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="byCidBs" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-          </div> 
-          <!-- bg-image -->
-          <div id="JvwieGb" data-type="bg-image" class="div-hidden">
-            <picture id="Wkkiihz">
-              <source srcset="" media="(max-width:640px)">
-              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="BEisfsU" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
-            </picture>
-          </div> 
-          <!-- bg-video -->
-          <div id="OWWFUPQ" data-type="bg-video" class="div-hidden">
-            <video id="fJiQLgU" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
-          </div> 
-        </grid-bg>
-
-        <grid-box id="FUgAJeb">
-
-          <grid-item id="xxIYmsi">
-            <grid-box id="rkqUGeB">
-              <h2 id="nHGqSlL" contenteditable="true">Contact</h2>
-              <grid-item id="TvwPcFJ">
-        <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">Tél : 0664202157</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('TvwPcFJ')">-</button>
-    </grid-item><grid-item id="fJMPPAQ">
-        <a id="fZYKwPC" href="#" data-type="a-link" target="_self" class="">contact@independance.fr</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('fJMPPAQ')">-</button>
-    </grid-item><grid-item id="kxFdtGz">
-        <a id="lSPTMRn" href="https://www.google.com/maps/search/?api=1&amp;query=83+Rue+Michel+Ange,+34070+Montpellier" data-type="a-link" target="_self" class="">83 Rue Michel Ange, 34070 Montpellier</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('kxFdtGz')">-</button>
-    </grid-item><grid-item id="ObTgPrt">
-        <a id="iReVUOi" href="https://www.facebook.com/share/5rUeTrLHtpJt3UWt/" data-type="a-link" target="_blank" class="">Facebook</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('ObTgPrt')">-</button>
-    </grid-item><grid-item id="pzJgETt">
-        <a id="QBUJeeR" href="https://www.tiktok.com/@drivingschool_tv?_t=8ojG0WE6Cob&amp;_r=1" data-type="a-link" target="_self" class="">Tiktok</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('pzJgETt')">-</button>
-    </grid-item><grid-item id="ZptisHS">
-        <a id="zLwJfuG" href="https://www.instagram.com/independencedrivetv?igsh=MXEwaDJtaW5laW12Mg==" data-type="a-link" target="_self" class="">Instagram</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('ZptisHS')">-</button>
-    </grid-item><button id="XvsnvLR" class="no-export grid-add-item" onclick="itemsButtons('rkqUGeB','XvsnvLR')">+</button>
-            </grid-box>
-          </grid-item>
-
-          <grid-item id="psnGMAw">
-            <grid-box id="rRToYvo">
-              <h2 id="aBYFfmZ" contenteditable="true">Prestations</h2>
-              <grid-item id="pltjDLA">
-        <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('pltjDLA')">-</button>
-    </grid-item><grid-item id="TIufMxK">
-        <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('TIufMxK')">-</button>
-    </grid-item><grid-item id="kOfZrct">
-        <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
-        <button class="no-export button-delete-item" onclick="deleteItem('kOfZrct')">-</button>
-    </grid-item><grid-item id="hiBSRqE">
-        <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('hiBSRqE')">-</button>
-    </grid-item><grid-item id="OjbYQRM">
-        <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis AAC Conduite Accompagnée</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('OjbYQRM')">-</button>
-    </grid-item><button id="dKJXakP" class="no-export grid-add-item" onclick="itemsButtons('rRToYvo','dKJXakP')">+</button>
-            </grid-box>
-          </grid-item>
-
-          <grid-item id="SLfsEpf">
-            <grid-box id="UybQYLA">
-              <h2 id="IFjiGUJ" contenteditable="true">Infos</h2>
-              <grid-item id="qtYogFf">
-        <a id="JqQycwh" href="./a-propos" data-type="a-link" target="_self" class="">A propos</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('qtYogFf')">-</button>
-    </grid-item><grid-item id="wQYzUMl">
-        <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('wQYzUMl')">-</button>
-    </grid-item><grid-item id="lKuUGHy">
-        <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('lKuUGHy')">-</button>
-    </grid-item><grid-item id="yeMoevK">
-        <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('yeMoevK')">-</button>
-    </grid-item><button id="tLgAlji" class="no-export grid-add-item" onclick="itemsButtons('UybQYLA','tLgAlji')">+</button>
-            </grid-box>
-          </grid-item>
-
-
-          <grid-item id="RfAeOfE">
-            <grid-box id="UyMBjVD">
-              <h2 id="FoFpIVH" contenteditable="true">Legal</h2>
-              <grid-item id="qvEHEFV">
-        <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions légales</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('qvEHEFV')">-</button>
-    </grid-item><grid-item id="BnHeUtb">
-        <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions générales d'utilisation (CGU)</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('BnHeUtb')">-</button>
-    </grid-item><grid-item id="baAHIuk">
-        <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions générales de vente (CGV) </a>
-        <button class="no-export button-delete-item" onclick="deleteItem('baAHIuk')">-</button>
-    </grid-item><grid-item id="aGbIoze">
-        <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialité (RGPD)</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('aGbIoze')">-</button>
-    </grid-item><grid-item id="Qmfwnwi">
-        <a id="dcCYuoK" href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de cookies</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('Qmfwnwi')">-</button>
-    </grid-item><button id="IBoTaBI" class="no-export grid-add-item" onclick="itemsButtons('UyMBjVD','IBoTaBI')">+</button>
-            </grid-box>
-          </grid-item>
-
-
-          </grid-box>
-        </grid-container>
-      </div>
+      <div id="XOwRsQI" data-type="html"><grid-container id="FQAmRAq">
+  <grid-bg id="jNVivaa" data-type="grid-bg">
+    <!-- bg-color -->
+    <div id="kMbKNTc" data-type="bg-color" class="div-visible">
+      <div id="bDttxoW" data-type="solid-color" class="div-visible" style="background: rgb(98, 98, 98);"></div>
+      <div id="iiysVnt" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+      <div id="byCidBs" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+    </div>
+    <!-- bg-image -->
+    <div id="JvwieGb" data-type="bg-image" class="div-hidden">
+      <picture id="Wkkiihz">
+        <source srcset="" media="(max-width:640px)">
+        <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+        <img id="BEisfsU" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
+      </picture>
+    </div>
+    <!-- bg-video -->
+    <div id="OWWFUPQ" data-type="bg-video" class="div-hidden">
+      <video id="fJiQLgU" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
+    </div>
+  </grid-bg>
+  <grid-box id="FUgAJeb">
+    <grid-item id="xxIYmsi">
+      <grid-box id="rkqUGeB">
+        <h2 id="nHGqSlL" contenteditable="true">Contact</h2>
+        <grid-item id="TvwPcFJ">
+          <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">Tél : 0664202157</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('TvwPcFJ')">-</button>
+        </grid-item><grid-item id="fJMPPAQ">
+          <a id="fZYKwPC" href="#" data-type="a-link" target="_self" class="">contact@independance.fr</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('fJMPPAQ')">-</button>
+        </grid-item><grid-item id="kxFdtGz">
+          <a id="lSPTMRn" href="https://www.google.com/maps/search/?api=1&amp;query=83+Rue+Michel+Ange,+34070+Montpellier" data-type="a-link" target="_self" class="">83 Rue Michel Ange, 34070 Montpellier</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('kxFdtGz')">-</button>
+        </grid-item><grid-item id="ObTgPrt">
+          <a id="iReVUOi" href="https://www.facebook.com/share/5rUeTrLHtpJt3UWt/" data-type="a-link" target="_blank" class="">
+            <img src="ruta_de_la_imagen.jpg" alt="Facebook" style="width: 20px; height: 20px;">
+          </a>
+          <button class="no-export button-delete-item" onclick="deleteItem('ObTgPrt')">-</button>
+        </grid-item><grid-item id="pzJgETt">
+          <a id="QBUJeeR" href="https://www.tiktok.com/@drivingschool_tv?_t=8ojG0WE6Cob&amp;_r=1" data-type="a-link" target="_self" class="">Tiktok</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('pzJgETt')">-</button>
+        </grid-item><grid-item id="ZptisHS">
+          <a id="zLwJfuG" href="https://www.instagram.com/independencedrivetv?igsh=MXEwaDJtaW5laW12Mg==" data-type="a-link" target="_self" class="">Instagram</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('ZptisHS')">-</button>
+        </grid-item>
+        <button id="XvsnvLR" class="no-export grid-add-item" onclick="itemsButtons('rkqUGeB','XvsnvLR')">+</button>
+      </grid-box>
+    </grid-item>
+    <grid-item id="psnGMAw">
+      <grid-box id="rRToYvo">
+        <h2 id="aBYFfmZ" contenteditable="true">Prestations</h2>
+        <grid-item id="pltjDLA">
+          <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('pltjDLA')">-</button>
+        </grid-item><grid-item id="TIufMxK">
+          <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('TIufMxK')">-</button>
+        </grid-item><grid-item id="kOfZrct">
+          <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
+          <button class="no-export button-delete-item" onclick="deleteItem('kOfZrct')">-</button>
+        </grid-item><grid-item id="hiBSRqE">
+          <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('hiBSRqE')">-</button>
+        </grid-item><grid-item id="OjbYQRM">
+          <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis AAC Conduite Accompagnée</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('OjbYQRM')">-</button>
+        </grid-item>
+        <button id="dKJXakP" class="no-export grid-add-item" onclick="itemsButtons('rRToYvo','dKJXakP')">+</button>
+      </grid-box>
+    </grid-item>
+    <grid-item id="SLfsEpf">
+      <grid-box id="UybQYLA">
+        <h2 id="IFjiGUJ" contenteditable="true">Infos</h2>
+        <grid-item id="qtYogFf">
+          <a id="JqQycwh" href="./a-propos" data-type="a-link" target="_self" class="">A propos</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('qtYogFf')">-</button>
+        </grid-item><grid-item id="wQYzUMl">
+          <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('wQYzUMl')">-</button>
+        </grid-item><grid-item id="lKuUGHy">
+          <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('lKuUGHy')">-</button>
+        </grid-item><grid-item id="yeMoevK">
+          <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('yeMoevK')">-</button>
+        </grid-item>
+        <button id="tLgAlji" class="no-export grid-add-item" onclick="itemsButtons('UybQYLA','tLgAlji')">+</button>
+      </grid-box>
+    </grid-item>
+    <grid-item id="RfAeOfE">
+      <grid-box id="UyMBjVD">
+        <h2 id="FoFpIVH" contenteditable="true">Legal</h2>
+        <grid-item id="qvEHEFV">
+          <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions légales</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('qvEHEFV')">-</button>
+        </grid-item><grid-item id="BnHeUtb">
+          <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions générales d'utilisation (CGU)</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('BnHeUtb')">-</button>
+        </grid-item><grid-item id="baAHIuk">
+          <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions générales de vente (CGV) </a>
+          <button class="no-export button-delete-item" onclick="deleteItem('baAHIuk')">-</button>
+        </grid-item><grid-item id="aGbIoze">
+          <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialité (RGPD)</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('aGbIoze')">-</button>
+        </grid-item><grid-item id="Qmfwnwi">
+          <a id="dcCYuoK" href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de cookies</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('Qmfwnwi')">-</button>
+        </grid-item>
+        <button id="IBoTaBI" class="no-export grid-add-item" onclick="itemsButtons('UyMBjVD','IBoTaBI')">+</button>
+      </grid-box>
+    </grid-item>
+  </grid-box>
+</grid-container></div>
       
       <!--JS-->
       <script id="LnAiXhS" data-type="js"></script>
