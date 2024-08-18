@@ -760,6 +760,7 @@ img#oStanlI {
         </grid-item><grid-item id="ObTgPrt">
           <a id="iReVUOi" href="https://www.facebook.com/share/5rUeTrLHtpJt3UWt/" data-type="a-link" target="_blank" class="">
             <img class="facebook" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/facebook_50x50.png" alt="Facebook" style="width: 20px; height: 20px;">
+            Facebook
           </a>
           <button class="no-export button-delete-item" onclick="deleteItem('ObTgPrt')">-</button>
         </grid-item><grid-item id="pzJgETt">
