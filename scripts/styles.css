@@ -11,7 +11,7 @@
       grid-body {
         display: grid;
         min-height: 100vh;
-        padding: 35px;
+        padding: 50px;
         max-width: 100%;
         margin: 0 auto;
         gap: 0px;
