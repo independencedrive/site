@@ -767,10 +767,10 @@ p#tgPitBE {
             <grid-box id="rRToYvo">
               <h2 id="aBYFfmZ" contenteditable="true">Prestations</h2>
               <grid-item id="pltjDLA">
-        <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B Manuel </a>
+        <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
         <button class="no-export button-delete-item" onclick="deleteItem('pltjDLA')">-</button>
     </grid-item><grid-item id="TIufMxK">
-        <a id="eQkcVnB" href="#" data-type="a-link" target="_self" class="">Permis B Automatique </a>
+        <a id="eQkcVnB" href="#" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
         <button class="no-export button-delete-item" onclick="deleteItem('TIufMxK')">-</button>
     </grid-item><grid-item id="kOfZrct">
         <a id="IKrvXsc" href="#" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
