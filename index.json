@@ -140,7 +140,7 @@ p#tgPitBE {
         <a id="LSZUXgR" href="#" data-type="a-link" target="_self" class="">Contact</a>
         <button class="no-export button-delete-item" onclick="deleteItem('BnONXne')">-</button>
     </grid-item><grid-item id="EBqMmWa">
-        <a id="viwYEXF" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
+        <a id="viwYEXF" href="#iQDDhDA" data-type="a-link" target="_self" class="">Nos prestations</a>
         <button class="no-export button-delete-item" onclick="deleteItem('EBqMmWa')">-</button>
     </grid-item><button id="pLeXhmG" class="no-export grid-add-item" onclick="itemsButtons('fsIjWbJ','pLeXhmG')">+</button>
                 </grid-box>
