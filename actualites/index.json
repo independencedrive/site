@@ -112,7 +112,7 @@ p#SoOnmap {
         <grid-bg id="FXcPJDd" data-type="grid-bg">
           <!-- bg-color -->
           <div id="dXvczOB" data-type="bg-color" class="div-visible">
-            <div id="FyEDrnG" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
+            <div id="FyEDrnG" data-type="solid-color" class="div-visible" style="background: rgb(13, 67, 167);"></div>
             <div id="iPdoyNq" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
             <div id="PrLCWNm" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
