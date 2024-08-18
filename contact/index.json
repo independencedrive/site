@@ -113,9 +113,9 @@ p#aBprSON {
         <grid-bg id="MhNVkxh" data-type="grid-bg">
           <!-- bg-color -->
           <div id="WvobayI" data-type="bg-color" class="div-visible">
-            <div id="ewnWzDq" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
+            <div id="ewnWzDq" data-type="solid-color" class="div-hidden" style="background: rgb(0, 0, 0);"></div>
             <div id="KrMDmTE" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="uhozcCF" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="uhozcCF" data-type="linear-color" class="div-visible" style="background: linear-gradient(93deg, rgb(14, 140, 162), rgb(0, 0, 0));"></div>
           </div> 
           <!-- bg-image -->
           <div id="BiBlcUL" data-type="bg-image" class="div-hidden">
@@ -143,12 +143,6 @@ p#aBprSON {
     </grid-item><grid-item id="YvCJaNH">
         <a id="ZpPTZHL" href="#" data-type="a-link">Lorem ipsum</a>
         <button class="no-export button-delete-item" onclick="deleteItem('YvCJaNH')">-</button>
-    </grid-item><grid-item id="LeFCMza">
-        <a id="KkyYFon" href="#" data-type="a-link">Lorem ipsum</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('LeFCMza')">-</button>
-    </grid-item><grid-item id="Fxqrbtq">
-        <a id="zPHDqAa" href="#" data-type="a-link">Lorem ipsum</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('Fxqrbtq')">-</button>
     </grid-item><button id="unuaeGd" class="no-export grid-add-item" onclick="itemsButtons('RFEzFuq','unuaeGd')">+</button>
                 </grid-box>
                 
