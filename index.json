@@ -668,7 +668,6 @@ grid-box#FUgAJeb>grid-item {
   height: 100%;
   width: 100%;
   place-items: baseline;
-  
   background: black;
 }
 
@@ -709,6 +708,10 @@ img#oStanlI {
   width: fit-content;
   display: grid;
   place-content: center;
+}
+a#iReVUOi {
+    display: flex;
+    gap: 10px;
 }
 </style>
       <style id="fHtMcds" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
