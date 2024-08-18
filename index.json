@@ -133,12 +133,15 @@ p#tgPitBE {
         <grid-box id="wCQfwag">
             
             <grid-item id="kwMHdRo">
-                <h2 id="cTqusAV" contenteditable="true">Lorem ipsum</h2>
+                <h2 id="cTqusAV" contenteditable="true">INDEPENDANCE DRIVE</h2>
                 <p id="tgPitBE" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
                 <grid-box id="fsIjWbJ">
                   <grid-item id="BnONXne">
-        <a id="LSZUXgR" href="#" data-type="a-link">Lorem ipsum</a>
+        <a id="LSZUXgR" href="#" data-type="a-link" target="_self" class="">Contact</a>
         <button class="no-export button-delete-item" onclick="deleteItem('BnONXne')">-</button>
+    </grid-item><grid-item id="EBqMmWa">
+        <a id="viwYEXF" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('EBqMmWa')">-</button>
     </grid-item><button id="pLeXhmG" class="no-export grid-add-item" onclick="itemsButtons('fsIjWbJ','pLeXhmG')">+</button>
                 </grid-box>
                 
