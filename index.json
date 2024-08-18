@@ -658,6 +658,7 @@ grid-box#FUgAJeb h2 {
   font-size: 24px;
   color: white;
   margin-left: 20px;
+  margin-top:20px;
   margin-bottom:20px;
 }
 
