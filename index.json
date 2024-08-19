@@ -374,7 +374,7 @@ p#tgPitBE {
         </item-head>
         <item-body id="jRmwcld">
           <item-title id="DJKLnEe" contenteditable="true">Permis AAC Conduite Accompagnée</item-title>
-          <item-desc id="SBtALLX" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+          <item-desc id="SBtALLX" contenteditable="true">Forfait "Team Drive"</item-desc>
           <a id="RrPOtPU" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('zjimwJa')">-</button>
