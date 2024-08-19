@@ -545,7 +545,7 @@ p#tgPitBE {
 
           <grid-box id="rUaaatH">
             <grid-head id="QeOUIrL">
-              <grid-title id="bUENKMJ" contenteditable="true">Nos Packs</grid-title>
+              <grid-title id="bUENKMJ" contenteditable="true">Nos Forfaits</grid-title>
               <grid-desc id="rsGjoyL" contenteditable="true">Lorem ipsum dolor sit amet</grid-desc>
             </grid-head>
             <grid-item id="wVJAyxA">
@@ -553,7 +553,7 @@ p#tgPitBE {
           <img id="TbWhgwJ" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/disney-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="DqHcjQM">
-          <item-title id="yxHwvnM" contenteditable="true">Pack Disney Drive</item-title>
+          <item-title id="yxHwvnM" contenteditable="true">Forfait Disney Drive</item-title>
           <item-desc id="OYCBbaS" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
           <a id="dgesgow" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -563,7 +563,7 @@ p#tgPitBE {
           <img id="zzHCJbY" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/unlimited-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="JKSkfpq">
-          <item-title id="bKkKVwY" contenteditable="true">Pack Unlimited Drive</item-title>
+          <item-title id="bKkKVwY" contenteditable="true">Forfait Unlimited Drive</item-title>
           <item-desc id="EscEWGB" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
           <a id="bzcSuCL" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -573,7 +573,7 @@ p#tgPitBE {
           <img id="UDOYfDS" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/fast-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="ShYsfrL">
-          <item-title id="uaiCiBc" contenteditable="true">Pack Fast Drive</item-title>
+          <item-title id="uaiCiBc" contenteditable="true">Forfait Fast Drive</item-title>
           <item-desc id="VPSYIXP" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
           <a id="SWfKyMT" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -583,7 +583,7 @@ p#tgPitBE {
           <img id="IYeRbMD" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/team-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="VLHfbhR">
-          <item-title id="VvlMCvN" contenteditable="true">Pack team Drive</item-title>
+          <item-title id="VvlMCvN" contenteditable="true">Forfait Pack team Drive</item-title>
           <item-desc id="kOnktHM" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
           <a id="bSZyscN" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
