@@ -330,41 +330,41 @@ p#tgPitBE {
             </grid-head>
             <grid-item id="pxNXYeN">
         <item-head id="nbzGBPf">
-          <img id="yoILVJT" src="https://images.unsplash.com/photo-1696634029723-109479b214de?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw0M3x8ZHJpdmluZ3xlbnwwfDB8fHwxNzIzOTk2NTkxfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
+          <img id="yoILVJT" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/classical_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="czfdUuB">
           <item-title id="HbAvStf" contenteditable="true">Permis B boîte manuelle</item-title>
-          <item-desc id="mVdZzCi" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+          <item-desc id="mVdZzCi" contenteditable="true"><div><div>Forfait "Classical Drive"</div></div></item-desc>
           <a id="uOshabK" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('pxNXYeN')">-</button>
       </grid-item><grid-item id="XLatBKS">
         <item-head id="dFPwXdI">
-          <img id="yuCBsbV" src="https://images.unsplash.com/photo-1550251592-aee2da85a87e?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw0Nnx8ZHJpdmluZ3xlbnwwfDB8fHwxNzIzOTk2NTkxfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
+          <img id="yuCBsbV" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/automatic_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="AswhHSz">
           <item-title id="HquIJPM" contenteditable="true">Permis B boîte&nbsp;Automatique</item-title>
-          <item-desc id="UgSzkGZ" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+          <item-desc id="UgSzkGZ" contenteditable="true">Forfait "Automatic Drive"</item-desc>
           <a id="jsblwkU" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('XLatBKS')">-</button>
       </grid-item><grid-item id="wRiIkXC">
         <item-head id="MBZVgPp">
-          <img id="otDQHMz" src="https://images.unsplash.com/photo-1541412094143-627a222be46d?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHw0OHx8ZHJpdmluZ3xlbnwwfDB8fHwxNzIzOTk2NTkxfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
+          <img id="otDQHMz" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/fast-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="azDKUKK">
           <item-title id="FwZEwZc" contenteditable="true">Permis B Accéléré</item-title>
-          <item-desc id="lwtMUUK" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+          <item-desc id="lwtMUUK" contenteditable="true">Forfait "Fast Drive"</item-desc>
           <a id="vWefORc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('wRiIkXC')">-</button>
       </grid-item><grid-item id="gxYSkPy">
         <item-head id="NbFQnDh">
-          <img id="sQWGbsE" src="https://images.unsplash.com/photo-1527593167147-e9c94a5883e6?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwzNXx8ZHJpdmluZ3xlbnwwfDB8fHwxNzIzOTk2NTQwfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" height="200" width="200" data-type="image-fg" loading="lazy">
+          <img id="sQWGbsE" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/unlimited-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="wvxiiAi">
           <item-title id="qmOmMOC" contenteditable="true">Permis B Heures illimitées</item-title>
-          <item-desc id="HuneNik" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+          <item-desc id="HuneNik" contenteditable="true">Forfait "Unlimited Drive"</item-desc>
           <a id="UybbugY" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('gxYSkPy')">-</button>
@@ -395,216 +395,6 @@ p#tgPitBE {
       
       <!--JS-->
       <script id="QtQnZDk" data-type="js"></script>
-      <!--EDIT-->
-      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
-  </section><section id="ckshTyL" data-type="section">
-      
-      <!--CSS-->
-      <style id="HZqcODF" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#IPXqiUd {
-    position: relative;
-  }
-  grid-box#rUaaatH{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
-    grid-auto-rows: auto;
-    gap: 10px;
-    width: 100%;
-    height: 100%;
-    padding: 3%;
-    place-content: center start;
-  }
-  grid-bg#UTNbATt {
-    position: absolute;
-    height:100%;
-    width:100%;
-    z-index:-1;
-    display:block;
-  }
-  div#bZmXuLz,
-  div#jxUxqmT,
-  div#pUYDrzd,
-  div#CPBlDtP{
-    height:100%;
-    width:100%;
-  }
-
-  div#hTZylhx{
-    height:100%;
-    width:100%;
-    
-  }
-
-  div#tlFyuoX{
-    height:100%;
-    width:100%;
-    
-  }
-
-  img#nsWGNYT {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-
-  video#GljXOxO {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  grid-box#rUaaatH grid-item {
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
-    border-radius: 10px;
-    overflow: hidden;
-    background:white;
-  }
-  grid-box#rUaaatH item-body {
-    padding: 15px;
-    display: grid;
-    gap: 10px;
-  }
-
-  grid-box#rUaaatH grid-title {
-    font-size:1.5rem;
-    color:black;
-  }
-
-  grid-box#rUaaatH grid-desc {
-    font-size: 12px;
-    color: #929292;
-  }
-
-  grid-box#rUaaatH item-title {
-    color: black;
-  }
-
-  grid-box#rUaaatH item-desc {
-    display: grid;
-    font-size: 12px;
-    color: #929292;
-  }
-  grid-head#QeOUIrL{
-    grid-column: 1 / -1;
-    display: grid;
-    margin-left: 15px;
-  }
-  grid-box#rUaaatH item-head img{
-    background-color: white;
-    height:200px;
-    width:100%;
-    object-fit:cover;
-  }
-  grid-box#rUaaatH a[data-type="a-link"] {
-    border: 3px solid black;
-    padding: 0 15px;
-    color: black;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: 35px;
-    width: fit-content;
-    display: grid;
-    place-content: center;
-  }
-  </style>
-      <style id="DBsfwUA" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
-  grid-box#rUaaatH {
-    display: grid;
-  }
-  }</style>
-      <style id="vFPDdsi" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-head#QeOUIrL{
-    text-align: center;
-    padding: 35px;
-  }
-  grid-box#rUaaatH {
-      display: grid;
-      gap:5px;
-      padding:0;
-      grid-template-columns: 1fr 1fr;
-  }
-  }</style>
-      
-      <!--HTML-->
-      <div id="OQrzpgH" data-type="html">
-        <grid-container id="HfQYSFX">
-          
-        <grid-bg id="UTNbATt" data-type="grid-bg">
-          <!-- bg-color -->
-          <div id="bZmXuLz" data-type="bg-color" class="div-visible">
-            <div id="jxUxqmT" data-type="solid-color" class="div-visible" style="background: rgb(230, 230, 230);"></div>
-            <div id="pUYDrzd" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="CPBlDtP" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-          </div> 
-          <!-- bg-image -->
-          <div id="hTZylhx" data-type="bg-image" class="div-hidden">
-            <picture id="ZNXjzUW">
-              <source srcset="" media="(max-width:640px)">
-              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="nsWGNYT" src="https://raw.githubusercontent.com/IAMEDIA360/images/main/1707848593-1.webp" data-type="image-bg" loading="lazy">
-            </picture>
-          </div> 
-          <!-- bg-video -->
-          <div id="tlFyuoX" data-type="bg-video" class="div-hidden">
-            <video id="GljXOxO" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg">
-              <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
-            </video>
-          </div> 
-        </grid-bg>
-
-
-          <grid-box id="rUaaatH">
-            <grid-head id="QeOUIrL">
-              <grid-title id="bUENKMJ" contenteditable="true">Nos Forfaits</grid-title>
-              <grid-desc id="rsGjoyL" contenteditable="true">Lorem ipsum dolor sit amet</grid-desc>
-            </grid-head>
-            <grid-item id="wVJAyxA">
-        <item-head id="yZPnLJW">
-          <img id="TbWhgwJ" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/disney-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="DqHcjQM">
-          <item-title id="yxHwvnM" contenteditable="true">Forfait Disney Drive</item-title>
-          <item-desc id="OYCBbaS" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="dgesgow" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
-        </item-body>
-        <button class="no-export grid-delete-item" onclick="deleteItem('wVJAyxA')">-</button>
-      </grid-item><grid-item id="RGvSQeu">
-        <item-head id="GeIzjRZ">
-          <img id="zzHCJbY" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/unlimited-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="JKSkfpq">
-          <item-title id="bKkKVwY" contenteditable="true">Forfait Unlimited Drive</item-title>
-          <item-desc id="EscEWGB" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="bzcSuCL" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
-        </item-body>
-        <button class="no-export grid-delete-item" onclick="deleteItem('RGvSQeu')">-</button>
-      </grid-item><grid-item id="LpiVwZN">
-        <item-head id="qnUFcwp">
-          <img id="UDOYfDS" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/fast-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="ShYsfrL">
-          <item-title id="uaiCiBc" contenteditable="true">Forfait Fast Drive</item-title>
-          <item-desc id="VPSYIXP" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="SWfKyMT" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
-        </item-body>
-        <button class="no-export grid-delete-item" onclick="deleteItem('LpiVwZN')">-</button>
-      </grid-item><grid-item id="jAeaPLW">
-        <item-head id="NvmfQRu">
-          <img id="IYeRbMD" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/team-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
-        </item-head>
-        <item-body id="VLHfbhR">
-          <item-title id="VvlMCvN" contenteditable="true">Forfait Pack team Drive</item-title>
-          <item-desc id="kOnktHM" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
-          <a id="bSZyscN" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
-        </item-body>
-        <button class="no-export grid-delete-item" onclick="deleteItem('jAeaPLW')">-</button>
-      </grid-item><button id="vGeySOs" class="no-export grid-add-item" onclick="items200x200('rUaaatH','vGeySOs', '../global/file/empty.svg')">+</button>
-          </grid-box>
-        </grid-container>
-      </div>
-      
-      <!--JS-->
-      <script id="XzkucmJ" data-type="js"></script>
       <!--EDIT-->
       <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
   </section><section id="dgyxBuh" data-type="section">
