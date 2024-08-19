@@ -384,7 +384,7 @@ p#tgPitBE {
         </item-head>
         <item-body id="yNqjIId">
           <item-title id="pcJTsJN" contenteditable="true">Le Disney drive</item-title>
-          <item-desc id="jTgiQwX" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+          <item-desc id="jTgiQwX" contenteditable="true">Forfait "Disney Drive"</item-desc>
           <a id="uOWmjnN" href="#" data-type="a-link">Lorem </a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('ObRdvqm')">-</button>
