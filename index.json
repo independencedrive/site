@@ -273,7 +273,7 @@ grid-box#LLlrTkC grid-title {
 
 grid-box#LLlrTkC item-title {
   color: black;
-  font-size: 160px;
+  font-size: 18px;
 }
 
 grid-box#LLlrTkC item-desc {
