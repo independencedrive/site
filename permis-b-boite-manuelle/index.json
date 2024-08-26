@@ -239,7 +239,7 @@ grid-content#grid-content-VKgwhtt grid-box1 {
       <grid-bg id="grid-bg-EdgFgtz" data-type="grid-bg">
           <!-- bg-color -->
           <div id="grid-color-DVwAXvQ" data-type="bg-color" class="div-visible">
-            <div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(255, 255, 255);"></div>
+            <div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(239, 239, 239);"></div>
             <div id="grid-radial-color-KHMkIwL" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
             <div id="grid-linear-color-OWPMdQV" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
@@ -268,18 +268,26 @@ grid-content#grid-content-VKgwhtt grid-box1 {
   
     
   
-    <grid-box1 id="grid-box1-DwGXRJK">
+    
+  
+    <grid-box1 id="grid-box1-NSWKGTK">
     <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1-DwGXRJK</p>
+      <p class="grid-id-info">grid-box1-NSWKGTK</p>
       <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-DwGXRJK')">
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-NSWKGTK')">
             +
         </button>
-        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-DwGXRJK')">
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-NSWKGTK')">
           -
         </button>
       </div>
-    </grid-box1>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
