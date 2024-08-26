@@ -278,7 +278,134 @@ grid-content#grid-content-RKWwyGh grid-box2 {
         </button>
       </div>
     
-    <h2>Este es un H2</h2>
+    <h2>Forfait "Automatic Drive"</h2>
+  
+    <p>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !</p><p>Notre forfait "Automatic Drive" pour le Permis B en boîte automatique est conçu pour vous offrir une formation complète et enrichissante.</p>
+  </grid-box1>
+  
+    
+  
+    
+  
+    <grid-box1 id="grid-box1-soSxYzf">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-soSxYzf</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-soSxYzf')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-soSxYzf')">
+          -
+        </button>
+      </div>
+    
+    <h2>2</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-SVMCBHi">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-SVMCBHi</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-SVMCBHi')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-SVMCBHi')">
+          -
+        </button>
+      </div>
+    
+    <h2>3</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-lsfYfvA">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-lsfYfvA</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-lsfYfvA')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-lsfYfvA')">
+          -
+        </button>
+      </div>
+    
+    <h2>4</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  
+    <h2></h2>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-jJqdEGE">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-jJqdEGE</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-jJqdEGE')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-jJqdEGE')">
+          -
+        </button>
+      </div>
+    
+    <h2>5</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-yxYFcgj">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-yxYFcgj</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-yxYFcgj')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-yxYFcgj')">
+          -
+        </button>
+      </div>
+    
+    <h2>6</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-jbdoMGU">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-jbdoMGU</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-jbdoMGU')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-jbdoMGU')">
+          -
+        </button>
+      </div>
+    
+    <h2>7</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferr</p>
+  
+    <h2></h2>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-leYYrZw">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-leYYrZw</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-leYYrZw')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-leYYrZw')">
+          -
+        </button>
+      </div>
+    
+    <h2>8</h2>
   
     <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
   </grid-box1>
