@@ -438,6 +438,23 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
   
     <p>L’inscription est simple et rapide ! Contactez-nous dès aujourd’hui pour plus d’informations sur nos tarifs et pour planifier votre première leçon. Nous proposons des forfaits adaptés à tous les budgets grâce aux facilités de paiement jusqu'à 3x !</p>
   </grid-box1>
+  
+    <grid-box1 id="grid-box1-QTtuVjA">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-QTtuVjA</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-QTtuVjA')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-QTtuVjA')">
+          -
+        </button>
+      </div>
+    
+    <h2>Rejoignez-nous !</h2>
+  
+    <p>Faites le premier pas vers votre indépendance et votre liberté sur la route avec Independence Drive Notre équipe est impatiente de vous accueillir et de vous accompagner tout au long de votre parcours de formation au permis B en boîte manuelle.</p><p>Pour plus de détails ou pour vous inscrire, n'hésitez pas à nous contacter via l'onglet Contact ci-contre.</p><p>Votre réussite est notre priorité. Rejoignez Independence Drive et obtenez votre liberté en toute confiance !</p><div><br></div>
+  </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
