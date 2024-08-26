@@ -225,19 +225,11 @@ grid-content#grid-content-VKgwhtt {
 grid-content#grid-content-VKgwhtt grid-box1 {
   display: grid;
   background: white;
-  padding: 35px;
+  padding: 5% 15%;
   gap: 1px;
   grid-template-columns: 1fr;
   place-content: baseline;
-}
-
-grid-content#grid-content-VKgwhtt grid-box2 {
-  display: grid;
-  background: blue;
-  padding: 5% 15%;
-  color: white;
-}
-</style>
+}</style>
         <style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
         <style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
       </grid-css>  
