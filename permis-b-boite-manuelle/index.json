@@ -225,7 +225,6 @@ grid-content#grid-content-VKgwhtt {
 
 grid-content#grid-content-VKgwhtt grid-box1 {
   display: grid;
-  background: white;
   padding: 5% 15%;
   gap: 1px;
   grid-template-columns: 1fr;
