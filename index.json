@@ -2,7 +2,17 @@
   <section id="WmaCJDV" data-type="section">
       
       <!--CSS-->
-      <style id="NZHFspT" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#keKheDf {
+      <style id="NZHFspT" type="text/css" data-type="css" data-size="laptop" data-content="section">h2#EmzrklW:before {
+    content: 'Ecole de conduite';
+    font-size: 19px;
+    position: absolute;
+    margin-top: -33px;
+    background: #e9e9e900;
+    padding: 5px;
+    color: white;
+    font-family: 'Gochi Hand';
+}
+grid-container#keKheDf {
   position: relative;
 }
 
