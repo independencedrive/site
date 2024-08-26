@@ -218,6 +218,8 @@ grid-content#grid-content-VKgwhtt {
   grid-auto-rows: auto;
   gap: 1px;
   width: 100%;
+  max-width:1024px;
+  margin:auto;
   height: 100%;
   padding: 35px;
 }
@@ -229,7 +231,8 @@ grid-content#grid-content-VKgwhtt grid-box1 {
   gap: 1px;
   grid-template-columns: 1fr;
   place-content: baseline;
-}</style>
+}
+</style>
         <style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
         <style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
       </grid-css>  
