@@ -6,6 +6,7 @@
       grid-body ol,
       grid-body ul,
       grid-body button 
+      grid-description
       {
           font-family: "Gochi Hand", cursive;
           font-weight: 400;
@@ -17,9 +18,9 @@
        grid-item h1,
        grid-item h2,
        grid-title,
-       grid-description
+       
        {
-          font-family: "Luckiest Guy", cursive;
+          font-family: "Gochi Hand", cursive;
           font-weight: 400;
           font-style: normal;
        }
