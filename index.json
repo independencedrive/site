@@ -204,7 +204,7 @@ p#tgPitBE {
 
 grid-box#LLlrTkC {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   gap: 10px;
   width: 100%;
@@ -265,7 +265,7 @@ grid-box#LLlrTkC item-body {
 }
 
 grid-box#LLlrTkC grid-title {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: black;
 }
 
@@ -295,7 +295,7 @@ grid-box#LLlrTkC item-head img {
   height: 200px;
   width: 100%;
   object-fit: contain;
-  background:black;
+  background: black;
 }
 
 grid-box#LLlrTkC a[data-type="a-link"] {
