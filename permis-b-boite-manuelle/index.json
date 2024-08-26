@@ -305,15 +305,14 @@ grid-content#grid-content-VKgwhtt grid-box1 {
     
     <h2>Tarifs :</h2>
   
-    <p>Option 1 : Vous avez déjà le code</p>
-  
-    <ul>
-      <li><li>Prix : 1040 €</li></li>
+    <p>Option 1 : Vous avez déjà le code</p><ul><li>Prix : 1040 €</li>
     </ul>
   
     <p>Option 2 : Vous n'avez pas le code</p><ul><li>Prix : 1110 €</li>
     </ul>
   </grid-box1>
+  
+    
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
