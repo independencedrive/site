@@ -234,7 +234,7 @@ grid-content#grid-content-VKgwhtt grid-box1 {
 grid-content#grid-content-VKgwhtt grid-box2 {
   display: grid;
   background: blue;
-  padding: 35px;
+  padding: 5% 15%;
   color: white;
 }
 </style>
@@ -282,9 +282,11 @@ grid-content#grid-content-VKgwhtt grid-box2 {
         </button>
       </div>
     
-    <h1>Este es un H1</h1>
+    <h1>Forfait "Classical Drive"</h1><div><br></div>
   
-    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+    <h2>Permis B Boîte Manuelle</h2><div><br></div>
+  
+    <p>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !</p><p>Notre forfait "Classical Drive" pour le Permis B en boîte manuelle est conçu pour vous offrir une formation complète et enrichissante.</p><div><br></div>
   </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
