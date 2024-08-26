@@ -308,7 +308,10 @@ grid-content#grid-content-VKgwhtt grid-box1 {
     <p>Option 1 : Vous avez déjà le code</p>
   
     <ul>
-      <li><li>Prix : 1040€</li></li>
+      <li><li>Prix : 1040 €</li></li>
+    </ul>
+  
+    <p>Option 2 : Vous n'avez pas le code</p><ul><li>Prix : 1110 €</li>
     </ul>
   </grid-box1>
   </grid-content>
