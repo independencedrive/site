@@ -147,7 +147,7 @@ p#tgPitBE {
           </div> 
         </grid-bg>
 
-        <grid-box id="wCQfwag">
+        <grid-box id="wCQfwag" style="background-color: rgba(0, 0, 0, 0.29);">
             
             <grid-item id="kwMHdRo">
                 <h2 id="cTqusAV" contenteditable="true">INDEPENDANCE DRIVE</h2>
