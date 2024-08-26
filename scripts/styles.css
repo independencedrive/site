@@ -33,6 +33,9 @@
         height: 100%;
         overflow-x: hidden;
         position: absolute;
+        border-radius: 15px;
+    	overflow: hidden;
+    	box-shadow: 1px 1px 16px black;
       }
       
       grid-body {
@@ -42,6 +45,7 @@
         margin: 50px;
         gap: 0px;
         align-content: start;
+        
       }
       
       section {
