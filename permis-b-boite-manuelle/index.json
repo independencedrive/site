@@ -403,6 +403,41 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
       <li><li>Vous serez formé par des instructeurs qualifiés et expérimentés qui vous guideront à travers toutes les étapes de l'apprentissage pratique, depuis les bases de la conduite jusqu'aux manœuvres complexes.</li><li>Maîtrise du véhicule : Apprenez à passer les vitesses, gérer l’embrayage, et conduire en toute sécurité dans différentes conditions de circulation !</li></li>
     </ul>
   </grid-box1>
+  
+    <grid-box1 id="grid-box1-xPdufMW">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-xPdufMW</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-xPdufMW')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-xPdufMW')">
+          -
+        </button>
+      </div>
+    
+    <h2>Avantages de Notre Auto-École</h2>
+  
+    <ul><li><li>Instructeurs Soigneusement choisit : Nos moniteurs sont des professionnels certifiés et passionnés par l’enseignement de la conduite. Ils sauront s’adapter à votre rythme et à vos besoins spécifiques.</li><li>Véhicules modernes : Nos voitures d'apprentissage sont équipées des dernières technologies !</li><li>Flexibilité des horaires : Nous offrons des horaires de conduite flexibles, incluant des options en matinée tôt et le week-end, pour s’adapter à votre emploi du temps.</li><li>Accompagnement personnalisé : Chaque élève bénéficie d’un suivi personnalisé pour maximiser ses chances de réussite à l’examen pratique.</li></li>
+    </ul>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-QhmrxfL">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-QhmrxfL</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-QhmrxfL')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-QhmrxfL')">
+          -
+        </button>
+      </div>
+    
+    <h2>Inscription et Tarifs</h2>
+  
+    <p>L’inscription est simple et rapide ! Contactez-nous dès aujourd’hui pour plus d’informations sur nos tarifs et pour planifier votre première leçon. Nous proposons des forfaits adaptés à tous les budgets grâce aux facilités de paiement jusqu'à 3x !</p>
+  </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
