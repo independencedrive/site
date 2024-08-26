@@ -269,15 +269,17 @@ grid-box#LLlrTkC grid-title {
   color: black;
 }
 
-grid-box#LLlrTkC grid-desc {
-  font-size: 14px;
-  color: #929292;
-}
+
 
 grid-box#LLlrTkC item-title {
   color: black;
 }
 
+grid-box#LLlrTkC item-desc {
+  display: grid;
+  font-size: 12px;
+  color: #929292;
+}
 
 grid-head#RaeRKxW {
   grid-column: 1 / -1;
