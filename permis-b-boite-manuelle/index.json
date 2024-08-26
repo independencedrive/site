@@ -290,6 +290,27 @@ grid-content#grid-content-VKgwhtt grid-box1 {
   </grid-box1>
   
     
+  
+    <grid-box1 id="grid-box1-IpucjOY">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-IpucjOY</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-IpucjOY')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-IpucjOY')">
+          -
+        </button>
+      </div>
+    
+    <h2>Tarifs :</h2>
+  
+    <p>Option 1 : Vous avez déjà le code</p>
+  
+    <ul>
+      <li><li>Prix : 1040€</li></li>
+    </ul>
+  </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
