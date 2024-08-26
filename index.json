@@ -57,7 +57,7 @@ grid-box#wCQfwag {
   grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: auto;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   place-content: center;
 }
 
@@ -252,16 +252,16 @@ grid-box#LLlrTkC a[data-type="a-link"] {
   
 }
 </style><!--HTML--><div id="YNuoOQx" data-type="html"><grid-container id="sAtwGqJ"><grid-bg id="DcQKZNj" data-type="grid-bg"><!-- bg-color -->
-    <div id="asrxUbz" data-type="bg-color" class="div-visible">
+    <div id="asrxUbz" data-type="bg-color" class="div-hidden">
       <div id="kZfuMeU" data-type="solid-color" class="div-visible" style="background: rgb(255, 255, 255);"></div>
       <div id="BITyFth" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
       <div id="BBGQuEf" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
     </div><!-- bg-image -->
-    <div id="YhaLciK" data-type="bg-image" class="div-hidden">
+    <div id="YhaLciK" data-type="bg-image" class="div-visible">
       <picture id="RNRzKQh">
         <source srcset="" media="(max-width:640px)">
         <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-        <img id="SKiiUdM" src="https://www.fffuel.co/images/llline/llline-4.svg" data-type="image-bg" loading="lazy">
+        <img id="SKiiUdM" src="https://images.unsplash.com/photo-1486927181919-3ac1fc3a8082?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxNnx8bGluZXMlMjB8ZW58MHwwfHx8MTcyNDY5OTEyNXww&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
       </picture>
     </div><!-- bg-video -->
     <div id="zgWrxBh" data-type="bg-video" class="div-hidden">
