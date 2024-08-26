@@ -233,11 +233,11 @@ grid-content#grid-content-VKgwhtt grid-box1 {
 }
 
 grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(odd) {
-  background-color: red;
+  background-color: white;
 }
 
 grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
-  background-color: green;
+  background-color: #f1f1f1;
 }
 </style>
         <style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
@@ -278,30 +278,32 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
   
     
   
-    <grid-box1 id="grid-box1-NSWKGTK">
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    <grid-box1 id="grid-box1-gvbAvYp">
     <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1-NSWKGTK</p>
+      <p class="grid-id-info">grid-box1-gvbAvYp</p>
       <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-NSWKGTK')">
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-gvbAvYp')">
             +
         </button>
-        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-NSWKGTK')">
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-gvbAvYp')">
           -
         </button>
       </div>
-    
-    <h1>Forfait "Classical Drive"<br></h1>
-  
-    <h2>Permis B Boîte Manuelle</h2>
-  
-    <p>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !</p><p>Notre forfait "Classical Drive" pour le Permis B en boîte manuelle est conçu pour vous offrir une formation complète et enrichissante.</p>
-  </grid-box1>
-  
-    
-  
-    
-  
-    
+    </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
