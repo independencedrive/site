@@ -121,7 +121,7 @@ p#HNDUHob {
             <picture id="wFDloVV">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/ia.academy-auto_1280x717.png" data-type="image-bg" loading="lazy">
+              <img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/gear-shift-tiny_1456x816.png" data-type="image-bg" loading="lazy">
             </picture>
           </div> 
           <!-- bg-video -->
@@ -130,7 +130,7 @@ p#HNDUHob {
           </div> 
         </grid-bg>
 
-        <grid-box id="sXPUTdC" style="background-color: rgba(0, 0, 0, 0.29);">
+        <grid-box id="sXPUTdC" style="background-color: rgba(0, 0, 0, 0.41);">
             
             <grid-item id="EgsFByC">
                 <h2 id="aujqDur" contenteditable="true"><div>Permis B boîte manuelle</div></h2>
