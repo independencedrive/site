@@ -138,7 +138,7 @@ p#HNDUHob {
                 <p id="HNDUHob" contenteditable="true">Forfait "Classical Drive"</p>
                 <grid-box id="GpRJgFI">
                   <grid-item id="EItJkwG">
-        <a id="XpjhtSF" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
+        <a id="XpjhtSF" href="#grid-section-LWPZfeL" data-type="a-link" target="_self" class="">En savoir plus</a>
         <button class="no-export button-delete-item" onclick="deleteItem('EItJkwG')">-</button>
     </grid-item><button id="JgmmXMI" class="no-export grid-add-item" onclick="itemsButtons('GpRJgFI','JgmmXMI')">+</button>
                 </grid-box>
