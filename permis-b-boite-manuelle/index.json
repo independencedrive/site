@@ -77,7 +77,7 @@ h2#aujqDur {
 
 p#HNDUHob {
   color: white;
-  font-size: 14px;
+    font-size: clamp(19px, 4vw, 4rem);
 }
 
 #GpRJgFI {
@@ -135,7 +135,7 @@ p#HNDUHob {
             
             <grid-item id="EgsFByC">
                 <h2 id="aujqDur" contenteditable="true"><div>Permis B boîte manuelle</div></h2>
-                <p id="HNDUHob" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
+                <p id="HNDUHob" contenteditable="true">Forfait "Classical Drive"</p>
                 <grid-box id="GpRJgFI">
                   <grid-item id="EItJkwG">
         <a id="XpjhtSF" href="#" data-type="a-link" target="_self" class="">En savoir plus</a>
