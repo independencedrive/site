@@ -14,6 +14,8 @@
       
        grid-body h1,
        grid-body h2,
+       grid-item h1,
+       grid-item h2
        {
           font-family: "Luckiest Guy", cursive;
           font-weight: 400;
