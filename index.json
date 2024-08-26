@@ -87,7 +87,7 @@ h2#cTqusAV {
 
 p#tgPitBE {
   color: white;
-  font-size: 14px;
+  font-size: clamp(19px, 4vw, 4rem);
 }
 
 #fsIjWbJ {
