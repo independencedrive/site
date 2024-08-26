@@ -309,18 +309,21 @@ p#tgPitBE {
     display: grid;
   }
   }</style>
-      <style id="oOtXfVE" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-head#RaeRKxW{
+      <style id="oOtXfVE" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {
+  grid-head#RaeRKxW {
     text-align: center;
     padding: 35px;
   }
+
   grid-box#LLlrTkC {
-      display: grid;
-      gap:5px;
-      padding:0;
-      grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
   }
-  }</style>
+  
+}
+</style>
       
       <!--HTML-->
       <div id="YNuoOQx" data-type="html">
