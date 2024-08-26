@@ -80,9 +80,10 @@ img#UaEoWDF {
 }
 
 h2#cTqusAV {
-  color: white;
-  font-size: clamp(24px, 6vw, 8rem);
-  line-height: 1;
+    color: white;
+    font-size: clamp(42px, 6vw, 8rem);
+    line-height: 1;
+    text-shadow: 1px 1px 16px black;
 }
 
 p#tgPitBE {
