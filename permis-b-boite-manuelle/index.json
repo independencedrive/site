@@ -226,6 +226,7 @@ grid-content#grid-content-VKgwhtt {
 grid-content#grid-content-VKgwhtt grid-box1 {
   display: grid;
   padding: 5% 15%;
+  background: red;
   gap: 1px;
   grid-template-columns: 1fr;
   place-content: baseline;
@@ -290,26 +291,7 @@ grid-content#grid-content-VKgwhtt grid-box1 {
   
     
   
-    <grid-box1 id="grid-box1-IpucjOY">
-    <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1-IpucjOY</p>
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-IpucjOY')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-IpucjOY')">
-          -
-        </button>
-      </div>
     
-    <h2>Tarifs :</h2>
-  
-    <p>Option 1 : Vous avez déjà le code</p><ul><li>Prix : 1040 €</li>
-    </ul>
-  
-    <p>Option 2 : Vous n'avez pas le code</p><ul><li>Prix : 1110 €</li>
-    </ul>
-  </grid-box1>
   
     
   </grid-content>
@@ -329,4 +311,6 @@ grid-content#grid-content-VKgwhtt grid-box1 {
         
       </div>
   </section>
+  
+  
   </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
