@@ -165,7 +165,7 @@ p#tgPitBE {
                 <p id="tgPitBE" contenteditable="true">L'indépendance commence ici.&nbsp;</p>
                 <grid-box id="fsIjWbJ">
                   <grid-item id="BnONXne">
-        <a id="LSZUXgR" href="#" data-type="a-link" target="_self" class="">Contact</a>
+        <a id="LSZUXgR" href="./contact" data-type="a-link" target="_self" class="">Contactez-nous</a>
         <button class="no-export button-delete-item" onclick="deleteItem('BnONXne')">-</button>
     </grid-item><grid-item id="EBqMmWa">
         <a id="viwYEXF" href="#iQDDhDA" data-type="a-link" target="_self" class="">Nos prestations</a>
@@ -638,7 +638,10 @@ a#QBUJeeR {
           <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis AAC Conduite Accompagnée</a>
           <button class="no-export button-delete-item" onclick="deleteItem('OjbYQRM')">-</button>
         </grid-item>
-        <button id="dKJXakP" class="no-export grid-add-item" onclick="itemsButtons('rRToYvo','dKJXakP')">+</button>
+        <grid-item id="kIQzTQU">
+        <a id="NtLoRtt" href="#" data-type="a-link" target="_self" class="">Le Disney drive</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('kIQzTQU')">-</button>
+    </grid-item><button id="dKJXakP" class="no-export grid-add-item" onclick="itemsButtons('rRToYvo','dKJXakP')">+</button>
       </grid-box>
     </grid-item>
     <grid-item id="SLfsEpf">
