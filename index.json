@@ -68,7 +68,7 @@ grid-item#kwMHdRo {
   display: grid;
   place-content: center;
   padding: 15%;
-  gap: 15px;
+  gap: 0px;
   height: auto;
   min-height: 50vh;
 }
