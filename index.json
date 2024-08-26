@@ -46,7 +46,7 @@ video#cqoYAgl {
 
 grid-box#wCQfwag {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: auto;
   width: 100%;
   height: 80vh;
@@ -333,7 +333,7 @@ p#tgPitBE {
           <img id="yoILVJT" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/classical_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="czfdUuB">
-          <item-title id="HbAvStf" contenteditable="true">Permis B boîte manuelle</item-title>
+          <item-title id="HbAvStf" contenteditable="true">Permis B boÃ®te manuelle</item-title>
           <item-desc id="mVdZzCi" contenteditable="true"><div><div>Forfait "Classical Drive"</div></div></item-desc>
           <a id="uOshabK" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -343,7 +343,7 @@ p#tgPitBE {
           <img id="yuCBsbV" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/automatic_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="AswhHSz">
-          <item-title id="HquIJPM" contenteditable="true">Permis B boîte&nbsp;Automatique</item-title>
+          <item-title id="HquIJPM" contenteditable="true">Permis B boÃ®te&nbsp;Automatique</item-title>
           <item-desc id="UgSzkGZ" contenteditable="true">Forfait "Automatic Drive"</item-desc>
           <a id="jsblwkU" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -353,7 +353,7 @@ p#tgPitBE {
           <img id="otDQHMz" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/fast-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="azDKUKK">
-          <item-title id="FwZEwZc" contenteditable="true">Permis B Accéléré</item-title>
+          <item-title id="FwZEwZc" contenteditable="true">Permis B AccÃ©lÃ©rÃ©</item-title>
           <item-desc id="lwtMUUK" contenteditable="true">Forfait "Fast Drive"</item-desc>
           <a id="vWefORc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -363,7 +363,7 @@ p#tgPitBE {
           <img id="sQWGbsE" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/unlimited-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="wvxiiAi">
-          <item-title id="qmOmMOC" contenteditable="true">Permis B Heures illimitées</item-title>
+          <item-title id="qmOmMOC" contenteditable="true">Permis B Heures illimitÃ©es</item-title>
           <item-desc id="HuneNik" contenteditable="true">Forfait "Unlimited Drive"</item-desc>
           <a id="UybbugY" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -373,7 +373,7 @@ p#tgPitBE {
           <img id="cNmxVES" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/team-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
         </item-head>
         <item-body id="jRmwcld">
-          <item-title id="DJKLnEe" contenteditable="true">Permis AAC Conduite Accompagnée</item-title>
+          <item-title id="DJKLnEe" contenteditable="true">Permis AAC Conduite AccompagnÃ©e</item-title>
           <item-desc id="SBtALLX" contenteditable="true">Forfait "Team Drive"</item-desc>
           <a id="RrPOtPU" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
@@ -555,7 +555,7 @@ a#QBUJeeR {
       <grid-box id="rkqUGeB">
         <h2 id="nHGqSlL" contenteditable="true">Contact</h2>
         <grid-item id="TvwPcFJ">
-          <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">Tél : 0664202157</a>
+          <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">TÃ©l : 0664202157</a>
           <button class="no-export button-delete-item" onclick="deleteItem('TvwPcFJ')">-</button>
         </grid-item><grid-item id="fJMPPAQ">
           <a id="fZYKwPC" href="#" data-type="a-link" target="_self" class="">independencedrive2018@gmail.com</a>
@@ -586,19 +586,19 @@ a#QBUJeeR {
       <grid-box id="rRToYvo">
         <h2 id="aBYFfmZ" contenteditable="true">Prestations</h2>
         <grid-item id="pltjDLA">
-          <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
+          <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boÃ®te manuelle</a>
           <button class="no-export button-delete-item" onclick="deleteItem('pltjDLA')">-</button>
         </grid-item><grid-item id="TIufMxK">
-          <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
+          <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boÃ®te Automatique</a>
           <button class="no-export button-delete-item" onclick="deleteItem('TIufMxK')">-</button>
         </grid-item><grid-item id="kOfZrct">
-          <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
+          <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B AccÃ©lÃ©rÃ© </a>
           <button class="no-export button-delete-item" onclick="deleteItem('kOfZrct')">-</button>
         </grid-item><grid-item id="hiBSRqE">
-          <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
+          <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitÃ©es</a>
           <button class="no-export button-delete-item" onclick="deleteItem('hiBSRqE')">-</button>
         </grid-item><grid-item id="OjbYQRM">
-          <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis AAC Conduite Accompagnée</a>
+          <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis AAC Conduite AccompagnÃ©e</a>
           <button class="no-export button-delete-item" onclick="deleteItem('OjbYQRM')">-</button>
         </grid-item>
         <button id="dKJXakP" class="no-export grid-add-item" onclick="itemsButtons('rRToYvo','dKJXakP')">+</button>
@@ -614,7 +614,7 @@ a#QBUJeeR {
           <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
           <button class="no-export button-delete-item" onclick="deleteItem('wQYzUMl')">-</button>
         </grid-item><grid-item id="lKuUGHy">
-          <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
+          <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">ActualitÃ©s</a>
           <button class="no-export button-delete-item" onclick="deleteItem('lKuUGHy')">-</button>
         </grid-item><grid-item id="yeMoevK">
           <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
@@ -627,16 +627,16 @@ a#QBUJeeR {
       <grid-box id="UyMBjVD">
         <h2 id="FoFpIVH" contenteditable="true">Legal</h2>
         <grid-item id="qvEHEFV">
-          <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions légales</a>
+          <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions lÃ©gales</a>
           <button class="no-export button-delete-item" onclick="deleteItem('qvEHEFV')">-</button>
         </grid-item><grid-item id="BnHeUtb">
-          <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions générales d'utilisation (CGU)</a>
+          <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions gÃ©nÃ©rales d'utilisation (CGU)</a>
           <button class="no-export button-delete-item" onclick="deleteItem('BnHeUtb')">-</button>
         </grid-item><grid-item id="baAHIuk">
-          <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions générales de vente (CGV) </a>
+          <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions gÃ©nÃ©rales de vente (CGV) </a>
           <button class="no-export button-delete-item" onclick="deleteItem('baAHIuk')">-</button>
         </grid-item><grid-item id="aGbIoze">
-          <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialité (RGPD)</a>
+          <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialitÃ© (RGPD)</a>
           <button class="no-export button-delete-item" onclick="deleteItem('aGbIoze')">-</button>
         </grid-item><grid-item id="Qmfwnwi">
           <a id="dcCYuoK" href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de cookies</a>
