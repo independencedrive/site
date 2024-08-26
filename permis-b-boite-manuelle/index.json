@@ -273,7 +273,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-RopwJdp</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-RopwJdp')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-RopwJdp')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-RopwJdp')"> - </button>
     </div>
     <h2>Notre forfait "Classical Drive"</h2>
     <p>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !</p>
@@ -285,7 +285,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-HZaHSrR</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-HZaHSrR')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-HZaHSrR')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-HZaHSrR')"> - </button>
     </div>
     <h2>Tarifs :</h2>
     <p>Option 1 : Vous avez déjà le code</p>
@@ -302,7 +302,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-pKqhhWC</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-pKqhhWC')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-pKqhhWC')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-pKqhhWC')"> - </button>
     </div>
     <h2>Ce Forfait Comprend :</h2>
     <ul>
@@ -316,7 +316,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-LVmowFC</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-LVmowFC')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-LVmowFC')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-LVmowFC')"> - </button>
     </div>
     <h2>Avantages de la Formule avec le Code :</h2>
     <p>En plus des prestations de base, bénéficiez de</p>
@@ -332,7 +332,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-PUMeAGb</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-PUMeAGb')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-PUMeAGb')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-PUMeAGb')"> - </button>
     </div>
     <h2>Notre Programme de Formation</h2>
     <p>Cours Théoriques</p>
@@ -350,7 +350,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-xPdufMW</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-xPdufMW')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-xPdufMW')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-xPdufMW')"> - </button>
     </div>
     <h2>Avantages de Notre Auto-École</h2>
     <ul>
@@ -365,7 +365,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-QhmrxfL</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-QhmrxfL')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-QhmrxfL')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-QhmrxfL')"> - </button>
     </div>
     <h2>Inscription et Tarifs</h2>
     <p>L’inscription est simple et rapide ! Contactez-nous dès aujourd’hui pour plus d’informations sur nos tarifs et pour planifier votre première leçon. Nous proposons des forfaits adaptés à tous les budgets grâce aux facilités de paiement jusqu'à 3x !</p>
@@ -375,7 +375,7 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p class="grid-id-info">grid-box1-QTtuVjA</p>
     <div class="grid-edit-buttons">
       <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-QTtuVjA')"> + </button>
-      <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-QTtuVjA')"> - </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('grid-box1-QTtuVjA')"> - </button>
     </div>
     <h2>Rejoignez-nous !</h2>
     <p>Faites le premier pas vers votre indépendance et votre liberté sur la route avec Independence Drive Notre équipe est impatiente de vous accueillir et de vous accompagner tout au long de votre parcours de formation au permis B en boîte manuelle.</p>
