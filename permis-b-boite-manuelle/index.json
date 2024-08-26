@@ -160,321 +160,153 @@ p#HNDUHob {
   
   
   
-  <section id="MejPCql" data-type="section">
+  
+  
+  
+  
+  
+  
+  <section id="grid-section-LWPZfeL" data-type="section">
       
       <!--CSS-->
-      <style id="rIMcYGw" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#aoLNznz {
+      <grid-css>
+        <style id="wVZcpuH" type="text/css" data-type="css" data-size="laptop" data-content="section">
+ 
+  grid-container#grid-container-ouGnAtq {
     position: relative;
   }
 
-  grid-bg#VZWSapV {
+  grid-bg#grid-bg-EdgFgtz {
     position: absolute;
     height:100%;
     width:100%;
     z-index:-1;
     display:block;
   }
-  div#zOhQQtu,
-  div#XvvbQpx,
-  div#tIoCTzN,
-  div#zrZOJcl{
+  div#grid-color-DVwAXvQ,
+  div#grid-solid-color-qseYbkr,
+  div#grid-radial-color-KHMkIwL,
+  div#grid-linear-color-OWPMdQV{
     height:100%;
     width:100%;
   }
 
-  div#GtrgOEm{
-    height:100%;
-    width:100%;
-    
-  }
-
-  div#yqnwabv{
+  div#NTPCoBu{
     height:100%;
     width:100%;
     
   }
 
-  img#SVcKElt {
+  div#gdqafUy{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#grid-img-WjAZOdf {
     object-fit:cover;
     height:100%;
     width:100%;
   }
 
-  video#vFNGMvw {
+  video#OzzJjzc {
     object-fit:cover;
     height:100%;
     width:100%;
   }
   
-  grid-box#yQnJtcx{
+  grid-content#grid-content-VKgwhtt{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
+    gap:1px;
     width: 100%;
     height: 100%;
-    place-content: center;
-    max-width: 1024px;
-    margin: auto;
-  }
-  grid-item#gCSXYZR{
-    display: grid;
-    place-content: center;
-    padding: 15%;
-    gap: 15px;
-    height: auto;
-    min-height: 50vh;
+    padding: 35px;
+
   }
 
-  img#JKCgMkr{
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  h2#AeGfZae{
-    color:black;
-    font-size:clamp(24px,3vw,34px);
-    line-height: 1;
-  }
-  p#FpbGOZT{
-    color:black;
-    font-size:14px;
+  grid-content#grid-content-VKgwhtt grid-box1{
+    display:grid;
+    background:white;
+    padding:35px;
+    gap:1px;
+    grid-template-columns: 1fr;
+    place-content:baseline;
   }
 
-  #oCxNcqA{
-    display: flex;
-    gap: 10px;
-    flex-flow: wrap;
+  grid-content#grid-content-VKgwhtt grid-box2{
+    display:grid;
+    background:blue;
+    padding:35px;
+    color:white;
+    
   }
 
-  #oCxNcqA a{
-    border: 3px solid white;
-    padding: 0 15px;
-    color: black;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: 50px;
-    width: fit-content;
-    display: grid;
-    place-content: center;
-  }
-  
   </style>
-      <style id="aDtKGje" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="RDRYsVa" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#yQnJtcx{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  }</style>
-      
-      <!--HTML-->
-      <div id="NrSshvR" data-type="html">
-        <grid-container id="aEMuPLK">
-        
-        <grid-bg id="VZWSapV" data-type="grid-bg">
+        <style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+        <style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
+      </grid-css>  
+      <!--BG-->
+      <grid-bg id="grid-bg-EdgFgtz" data-type="grid-bg">
           <!-- bg-color -->
-          <div id="zOhQQtu" data-type="bg-color" class="div-visible">
-            <div id="XvvbQpx" data-type="solid-color" class="div-visible" style="background: rgb(255, 255, 255);"></div>
-            <div id="tIoCTzN" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="zrZOJcl" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          <div id="grid-color-DVwAXvQ" data-type="bg-color" class="div-visible">
+            <div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(255, 0, 0);"></div>
+            <div id="grid-radial-color-KHMkIwL" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="grid-linear-color-OWPMdQV" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
           <!-- bg-image -->
-          <div id="GtrgOEm" data-type="bg-image" class="div-hidden">
-            <picture id="vcukOdH">
+          <div id="NTPCoBu" data-type="bg-image" class="div-hidden">
+            <picture id="iqvnlYm">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="SVcKElt" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
+              <img id="grid-img-WjAZOdf" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
             </picture>
           </div> 
           <!-- bg-video -->
-          <div id="yqnwabv" data-type="bg-video" class="div-hidden">
-            <video id="vFNGMvw" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
+          <div id="gdqafUy" data-type="bg-video" class="div-hidden">
+            <video id="OzzJjzc" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
           </div> 
-        </grid-bg>
-
-        <grid-box id="yQnJtcx">
-            
-            <grid-item id="gCSXYZR">
-                <h2 id="AeGfZae" contenteditable="true"><div>Permis B Boîte Manuelle</div><div><br></div></h2>
-                <p id="FpbGOZT" contenteditable="true"><div>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !&nbsp;<span style="font-family: inherit;">Notre forfait "Classical Drive" pour le Permis B en boîte manuelle est conçu pour vous offrir une formation complète et enrichissante.</span></div><div><br></div></p>
-                <grid-box id="oCxNcqA">
-                  <button id="ayoDEWP" class="no-export grid-add-item" onclick="itemsButtons('oCxNcqA','ayoDEWP')">+</button>
-                </grid-box>
-                
-            </grid-item>
-
-            <grid-item id="cWcfHOm">
-                
-            </grid-item>
-
-          </grid-box>
-        </grid-container>
-      </div>
-      
-      <!--JS-->
-      <script id="jECYTFV" data-type="js"></script>
-      <!--EDIT-->
-      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
-  </section>
-  
-  
-  
-  <section id="XquHkVF" data-type="section">
-      
-      <!--CSS-->
-      <style id="isoUoJa" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#UEAZukZ {
-    position: relative;
-  }
-
-  grid-bg#VDQtUpu {
-    position: absolute;
-    height:100%;
-    width:100%;
-    z-index:-1;
-    display:block;
-  }
-  div#BOyIlcf,
-  div#YDrimuu,
-  div#oHIdjLM,
-  div#BjwLbgB{
-    height:100%;
-    width:100%;
-  }
-
-  div#kAJcMFw{
-    height:100%;
-    width:100%;
-    
-  }
-
-  div#VvSUvID{
-    height:100%;
-    width:100%;
-    
-  }
-
-  img#TqOKCKa {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-
-  video#KJSHHSj {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  
-  grid-box#wnRpDyC{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: auto;
-    width: 100%;
-    height: 100%;
-    place-content: center;
-    max-width: 1024px;
-    margin: auto;
-  }
-  grid-item#reURbES{
-    display: grid;
-    place-content: center;
-    padding: 15%;
-    gap: 15px;
-    height: auto;
-    min-height: 50vh;
-  }
-
-  img#UbluXam{
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  h2#totGOZO{
-    color:black;
-    font-size:clamp(24px,3vw,34px);
-    line-height: 1;
-  }
-  p#OECZucL{
-    color:black;
-    font-size:14px;
-  }
-
-  #dqhKtoL{
-    display: flex;
-    gap: 10px;
-    flex-flow: wrap;
-  }
-
-  #dqhKtoL a{
-    border: 3px solid white;
-    padding: 0 15px;
-    color: black;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: 50px;
-    width: fit-content;
-    display: grid;
-    place-content: center;
-  }
-  
-  </style>
-      <style id="bKHdLrD" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="VnUAXwe" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#wnRpDyC{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  }</style>
-      
+      </grid-bg>
       <!--HTML-->
-      <div id="qnssTDy" data-type="html">
-        <grid-container id="mjxAzxz">
-        
-        <grid-bg id="VDQtUpu" data-type="grid-bg">
-          <!-- bg-color -->
-          <div id="BOyIlcf" data-type="bg-color" class="div-visible">
-            <div id="YDrimuu" data-type="solid-color" class="div-visible" style="background: rgb(246, 246, 246);"></div>
-            <div id="oHIdjLM" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="BjwLbgB" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-          </div> 
-          <!-- bg-image -->
-          <div id="kAJcMFw" data-type="bg-image" class="div-hidden">
-            <picture id="nVugSyz">
-              <source srcset="" media="(max-width:640px)">
-              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="TqOKCKa" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
-            </picture>
-          </div> 
-          <!-- bg-video -->
-          <div id="VvSUvID" data-type="bg-video" class="div-hidden">
-            <video id="KJSHHSj" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
-          </div> 
-        </grid-bg>
-
-        <grid-box id="wnRpDyC">
-            
-            <grid-item id="reURbES">
-                <h2 id="totGOZO" contenteditable="true"><div>Tarifs :</div><div><br></div></h2>
-                <p id="OECZucL" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
-                <grid-box id="dqhKtoL">
-                  <button id="grFTPZd" class="no-export grid-add-item" onclick="itemsButtons('dqhKtoL','grFTPZd')">+</button>
-                </grid-box>
-                
-            </grid-item>
-
-            <grid-item id="nCJCjwJ">
-                
-            </grid-item>
-
-          </grid-box>
-        </grid-container>
+      <grid-container id="grid-container-ouGnAtq" data-type="html">
+      <p class="grid-id-info">grid-content-VKgwhtt</p>
+      <grid-content id="grid-content-VKgwhtt" contenteditable="true">
+          
+          
+          
+      
+    <grid-box1 id="grid-box1-Nvidgam">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-Nvidgam</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-Nvidgam')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-Nvidgam')">
+          -
+        </button>
       </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  </grid-content>
+      <div class="grid-edit-buttons"> 
+      <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+      </div> 
+      
+    </grid-container>
+      
       
       <!--JS-->
-      <script id="gsazRAc" data-type="js"></script>
+      <script id="eQvfrms" data-type="js"></script>
       <!--EDIT-->
-      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+      <div class="no-export">
+        
+        
+      </div>
   </section>
   </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
