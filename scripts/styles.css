@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');body { font-family: 'Poppins', sans-serif; } body,
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Luckiest+Guy&display=swap');
+
+     
+      grid-body p,
+      grid-body a,
+      grid-body ol,
+      grid-body ul,
+      grid-body button {
+          font-family: "Gochi Hand", cursive;
+          font-weight: 400;
+          font-style: normal;
+      }
+      
+       grid-body h1,
+       grid-body h2,
+       {
+          font-family: "Luckiest Guy", cursive;
+          font-weight: 400;
+          font-style: normal;
+       }
+       
       grid-page {
         background: #263238;
         display: block;
