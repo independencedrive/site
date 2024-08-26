@@ -17,7 +17,8 @@
        grid-body h2,
        grid-item h1,
        grid-item h2,
-       grid-title
+       grid-title,
+       item-title
        
        {
           font-family: "Gochi Hand", cursive;
