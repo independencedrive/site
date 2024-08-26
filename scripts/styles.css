@@ -5,8 +5,10 @@
       grid-body a,
       grid-body ol,
       grid-body ul,
-      grid-body button 
-      grid-description
+      grid-body button,
+      grid-description,
+      item-desc
+      
       {
           font-family: "Gochi Hand", cursive;
           font-weight: 400;
