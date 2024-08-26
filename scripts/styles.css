@@ -65,19 +65,19 @@
     }
 
     grid-content h1 {
-      font-size: clamp(32px, 6vw, 40px);
+      font-size: clamp(32px, 6vw, 54px);
     }
 
     grid-content h2 {
-      font-size: clamp(24px, 5vw, 32px);
+      font-size: clamp(24px, 5vw, 44px);
     }
 
     grid-content h3 {
-      font-size: clamp(20px, 4vw, 24px);
+      font-size: clamp(20px, 4vw, 34px);
     }
 
     grid-content h4 {
-      font-size: clamp(16px, 3vw, 20px);
+      font-size: clamp(16px, 3vw, 24px);
     }
 
     grid-content p {
