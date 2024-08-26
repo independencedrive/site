@@ -278,11 +278,6 @@ grid-box#LLlrTkC item-title {
   color: black;
 }
 
-grid-box#LLlrTkC item-desc {
-  display: grid;
-  font-size: 12px;
-  color: #929292;
-}
 
 grid-head#RaeRKxW {
   grid-column: 1 / -1;
