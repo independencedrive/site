@@ -110,11 +110,18 @@ p#tgPitBE {
 }
 </style>
       <style id="ueWqSUc" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="icxUtrl" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#wCQfwag{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  }</style>
+      <style id="icxUtrl" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {
+ 
+  grid-box#wCQfwag {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: auto;
+  width: 100%;
+  height: 100vh;
+  place-content: center;
+}
+}
+</style>
       
       <!--HTML-->
       <div id="hcApAaZ" data-type="html">
