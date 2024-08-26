@@ -81,7 +81,7 @@ img#UaEoWDF {
 
 h2#cTqusAV {
   color: white;
-  font-size: clamp(24px, 3vw, 34px);
+  font-size: clamp(24px, 6vw, 8rem);
   line-height: 1;
 }
 
