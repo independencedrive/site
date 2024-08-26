@@ -119,6 +119,13 @@ p#tgPitBE {
     height: 100vh;
     place-content: center;
   }
+
+  img#xillumf {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: -482px;
+  }
 }
 </style>
       
