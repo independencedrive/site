@@ -270,7 +270,7 @@ grid-box#LLlrTkC grid-title {
 }
 
 grid-box#LLlrTkC grid-desc {
-  font-size: 12px;
+  font-size: 14px;
   color: #929292;
 }
 
