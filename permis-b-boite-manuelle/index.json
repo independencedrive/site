@@ -220,7 +220,7 @@ grid-content#grid-content-VKgwhtt {
   width: 100%;
   margin: auto;
   height: 100%;
-  padding: 35px;
+  padding: 0px;
 }
 
 grid-content#grid-content-VKgwhtt grid-box1 {
@@ -292,18 +292,47 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
   
     
   
-    <grid-box1 id="grid-box1-gvbAvYp">
+    
+  
+    
+  
+    <grid-box1 id="grid-box1-RopwJdp">
     <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1-gvbAvYp</p>
+      <p class="grid-id-info">grid-box1-RopwJdp</p>
       <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-gvbAvYp')">
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-RopwJdp')">
             +
         </button>
-        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-gvbAvYp')">
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-RopwJdp')">
           -
         </button>
       </div>
-    </grid-box1>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="grid-box1-HZaHSrR">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1-HZaHSrR</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-HZaHSrR')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-HZaHSrR')">
+          -
+        </button>
+      </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
