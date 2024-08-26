@@ -251,7 +251,67 @@ grid-box#LLlrTkC a[data-type="a-link"] {
   }
   
 }
-</style><!--HTML--><div id="YNuoOQx" data-type="html"><grid-container id="sAtwGqJ"><grid-bg id="DcQKZNj" data-type="grid-bg"><!-- bg-color --><div id="asrxUbz" data-type="bg-color" class="div-visible"><div id="kZfuMeU" data-type="solid-color" class="div-visible" style="background: rgb(255, 255, 255);"></div><div id="BITyFth" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="BBGQuEf" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div><!-- bg-image --><div id="YhaLciK" data-type="bg-image" class="div-hidden"><picture id="RNRzKQh"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="SKiiUdM" src="https://raw.githubusercontent.com/IAMEDIA360/images/main/1707848593-1.webp" data-type="image-bg" loading="lazy"></picture></div><!-- bg-video --><div id="zgWrxBh" data-type="bg-video" class="div-hidden"><video id="QhNgcXS" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg"><source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4"></video></div></grid-bg><grid-box id="LLlrTkC"><grid-head id="RaeRKxW"><grid-title id="LLAOjPk" contenteditable="true">Nos Prestations</grid-title><grid-desc id="WEHsGxr" contenteditable="true">Lorem ipsum dolor sit amet</grid-desc></grid-head><grid-item id="pxNXYeN"><item-head id="nbzGBPf"><img id="yoILVJT" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/classical_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="czfdUuB"><item-title id="HbAvStf" contenteditable="true">Permis B boîte manuelle</item-title><item-desc id="mVdZzCi" contenteditable="true"><div><div>Forfait "Classical Drive"</div></div></item-desc><a id="uOshabK" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">En savoir plus</a></item-body><button class="no-export grid-delete-item" onclick="deleteItem('pxNXYeN')">-</button></grid-item><grid-item id="XLatBKS"><item-head id="dFPwXdI"><img id="yuCBsbV" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/automatic_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="AswhHSz"><item-title id="HquIJPM" contenteditable="true">Permis B boîte&nbsp;Automatique</item-title><item-desc id="UgSzkGZ" contenteditable="true">Forfait "Automatic Drive"</item-desc><a id="jsblwkU" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">En savoir plus</a></item-body><button class="no-export grid-delete-item" onclick="deleteItem('XLatBKS')">-</button></grid-item><grid-item id="wRiIkXC"><item-head id="MBZVgPp"><img id="otDQHMz" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/fast-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="azDKUKK"><item-title id="FwZEwZc" contenteditable="true">Permis B Accéléré</item-title><item-desc id="lwtMUUK" contenteditable="true">Forfait "Fast Drive"</item-desc><a id="vWefORc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">En savoir plus</a></item-body><button class="no-export grid-delete-item" onclick="deleteItem('wRiIkXC')">-</button></grid-item><grid-item id="gxYSkPy"><item-head id="NbFQnDh"><img id="sQWGbsE" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/unlimited-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="wvxiiAi"><item-title id="qmOmMOC" contenteditable="true">Permis B Heures illimitées</item-title><item-desc id="HuneNik" contenteditable="true">Forfait "Unlimited Drive"</item-desc><a id="UybbugY" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">En savoir plus</a></item-body><button class="no-export grid-delete-item" onclick="deleteItem('gxYSkPy')">-</button></grid-item><grid-item id="zjimwJa"><item-head id="QVDvPjj"><img id="cNmxVES" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/team-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="jRmwcld"><item-title id="DJKLnEe" contenteditable="true">Permis AAC Conduite Accompagnée</item-title><item-desc id="SBtALLX" contenteditable="true">Forfait "Team Drive"</item-desc><a id="RrPOtPU" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">En savoir plus</a></item-body><button class="no-export grid-delete-item" onclick="deleteItem('zjimwJa')">-</button></grid-item><grid-item id="ObRdvqm"><item-head id="vZgDnwL"><img id="oMCQTfe" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/disney-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy"></item-head><item-body id="yNqjIId"><item-title id="pcJTsJN" contenteditable="true">Le Disney drive</item-title><item-desc id="jTgiQwX" contenteditable="true">Forfait "Disney Drive"</item-desc><a id="uOWmjnN" href="#" data-type="a-link">Lorem </a></item-body><button class="no-export grid-delete-item" onclick="deleteItem('ObRdvqm')">-</button></grid-item><button id="NzWwriK" class="no-export grid-add-item" onclick="items200x200('LLlrTkC','NzWwriK', '../global/file/empty.svg')">+</button></grid-box></grid-container></div><!--JS--><script id="QtQnZDk" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section><section id="dgyxBuh" data-type="section"><!--CSS--><style id="NOXXCft" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#PxwrHMs {
+</style><!--HTML--><div id="YNuoOQx" data-type="html"><grid-container id="sAtwGqJ"><grid-bg id="DcQKZNj" data-type="grid-bg"><!-- bg-color -->
+    <div id="asrxUbz" data-type="bg-color" class="div-visible">
+      <div id="kZfuMeU" data-type="solid-color" class="div-visible" style="background: rgb(255, 255, 255);"></div>
+      <div id="BITyFth" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+      <div id="BBGQuEf" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+    </div><!-- bg-image -->
+    <div id="YhaLciK" data-type="bg-image" class="div-hidden">
+      <picture id="RNRzKQh">
+        <source srcset="" media="(max-width:640px)">
+        <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+        <img id="SKiiUdM" src="https://www.fffuel.co/images/llline/llline-4.svg" data-type="image-bg" loading="lazy">
+      </picture>
+    </div><!-- bg-video -->
+    <div id="zgWrxBh" data-type="bg-video" class="div-hidden">
+      <video id="QhNgcXS" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg">
+        <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
+      </video>
+    </div>
+  </grid-bg><grid-box id="LLlrTkC"><grid-head id="RaeRKxW"><grid-title id="LLAOjPk" contenteditable="true">Nos Prestations</grid-title><grid-desc id="WEHsGxr" contenteditable="true">Lorem ipsum dolor sit amet</grid-desc></grid-head><grid-item id="pxNXYeN"><item-head id="nbzGBPf">
+        <img id="yoILVJT" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/classical_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
+      </item-head><item-body id="czfdUuB"><item-title id="HbAvStf" contenteditable="true">Permis B boîte manuelle</item-title><item-desc id="mVdZzCi" contenteditable="true">
+          <div>
+            <div>Forfait "Classical Drive"</div>
+          </div>
+        </item-desc>
+        <a id="uOshabK" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">En savoir plus</a>
+      </item-body>
+      <button class="no-export grid-delete-item" onclick="deleteItem('pxNXYeN')">-</button>
+    </grid-item><grid-item id="XLatBKS"><item-head id="dFPwXdI">
+        <img id="yuCBsbV" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/automatic_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
+      </item-head><item-body id="AswhHSz"><item-title id="HquIJPM" contenteditable="true">Permis B boîte&nbsp;Automatique</item-title><item-desc id="UgSzkGZ" contenteditable="true">Forfait "Automatic Drive"</item-desc>
+        <a id="jsblwkU" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">En savoir plus</a>
+      </item-body>
+      <button class="no-export grid-delete-item" onclick="deleteItem('XLatBKS')">-</button>
+    </grid-item><grid-item id="wRiIkXC"><item-head id="MBZVgPp">
+        <img id="otDQHMz" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/fast-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
+      </item-head><item-body id="azDKUKK"><item-title id="FwZEwZc" contenteditable="true">Permis B Accéléré</item-title><item-desc id="lwtMUUK" contenteditable="true">Forfait "Fast Drive"</item-desc>
+        <a id="vWefORc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">En savoir plus</a>
+      </item-body>
+      <button class="no-export grid-delete-item" onclick="deleteItem('wRiIkXC')">-</button>
+    </grid-item><grid-item id="gxYSkPy"><item-head id="NbFQnDh">
+        <img id="sQWGbsE" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/unlimited-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
+      </item-head><item-body id="wvxiiAi"><item-title id="qmOmMOC" contenteditable="true">Permis B Heures illimitées</item-title><item-desc id="HuneNik" contenteditable="true">Forfait "Unlimited Drive"</item-desc>
+        <a id="UybbugY" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">En savoir plus</a>
+      </item-body>
+      <button class="no-export grid-delete-item" onclick="deleteItem('gxYSkPy')">-</button>
+    </grid-item><grid-item id="zjimwJa"><item-head id="QVDvPjj">
+        <img id="cNmxVES" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/team-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
+      </item-head><item-body id="jRmwcld"><item-title id="DJKLnEe" contenteditable="true">Permis AAC Conduite Accompagnée</item-title><item-desc id="SBtALLX" contenteditable="true">Forfait "Team Drive"</item-desc>
+        <a id="RrPOtPU" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">En savoir plus</a>
+      </item-body>
+      <button class="no-export grid-delete-item" onclick="deleteItem('zjimwJa')">-</button>
+    </grid-item><grid-item id="ObRdvqm"><item-head id="vZgDnwL">
+        <img id="oMCQTfe" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/disney-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
+      </item-head><item-body id="yNqjIId"><item-title id="pcJTsJN" contenteditable="true">Le Disney drive</item-title><item-desc id="jTgiQwX" contenteditable="true">Forfait "Disney Drive"</item-desc>
+        <a id="uOWmjnN" href="#" data-type="a-link">Lorem </a>
+      </item-body>
+      <button class="no-export grid-delete-item" onclick="deleteItem('ObRdvqm')">-</button>
+    </grid-item>
+    <button id="NzWwriK" class="no-export grid-add-item" onclick="items200x200('LLlrTkC','NzWwriK', '../global/file/empty.svg')">+</button>
+  </grid-box></grid-container></div><!--JS--><script id="QtQnZDk" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section><section id="dgyxBuh" data-type="section"><!--CSS--><style id="NOXXCft" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#PxwrHMs {
   position: relative;
 }
 
