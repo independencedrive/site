@@ -218,8 +218,7 @@ grid-content#grid-content-VKgwhtt {
   grid-auto-rows: auto;
   gap: 1px;
   width: 100%;
-  max-width:1024px;
-  margin:auto;
+  margin: auto;
   height: 100%;
   padding: 35px;
 }
@@ -265,26 +264,22 @@ grid-content#grid-content-VKgwhtt grid-box1 {
           
           
       
-    <grid-box1 id="grid-box1-Nvidgam">
+    
+  
+    
+  
+    <grid-box1 id="grid-box1-DwGXRJK">
     <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1-Nvidgam</p>
+      <p class="grid-id-info">grid-box1-DwGXRJK</p>
       <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-Nvidgam')">
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('grid-box1-DwGXRJK')">
             +
         </button>
-        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-Nvidgam')">
+        <button contenteditable="false" class="delete-grid" onclick="removeContent('grid-box1-DwGXRJK')">
           -
         </button>
       </div>
-    
-    <h1>Forfait "Classical Drive"</h1><div><br></div>
-  
-    <h2>Permis B Boîte Manuelle</h2><div><br></div>
-  
-    <p>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !</p><p>Notre forfait "Classical Drive" pour le Permis B en boîte manuelle est conçu pour vous offrir une formation complète et enrichissante.</p><div><br></div>
-  
-    <h1>Este es un H1</h1>
-  </grid-box1>
+    </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>    
