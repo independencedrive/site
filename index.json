@@ -102,7 +102,8 @@ p#tgPitBE {
 #fsIjWbJ a {
   border: 3px solid white;
   padding: 0 15px;
-  color: white;
+  color: black;
+  background:white;
   font-size: 14px;
   border-radius: 10px;
   text-underline-position: under;
