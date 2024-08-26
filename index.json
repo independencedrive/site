@@ -277,7 +277,7 @@ grid-box#LLlrTkC item-title {
 
 grid-box#LLlrTkC item-desc {
   display: grid;
-  font-size: 12px;
+  font-size: 14px;
   color: #929292;
 }
 
