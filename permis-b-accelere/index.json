@@ -301,14 +301,16 @@
     </ul>
   </grid-box1>
   
-    <grid-box1 id="jdXFZuH">
+    
+  
+    <grid-box1 id="GJrEyHW">
     <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1 : jdXFZuH</p>
+      <p class="grid-id-info">grid-box1 : GJrEyHW</p>
       <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('jdXFZuH')">
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('GJrEyHW')">
             +
         </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('jdXFZuH')">
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('GJrEyHW')">
           -
         </button>
       </div>
