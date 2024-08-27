@@ -130,6 +130,25 @@
       </div>
     
     <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="tNYovUb">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : tNYovUb</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('tNYovUb')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('tNYovUb')">
+          -
+        </button>
+      </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
   </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
