@@ -1,160 +1,331 @@
 <style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body">
-  <section id="mImEOAG" data-type="section">
+  
+  
+  <section id="NDaJlcX" data-type="section">
       
       <!--CSS-->
-      <style id="lwMxzgt" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#mOXvpAY {
-  position: relative;
-}
-
-grid-bg#yVvdYQm {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  display: block;
-}
-
-div#VDULQHC,
-div#COPMicM,
-div#JVQPmtU,
-div#IHUvMyo {
-  height: 100%;
-  width: 100%;
-}
-
-div#kEhApYh {
-  height: 100%;
-  width: 100%;
-}
-
-div#iBCAKmm {
-  height: 100%;
-  width: 100%;
-}
-
-img#pfozeQm {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-video#NdNDpMm {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-grid-box#uggBvwZ {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: auto;
-  width: 100%;
-  height: 80vh;
-  
-}
-
-grid-item#mvVKIkK {
-  display: grid;
-  place-content: center;
-  padding: 15%;
-  gap: 15px;
-  height: auto;
-  min-height: 50vh;
-}
-
-img#lhlVgTw {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-h2#KcJzfTi {
-  color: white;
-  font-size: clamp(24px, 3vw, 34px);
-  line-height: 1;
-}
-
-p#MPGwplK {
-  color: white;
-  font-size: 14px;
-}
-
-#eChCKdt {
-  display: flex;
-  gap: 10px;
-  flex-flow: wrap;
-}
-
-#eChCKdt a {
-  border: 3px solid white;
-  padding: 0 15px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-  text-underline-position: under;
-  height: 50px;
-  width: fit-content;
-  display: grid;
-  place-content: center;
-}
-</style>
-      <style id="IthNQBq" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="KCkxYlh" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#uggBvwZ{
-    grid-template-columns: repeat(1, 1fr);
+      <grid-css>
+        <style id="RXmcCyE" type="text/css" data-type="css" data-size="laptop" data-content="section">
+ 
+  grid-container#zdYFQpe {
+    position: relative;
   }
-  }</style>
-      
-      <!--HTML-->
-      <div id="CBCZzRU" data-type="html">
-        <grid-container id="ICAgaAP">
-        
-        <grid-bg id="yVvdYQm" data-type="grid-bg">
+
+  grid-bg#yBHOisi {
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    display:block;
+  }
+  div#jimdSSQ,
+  div#PSJAwsP,
+  div#rStNpEp,
+  div#BFsiycm{
+    height:100%;
+    width:100%;
+  }
+
+  div#CrTIYnT{
+    height:100%;
+    width:100%;
+    
+  }
+
+  div#voiqtno{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#ysSfcQz {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+
+  video#gifxcTr {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+  
+  grid-content#drpfHLa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap:1px;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+
+  }
+
+  grid-content#drpfHLa grid-box1{
+    display:grid;
+    background:white;
+    padding:35px;
+    gap:1px;
+    grid-template-columns: 1fr;
+    place-content:baseline;
+  }
+
+  grid-content#drpfHLa grid-box2{
+    display:grid;
+    background:blue;
+    padding:35px;
+    color:white;
+    
+  }
+
+  </style>
+        <style id="VhyrGrP" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+        <style id="NOEzqKB" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
+      </grid-css>  
+      <!--BG-->
+      <grid-bg id="yBHOisi" data-type="grid-bg">
           <!-- bg-color -->
-          <div id="VDULQHC" data-type="bg-color" class="div-hidden">
-            <div id="COPMicM" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
-            <div id="JVQPmtU" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="IHUvMyo" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          <div id="jimdSSQ" data-type="bg-color" class="div-visible">
+            <div id="PSJAwsP" data-type="solid-color" class="div-visible" style="background: rgb(255, 0, 0);"></div>
+            <div id="rStNpEp" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="BFsiycm" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
           <!-- bg-image -->
-          <div id="kEhApYh" data-type="bg-image" class="div-visible">
-            <picture id="DtYWHqS">
+          <div id="CrTIYnT" data-type="bg-image" class="div-hidden">
+            <picture id="ukuOWHu">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="pfozeQm" src="https://images.unsplash.com/photo-1610389051254-64849803c8fd?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwxMnx8bW9uaXRvciUyMGRyaXZlcnxlbnwwfDB8fHwxNzI0MDEyNjg1fDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
+              <img id="ysSfcQz" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
             </picture>
           </div> 
           <!-- bg-video -->
-          <div id="iBCAKmm" data-type="bg-video" class="div-hidden">
-            <video id="NdNDpMm" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
+          <div id="voiqtno" data-type="bg-video" class="div-hidden">
+            <video id="gifxcTr" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
           </div> 
-        </grid-bg>
-
-        <grid-box id="uggBvwZ">
-            
-            <grid-item id="mvVKIkK">
-                <h2 id="KcJzfTi" contenteditable="true">À propos</h2>
-                <p id="MPGwplK" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
-                <grid-box id="eChCKdt">
-                  <grid-item id="sNQAYRB">
-        <a id="rXRzqOu" href="#" data-type="a-link">Lorem ipsum</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('sNQAYRB')">-</button>
-    </grid-item><button id="WvskDil" class="no-export grid-add-item" onclick="itemsButtons('eChCKdt','WvskDil')">+</button>
-                </grid-box>
-                
-            </grid-item>
-
-            <grid-item id="PkUNGjF">
-                
-            </grid-item>
-
-          </grid-box>
-        </grid-container>
+      </grid-bg>
+      <!--HTML-->
+      <grid-container id="zdYFQpe" data-type="html">
+      <p class="grid-id-info">drpfHLa</p>
+      <grid-content id="drpfHLa" contenteditable="true">
+          
+          
+          
+      
+    
+  
+    <grid-box1 id="XvDafSF">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : XvDafSF</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('XvDafSF')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('XvDafSF')">
+          -
+        </button>
       </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="wmaYnfm">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : wmaYnfm</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('wmaYnfm')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('wmaYnfm')">
+          -
+        </button>
+      </div>
+    
+    <h2>Este es un H2</h2>
+  
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </grid-box1>
+  </grid-content>
+      <div class="grid-edit-buttons"> 
+      <button contenteditable="false" id="KJWhTnY" class="always-at-end no-export" onclick="addContent('drpfHLa', add_GridBox1(), 'beforeend');">+</button>    
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+      </div> 
+      
+    </grid-container>
+      
       
       <!--JS-->
-      <script id="WoEdllt" data-type="js"></script>
+      <script id="IjYkYwB" data-type="js"></script>
       <!--EDIT-->
+      <div class="no-export">
+        
+        
+      </div>
+  </section>
+  
+  <section id="robKivO" data-type="section">
+      
+      <!--CSS-->
+      <grid-css>
+        <style id="RQnCQXZ" type="text/css" data-type="css" data-size="laptop" data-content="section">
+ 
+  grid-container#MDjCcmz {
+    position: relative;
+  }
+
+  grid-bg#OGCXsZh {
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    display:block;
+  }
+  div#iBQnjwd,
+  div#NcAJZQQ,
+  div#btsYOiY,
+  div#RqViHRC{
+    height:100%;
+    width:100%;
+  }
+
+  div#paGTyjl{
+    height:100%;
+    width:100%;
+    
+  }
+
+  div#eGmznan{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#hkvGNLH {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+
+  video#KCLonVo {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+  
+  grid-content#DCfTkvW{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap:1px;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+
+  }
+
+  grid-content#DCfTkvW grid-box1{
+    display:grid;
+    background:white;
+    padding:35px;
+    gap:1px;
+    grid-template-columns: 1fr;
+    place-content:baseline;
+  }
+
+  grid-content#DCfTkvW grid-box2{
+    display:grid;
+    background:blue;
+    padding:35px;
+    color:white;
+    
+  }
+
+  </style>
+        <style id="YiSoBwZ" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+        <style id="rrQgaLE" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
+      </grid-css>  
+      <!--BG-->
+      <grid-bg id="OGCXsZh" data-type="grid-bg">
+          <!-- bg-color -->
+          <div id="iBQnjwd" data-type="bg-color" class="div-visible">
+            <div id="NcAJZQQ" data-type="solid-color" class="div-visible" style="background: rgb(255, 0, 0);"></div>
+            <div id="btsYOiY" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="RqViHRC" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          </div> 
+          <!-- bg-image -->
+          <div id="paGTyjl" data-type="bg-image" class="div-hidden">
+            <picture id="aDWfgRg">
+              <source srcset="" media="(max-width:640px)">
+              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+              <img id="hkvGNLH" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
+            </picture>
+          </div> 
+          <!-- bg-video -->
+          <div id="eGmznan" data-type="bg-video" class="div-hidden">
+            <video id="KCLonVo" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
+          </div> 
+      </grid-bg>
+      <!--HTML-->
+      <grid-container id="MDjCcmz" data-type="html">
+      <p class="grid-id-info">DCfTkvW</p>
+      <grid-content id="DCfTkvW" contenteditable="true">
+          
+          
+          
+      
+    <grid-box1 id="DtETHHZ">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : DtETHHZ</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('DtETHHZ')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('DtETHHZ')">
+          -
+        </button>
+      </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="eEBoIji">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : eEBoIji</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('eEBoIji')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('eEBoIji')">
+          -
+        </button>
+      </div>
+    
+    <h2>Este es un H2</h2>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  </grid-content>
+      <div class="grid-edit-buttons"> 
+      <button contenteditable="false" id="syIPcBc" class="always-at-end no-export" onclick="addContent('DCfTkvW', add_GridBox1(), 'beforeend');">+</button>    
       <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+      </div> 
+      
+    </grid-container>
+      
+      
+      <!--JS-->
+      <script id="xiunnFr" data-type="js"></script>
+      <!--EDIT-->
+      <div class="no-export">
+        
+        
+      </div>
   </section>
   </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
