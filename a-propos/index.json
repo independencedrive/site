@@ -150,6 +150,8 @@
   
     <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
   </grid-box1>
+  
+    
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="xSOklWX" class="always-at-end no-export" onclick="addContent('WKinAos', add_GridBox1(), 'beforeend');">+</button>    
@@ -295,21 +297,27 @@
     <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
   </grid-box1>
   
-    <grid-box1 id="AGrelSa">
+    
+  
+    <grid-box1 id="hoyRxxe">
     <!-- grid-box1 -->
-      <p class="grid-id-info">grid-box1 : AGrelSa</p>
+      <p class="grid-id-info">grid-box1 : hoyRxxe</p>
       <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('AGrelSa')">
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('hoyRxxe')">
             +
         </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('AGrelSa')">
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('hoyRxxe')">
           -
         </button>
       </div>
     
     <h1>Este es un H1</h1>
   
-    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
   </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
