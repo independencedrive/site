@@ -96,6 +96,21 @@
     display: none;
 }
 
+.white-button{
+    border: 3px solid white;
+    padding: 0 15px;
+    color: black;
+    background: white;
+    font-size: 14px;
+    border-radius: 10px;
+    text-underline-position: under;
+    height: 50px;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+}
+
+
       
       @media screen and (max-width:640px) {
           grid-body {
