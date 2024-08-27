@@ -150,6 +150,8 @@
   
     <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p><p><br></p>
   </grid-box1>
+  
+    
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="IJAmBZx" class="always-at-end no-export" onclick="addContent('UReMYNv', add_GridBox1(), 'beforeend');">+</button>    
@@ -167,4 +169,171 @@
         
       </div>
   </section>
+  
+  <section id="AwJcwUd" data-type="section">
+      
+      <!--CSS-->
+      <grid-css>
+        <style id="TnowsdH" type="text/css" data-type="css" data-size="laptop" data-content="section">
+ 
+  grid-container#VDxHBHF {
+    position: relative;
+  }
+
+  grid-bg#MCkzCMG {
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    display:block;
+  }
+  div#ELUxYas,
+  div#QJHxgil,
+  div#AUFJShY,
+  div#LyxMIlh{
+    height:100%;
+    width:100%;
+  }
+
+  div#psVfWCZ{
+    height:100%;
+    width:100%;
+    
+  }
+
+  div#BqifhwK{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#QCdjpRJ {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+
+  video#TuYbdIM {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+  
+  grid-content#ewpGfcV{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap:1px;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+
+  }
+
+  grid-content#ewpGfcV grid-box1{
+    display:grid;
+    background:white;
+    padding:35px;
+    gap:1px;
+    grid-template-columns: 1fr;
+    place-content:baseline;
+  }
+
+  grid-content#ewpGfcV grid-box2{
+    display:grid;
+    background:blue;
+    padding:35px;
+    color:white;
+    
+  }
+
+  </style>
+        <style id="yfJlzYH" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+        <style id="AFvxEeN" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
+      </grid-css>  
+      <!--BG-->
+      <grid-bg id="MCkzCMG" data-type="grid-bg">
+          <!-- bg-color -->
+          <div id="ELUxYas" data-type="bg-color" class="div-visible">
+            <div id="QJHxgil" data-type="solid-color" class="div-visible" style="background: rgb(255, 0, 0);"></div>
+            <div id="AUFJShY" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="LyxMIlh" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          </div> 
+          <!-- bg-image -->
+          <div id="psVfWCZ" data-type="bg-image" class="div-hidden">
+            <picture id="aKvONpU">
+              <source srcset="" media="(max-width:640px)">
+              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+              <img id="QCdjpRJ" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy">
+            </picture>
+          </div> 
+          <!-- bg-video -->
+          <div id="BqifhwK" data-type="bg-video" class="div-hidden">
+            <video id="TuYbdIM" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
+          </div> 
+      </grid-bg>
+      <!--HTML-->
+      <grid-container id="VDxHBHF" data-type="html">
+      <p class="grid-id-info">ewpGfcV</p>
+      <grid-content id="ewpGfcV" contenteditable="true">
+          
+          
+          
+      
+    <grid-box1 id="pTdJgUD">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : pTdJgUD</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('pTdJgUD')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('pTdJgUD')">
+          -
+        </button>
+      </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </grid-box1>
+  
+    <grid-box1 id="jdXFZuH">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : jdXFZuH</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('jdXFZuH')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('jdXFZuH')">
+          -
+        </button>
+      </div>
+    
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  </grid-content>
+      <div class="grid-edit-buttons"> 
+      <button contenteditable="false" id="tKsfIzi" class="always-at-end no-export" onclick="addContent('ewpGfcV', add_GridBox1(), 'beforeend');">+</button>    
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+      </div> 
+      
+    </grid-container>
+      
+      
+      <!--JS-->
+      <script id="JkRmoDL" data-type="js"></script>
+      <!--EDIT-->
+      <div class="no-export">
+        
+        
+      </div>
+  </section>
+  
+  
   </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
