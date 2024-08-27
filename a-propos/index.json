@@ -152,6 +152,44 @@
       <li>Milk</li>
     </ol>
   </grid-box1>
+  
+    <grid-box1 id="xzuMgvy">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : xzuMgvy</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('xzuMgvy')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('xzuMgvy')">
+          -
+        </button>
+      </div>
+    
+    <h1>Este es un H1</h1>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </grid-box1>
+  
+    <grid-box1 id="rCzazaV">
+    <!-- grid-box1 -->
+      <p class="grid-id-info">grid-box1 : rCzazaV</p>
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('rCzazaV')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('rCzazaV')">
+          -
+        </button>
+      </div>
+    
+    <h3>Este es un H3</h3>
+  
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </grid-box1>
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="ajrgUBD" class="always-at-end no-export" onclick="addContent('aeDRjFb', add_GridBox1(), 'beforeend');">+</button>    
