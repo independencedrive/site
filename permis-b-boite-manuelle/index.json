@@ -80,7 +80,8 @@ p#HNDUHob {
   display: flex;
   gap: 10px;
   flex-flow: wrap;
-}</style><style id="HLptcXQ" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="YbNqjOs" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {
+}
+</style><style id="HLptcXQ" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="YbNqjOs" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {
   grid-box#sXPUTdC {
     grid-template-columns: repeat(1, 1fr);
     height:100vh;
