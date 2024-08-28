@@ -16,20 +16,80 @@ div#nhcOYHk {height: 100%;width: 100%;
 }#GpRJgFI {display: flex;gap: 10px;flex-flow: wrap;
 }
 </style><style id="HLptcXQ" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="YbNqjOs" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {}
-</style><!--HTML--><div id="VNsqjjd" data-type="html"><grid-container id="jFWInJm"><grid-bg id="CiMuPSn" data-type="grid-bg"><!-- bg-color --><div id="GbKbmpK" data-type="bg-color" class="div-visible"><div id="onzgAVS" data-type="solid-color" class="div-visible" style="background: rgb(222, 222, 222);"></div><div id="TfIWQOG" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="nhcOYHk" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div> <!-- bg-image --><div id="OUtHgXF" data-type="bg-image" class="div-hidden"><picture id="wFDloVV"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/cookies-tiny_1456x816.png" data-type="image-bg" loading="lazy"></picture></div> <!-- bg-video --><div id="BvNiNWR" data-type="bg-video" class="div-hidden"><video id="evwpvzd" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div></grid-bg><grid-box id="sXPUTdC" style="background-color: rgba(239, 233, 231, 0);"><grid-item id="EgsFByC"><h2 id="aujqDur" contenteditable="true"><div>Mentions Légales</div></h2><p id="dfcE145" contenteditable="true">Dernière mise à jour: 28/09/2024</p></grid-item><grid-item id="yfqClMX"></grid-item></grid-box></grid-container></div><!--JS--><script id="ApnasUp" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section><section id="grid-section-LWPZfeL"><!--CSS--><grid-css><style id="wVZcpuH" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#grid-container-ouGnAtq {position: relative;
-}grid-bg#grid-bg-EdgFgtz {position: absolute;height: 100%;width: 100%;z-index: -1;display: block;
-}div#grid-color-DVwAXvQ,
+</style><!--HTML--><div id="VNsqjjd" data-type="html"><grid-container id="jFWInJm"><grid-bg id="CiMuPSn" data-type="grid-bg"><!-- bg-color --><div id="GbKbmpK" data-type="bg-color" class="div-visible"><div id="onzgAVS" data-type="solid-color" class="div-visible" style="background: rgb(222, 222, 222);"></div><div id="TfIWQOG" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="nhcOYHk" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div> <!-- bg-image --><div id="OUtHgXF" data-type="bg-image" class="div-hidden"><picture id="wFDloVV"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/cookies-tiny_1456x816.png" data-type="image-bg" loading="lazy"></picture></div> <!-- bg-video --><div id="BvNiNWR" data-type="bg-video" class="div-hidden"><video id="evwpvzd" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div></grid-bg><grid-box id="sXPUTdC" style="background-color: rgba(239, 233, 231, 0);"><grid-item id="EgsFByC"><h2 id="aujqDur" contenteditable="true"><div>Mentions Légales</div></h2><p id="dfcE145" contenteditable="true">Dernière mise à jour: 28/09/2024</p></grid-item><grid-item id="yfqClMX"></grid-item></grid-box></grid-container></div><!--JS--><script id="ApnasUp" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section><section id="grid-section-LWPZfeL"><!--CSS--><grid-css><style id="wVZcpuH" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#grid-container-ouGnAtq {
+  position: relative;
+}
+
+grid-bg#grid-bg-EdgFgtz {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  display: block;
+}
+
+div#grid-color-DVwAXvQ,
 div#grid-solid-color-qseYbkr,
 div#grid-radial-color-KHMkIwL,
-div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
-}div#NTPCoBu {height: 100%;width: 100%;
-}div#gdqafUy {height: 100%;width: 100%;
-}img#grid-img-WjAZOdf {object-fit: cover;height: 100%;width: 100%;
-}video#OzzJjzc {object-fit: cover;height: 100%;width: 100%;
-}grid-content#grid-content-VKgwhtt {display: grid;grid-template-columns: repeat(1, 1fr);grid-auto-rows: auto;gap: 1px;width: 100%;margin: auto;height: 100%;padding: 0px;
-}grid-content#grid-content-VKgwhtt grid-box1 {display: grid;padding: 5% 15%;background: red;gap: 1px;grid-template-columns: 1fr;place-content: baseline;
-}grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(odd) {background-color: white;
-}grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {background-color: #f1f1f1;
+div#grid-linear-color-OWPMdQV {
+  height: 100%;
+  width: 100%;
+}
+
+div#NTPCoBu {
+  height: 100%;
+  width: 100%;
+}
+
+div#gdqafUy {
+  height: 100%;
+  width: 100%;
+}
+
+img#grid-img-WjAZOdf {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+video#OzzJjzc {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+grid-content#grid-content-VKgwhtt {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: auto;
+  gap: 1px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  padding: 0px;
+}
+
+grid-content#grid-content-VKgwhtt a {
+  color: blue;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+grid-content#grid-content-VKgwhtt grid-box1 {
+  display: grid;
+  padding: 5% 15%;
+  background: red;
+  gap: 1px;
+  grid-template-columns: 1fr;
+  place-content: baseline;
+}
+
+grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(odd) {
+  background-color: white;
+}
+
+grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
+  background-color: #f1f1f1;
 }
 </style><style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style></grid-css>  <!--BG--><grid-bg id="grid-bg-EdgFgtz" data-type="grid-bg"><!-- bg-color --><div id="grid-color-DVwAXvQ" data-type="bg-color" class="div-visible"><div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(239, 239, 239);"></div><div id="grid-radial-color-KHMkIwL" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="grid-linear-color-OWPMdQV" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div> <!-- bg-image --><div id="NTPCoBu" data-type="bg-image" class="div-hidden"><picture id="iqvnlYm"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="grid-img-WjAZOdf" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy"></picture></div> <!-- bg-video --><div id="gdqafUy" data-type="bg-video" class="div-hidden"><video id="OzzJjzc" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div> </grid-bg><!--HTML--><grid-container id="grid-container-ouGnAtq" data-type="html"><p class="grid-id-info">grid-content-VKgwhtt</p>
 <grid-content id="grid-content-VKgwhtt" contenteditable="true"><grid-box1 id="QTtuVjA"><!-- grid-box1 -->
