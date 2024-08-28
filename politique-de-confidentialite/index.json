@@ -59,6 +59,8 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
     <h2>7. Modifications</h2>
   
     <p>Nous pouvons modifier cette politique à tout moment. Les mises à jour seront publiées sur cette page.</p>
+  
+    <p>Dernière mise à jour : 28 Août 2024</p>
   </grid-box1>
 </grid-content>
 <div class="grid-edit-buttons"><button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button><button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
