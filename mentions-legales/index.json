@@ -115,7 +115,8 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p>Independence Drive s'engage à protéger les données personnelles des utilisateurs conformément au RGPD. Pour plus d'informations, consultez notre <a href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de Confidentialité</a>
     </p>
     <h2>6. Cookies</h2>
-    <p>Le site utilise des cookies pour améliorer l'expérience utilisateur. Pour en savoir plus sur l'utilisation des cookies et la gestion de vos préférences, consultez notre [Politique sur les Cookies](lien vers la politique des cookies).</p>
+    <p>Le site utilise des cookies pour améliorer l'expérience utilisateur. Pour en savoir plus sur l'utilisation des cookies et la gestion de vos préférences, consultez notre <a href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de Cookies</a>
+    </p>
     <h2>7. Limitation de responsabilité</h2>
     <p>Independence Drive ne saurait être tenue responsable des dommages directs ou indirects résultant de l'utilisation du site, notamment en cas de bug, d'inexactitude, ou de mauvaise utilisation des informations disponibles sur le site.</p>
     <h2>8. Droit applicable</h2>
