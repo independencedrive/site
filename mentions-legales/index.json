@@ -107,9 +107,8 @@ grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {
     <p>N° Agreement :&nbsp;E2403400150</p>
     <h2>Directeur de la publication</h2>
     <p>Le directeur de la publication est [Nom du directeur ou responsable légal].</p>
-    <h2>3. Hébergement du site</h2>
-    <p>Le site est hébergé par :&nbsp;</p>
-    <h2>4. Propriété intellectuelle</h2>
+    <h2>3. Hébergement du site et nom de domaine</h2>
+    <p>Le nom de domaine est hébergé par GODADDY, tandis que le site est hébergé sur les serveurs de GitHub Pages.</p><p><span style="font-size: clamp(24px, 5vw, 44px);">4. Propriété intellectuelle</span><br></p>
     <p>Tous les contenus présents sur le site (textes, images, logos, etc.) sont la propriété exclusive d'Independence Drive ou sont utilisés avec l'autorisation de leurs titulaires respectifs. Toute reproduction, distribution, modification ou exploitation de ces contenus sans l'autorisation expresse d'Independence Drive est interdite.</p>
     <h2>5. Protection des données personnelles</h2>
     <p>Independence Drive s'engage à protéger les données personnelles des utilisateurs conformément au RGPD. Pour plus d'informations, consultez notre <a href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de Confidentialité</a>
