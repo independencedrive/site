@@ -47,14 +47,10 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
     <p>SIRET : [Numéro SIRET de l'entreprise]</p>
     <p>TVA : [Numéro TVA de l'entreprise]</p>
     <p>N° Agreement : [Numéro Agreement]</p>
-    <p>Directeur de la publication</p>
+    <h2>Directeur de la publication</h2>
     <p>Le directeur de la publication est [Nom du directeur ou responsable légal].</p>
     <h2>3. Hébergement du site</h2>
-    <p>Le site est hébergé par :</p>
-    <p>[Nom de l'hébergeur]</p>
-    <p>[Adresse complète de l'hébergeur]</p>
-    <p>Téléphone : [Numéro de téléphone de l'hébergeur]</p>
-    <p>Site web : [Site web de l'hébergeur]</p>
+    <p>Le site est hébergé par :&nbsp;</p>
     <h2>4. Propriété intellectuelle</h2>
     <p>Tous les contenus présents sur le site (textes, images, logos, etc.) sont la propriété exclusive d'Independence Drive ou sont utilisés avec l'autorisation de leurs titulaires respectifs. Toute reproduction, distribution, modification ou exploitation de ces contenus sans l'autorisation expresse d'Independence Drive est interdite.</p>
     <p>5. Protection des données personnelles</p>
