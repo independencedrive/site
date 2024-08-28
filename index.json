@@ -305,7 +305,7 @@ grid-box#LLlrTkC a[data-type="a-link"] {
       <button class="no-export grid-delete-item" onclick="deleteItem('zjimwJa')">-</button>
     </grid-item><grid-item id="ObRdvqm"><item-head id="vZgDnwL">
         <img id="oMCQTfe" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/disney-drive_200x200.jpeg" height="200" width="200" data-type="image-fg" loading="lazy">
-      </item-head><item-body id="yNqjIId"><item-title id="pcJTsJN" contenteditable="true">Le Disney drive</item-title><item-desc id="jTgiQwX" contenteditable="true">Forfait "Disney Drive"</item-desc>
+      </item-head><item-body id="yNqjIId"><item-title id="pcJTsJN" contenteditable="true">Permis B + Voyage à Disney Paris</item-title><item-desc id="jTgiQwX" contenteditable="true">Forfait "Disney Drive"</item-desc>
         <a id="uOWmjnN" href="#" data-type="a-link">Lorem </a>
       </item-body>
       <button class="no-export grid-delete-item" onclick="deleteItem('ObRdvqm')">-</button>
