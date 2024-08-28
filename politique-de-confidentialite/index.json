@@ -33,7 +33,7 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
 }
 </style><style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style></grid-css>  <!--BG--><grid-bg id="grid-bg-EdgFgtz" data-type="grid-bg"><!-- bg-color --><div id="grid-color-DVwAXvQ" data-type="bg-color" class="div-visible"><div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(239, 239, 239);"></div><div id="grid-radial-color-KHMkIwL" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="grid-linear-color-OWPMdQV" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div> <!-- bg-image --><div id="NTPCoBu" data-type="bg-image" class="div-hidden"><picture id="iqvnlYm"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="grid-img-WjAZOdf" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy"></picture></div> <!-- bg-video --><div id="gdqafUy" data-type="bg-video" class="div-hidden"><video id="OzzJjzc" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div> </grid-bg><!--HTML--><grid-container id="grid-container-ouGnAtq" data-type="html"><p class="grid-id-info">grid-content-VKgwhtt</p>
 <grid-content id="grid-content-VKgwhtt" contenteditable="true"><grid-box1 id="QTtuVjA"><!-- grid-box1 --><p class="grid-id-info">QTtuVjA</p><div class="grid-edit-buttons"><button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('QTtuVjA')"> + </button><button contenteditable="false" class="delete-grid no-export" onclick="removeContent('QTtuVjA')"> - </button></div><h2>1. Responsable du Traitement</h2>
-    <p>Independence Drive, situé au 83 Rue Michel-Ange, 34070 Montpellier, France, est responsable du traitement des données collectées sur https://independencedrive.fr/. Contactez-nous à independencedrive2018@gmail.com&nbsp;pour toute question.</p>
+    <p>Independence Drive, situé au 83 Rue Michel-Ange, 34070 Montpellier, France, Mr SUBIRAT Stéphane est responsable du traitement des données collectées sur https://independencedrive.fr/. Contactez-nous à independencedrive2018@gmail.com&nbsp;pour toute question.</p>
   
     <h2>2. Données Collectées</h2>
   
@@ -41,7 +41,7 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
   
     <h2>3. Utilisation des Données</h2>
   
-    <p>Vos données sont utilisées pour :</p><ul><li><li>Gérer votre inscription et suivi de formation</li><li>Communiquer avec vous</li><li>Respecter les obligations légales</li></li>
+    <p>Vos données sont utilisées pour :</p><ul><li></li><li>Gérer votre inscription et suivi de formation</li><li>Communiquer avec vous</li><li>Respecter les obligations légales</li>
     </ul>
   
     <h2>4. Partage et Conservation</h2>
