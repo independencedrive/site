@@ -32,7 +32,40 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
 }grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {background-color: #f1f1f1;
 }
 </style><style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style></grid-css>  <!--BG--><grid-bg id="grid-bg-EdgFgtz" data-type="grid-bg"><!-- bg-color --><div id="grid-color-DVwAXvQ" data-type="bg-color" class="div-visible"><div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(239, 239, 239);"></div><div id="grid-radial-color-KHMkIwL" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="grid-linear-color-OWPMdQV" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div> <!-- bg-image --><div id="NTPCoBu" data-type="bg-image" class="div-hidden"><picture id="iqvnlYm"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="grid-img-WjAZOdf" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="image-bg" loading="lazy"></picture></div> <!-- bg-video --><div id="gdqafUy" data-type="bg-video" class="div-hidden"><video id="OzzJjzc" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div> </grid-bg><!--HTML--><grid-container id="grid-container-ouGnAtq" data-type="html"><p class="grid-id-info">grid-content-VKgwhtt</p>
-<grid-content id="grid-content-VKgwhtt" contenteditable="true"><grid-box1 id="QTtuVjA"><!-- grid-box1 --><p class="grid-id-info">QTtuVjA</p><div class="grid-edit-buttons"><button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('QTtuVjA')"> + </button><button contenteditable="false" class="delete-grid no-export" onclick="removeContent('QTtuVjA')"> - </button></div><h2>1. Éditeur du site</h2><p>Le site https://independencedrive.fr/ est édité par l'auto-école Independence Drive, une entreprise située à :</p><p>Independence Drive</p><p>83 Rue Michel-Ange, 34070 Montpellier, France</p><p>Email : [Adresse email de contact]</p><p>Téléphone : [Numéro de téléphone]</p><p>SIRET : [Numéro SIRET de l'entreprise]</p><p>TVA : [Numéro TVA de l'entreprise]</p><p>N° Agreement : [Numéro Agreement]</p><p><span style="font-size: clamp(24px, 5vw, 44px);">2. Qu'est-ce qu'un cookie ?</span><br></p><p>Un cookie est un fichier texte qui est stocké sur votre appareil par votre navigateur lorsque vous visitez un site Web. Les cookies permettent au site de se souvenir de vos actions et préférences pendant une période donnée.</p><h2>3. Types de cookies utilisés</h2><p>Cookies essentiels : Ces cookies sont nécessaires au bon fonctionnement du site Web et ne peuvent pas être désactivés dans nos systèmes.</p><p>Cookies de performance : Ils collectent des informations sur la manière dont vous utilisez le site, comme les pages que vous consultez le plus souvent.</p><p>Cookies de fonctionnalité : Ils permettent au site de se souvenir de vos choix et préférences (par exemple, la langue ou la région).</p><p>Cookies publicitaires : Ils sont utilisés pour vous proposer des publicités plus pertinentes en fonction de vos intérêts.</p><h2>4. Gestion des cookies</h2><p>Vous pouvez choisir d'accepter ou de refuser les cookies en modifiant les paramètres de votre navigateur. Cependant, veuillez noter que la désactivation des cookies peut affecter votre expérience sur notre site Web.</p><h2>5. Modifications de notre politique de cookies</h2><p>Nous pouvons mettre à jour cette politique de cookies de temps à autre pour refléter les changements dans notre utilisation des cookies. Nous vous encourageons à consulter cette politique régulièrement pour rester informé.</p><h2>6. Contact</h2><p>Pour toute question concernant notre politique de cookies, veuillez nous contacter via notre page contact.</p></grid-box1>
+<grid-content id="grid-content-VKgwhtt" contenteditable="true"><grid-box1 id="QTtuVjA"><!-- grid-box1 -->
+    <p class="grid-id-info">QTtuVjA</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openOptionsMenu('QTtuVjA')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('QTtuVjA')"> - </button>
+    </div>
+    <h2>1. Éditeur du site</h2>
+    <p>Le site https://independencedrive.fr/ est édité par l'auto-école Independence Drive, une entreprise située à :</p>
+    <h3>Independence Drive</h3>
+    <p>83 Rue Michel-Ange, 34070 Montpellier, France</p>
+    <p>Email : [Adresse email de contact]</p>
+    <p>Téléphone : [Numéro de téléphone]</p>
+    <p>SIRET : [Numéro SIRET de l'entreprise]</p>
+    <p>TVA : [Numéro TVA de l'entreprise]</p>
+    <p>N° Agreement : [Numéro Agreement]</p>
+    <p>
+      <span style="font-size: clamp(24px, 5vw, 44px);">2. Qu'est-ce qu'un cookie ?</span>
+      <br>
+    </p>
+    <p>Un cookie est un fichier texte qui est stocké sur votre appareil par votre navigateur lorsque vous visitez un site Web. Les cookies permettent au site de se souvenir de vos actions et préférences pendant une période donnée.</p>
+    <h2>3. Types de cookies utilisés</h2>
+    <p>Cookies essentiels : Ces cookies sont nécessaires au bon fonctionnement du site Web et ne peuvent pas être désactivés dans nos systèmes.</p>
+    <p>Cookies de performance : Ils collectent des informations sur la manière dont vous utilisez le site, comme les pages que vous consultez le plus souvent.</p>
+    <p>Cookies de fonctionnalité : Ils permettent au site de se souvenir de vos choix et préférences (par exemple, la langue ou la région).</p>
+    <p>Cookies publicitaires : Ils sont utilisés pour vous proposer des publicités plus pertinentes en fonction de vos intérêts.</p>
+    <h2>4. Gestion des cookies</h2>
+    <p>Vous pouvez choisir d'accepter ou de refuser les cookies en modifiant les paramètres de votre navigateur. Cependant, veuillez noter que la désactivation des cookies peut affecter votre expérience sur notre site Web.</p>
+    <h2>5. Modifications de notre politique de cookies</h2>
+    <p>Nous pouvons mettre à jour cette politique de cookies de temps à autre pour refléter les changements dans notre utilisation des cookies. Nous vous encourageons à consulter cette politique régulièrement pour rester informé.</p>
+    <h2>6. Contact</h2>
+    <p>Pour toute question concernant notre politique de cookies, veuillez nous contacter via notre page contact.</p>
+  </grid-box1>
 </grid-content>
-<div class="grid-edit-buttons"><button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button><button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+<div class="grid-edit-buttons">
+  <button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button>
+  <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
 </div></grid-container><!--JS--><script id="eQvfrms" data-type="js"></script><!--EDIT--><div class="no-export"></div></section></grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
