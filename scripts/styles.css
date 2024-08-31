@@ -126,12 +126,11 @@
         display: grid;
         min-height: 100vh;
         max-width: 100%;
-        margin: 50px;
+        margin: 0 100px;
         gap: 0px;
         align-content: start;
-         border-radius: 15px;
-    	overflow: hidden;
-    	box-shadow: 1px 1px 16px black;
+         border-radius: 0px;
+   
         
       }
       
