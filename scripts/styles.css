@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Luckiest+Guy&display=swap');
 
-/* Target only the menu inside the #header ID */
+
+#header {
+    position: sticky;
+    display:block;
+    height:75px;
+}
 #header ul {
   list-style-type: none;
   margin: 0;
