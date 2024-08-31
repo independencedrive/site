@@ -54,7 +54,7 @@ function headerMenu(menu) {
     let html = '<ul>';
 
     // Añadir el logo antes del primer elemento del menú
-    html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
+    html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo-removebg-preview_300x172.png" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
