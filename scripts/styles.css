@@ -6,6 +6,7 @@
     display:block;
     height: 50px;
     background: #38444d;
+    z-index:999;
 }
 #header ul {
   list-style-type: none;
