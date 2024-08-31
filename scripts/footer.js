@@ -230,5 +230,13 @@ const htmlContent = `
 </section>
 `;
 
-// Seleccionar el div con el id 'footer' y asignar el contenido HTML
-document.getElementById('footer').innerHTML = htmlContent;
+// Seleccionar el div con el id 'grid-body'
+const gridBody = document.getElementById('grid-body');
+
+// Verificar que el div existe antes de insertar el HTML
+if (gridBody) {
+  // Insertar el contenido HTML al final del div
+  gridBody.insertAdjacentHTML('beforeend', htmlContent);
+} else {
+  console.error('El div con el id "grid-body" no se encontró.');
+}
