@@ -2,18 +2,17 @@
 
 
 #header {
-	position: sticky;
-    top: 0;
-    left: 0;
-    display: flex;
-    height: 70px;
+    position: sticky;
+    top:0;
+    left:0;
+    display:block;
+    height: 50px;
     background: #38444d;
-    z-index: 999;
+    z-index:999;
     font-family: "Gochi Hand", cursive;
     font-weight: 400;
     font-style: normal;
     padding: 0 50px;
-    place-items: center;
  }
 #header ul {
   list-style-type: none;
