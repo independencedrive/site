@@ -9,6 +9,9 @@
     height: 50px;
     background: #38444d;
     z-index:999;
+    font-family: "Gochi Hand", cursive;
+          font-weight: 400;
+          font-style: normal;
 }
 #header ul {
   list-style-type: none;
