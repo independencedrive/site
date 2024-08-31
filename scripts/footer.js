@@ -136,7 +136,7 @@ const htmlContent = `
           <grid-box id="rkqUGeB">
             <h2 id="nHGqSlL">Contact</h2>
             <grid-item id="TvwPcFJ">
-              <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">Tél : 0664202157</a>
+              <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">TÃ©l : 0664202157</a>
             </grid-item>
             <grid-item id="fJMPPAQ">
               <a id="fZYKwPC" href="#" data-type="a-link" target="_self" class="">independencedrive2018@gmail.com</a>
@@ -165,22 +165,22 @@ const htmlContent = `
           <grid-box id="rRToYvo">
             <h2 id="aBYFfmZ">Prestations</h2>
             <grid-item id="pltjDLA">
-              <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
+              <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boÃ®te manuelle</a>
             </grid-item>
             <grid-item id="TIufMxK">
-              <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
+              <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boÃ®te Automatique</a>
             </grid-item>
             <grid-item id="kOfZrct">
-              <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
+              <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B AccÃ©lÃ©rÃ© </a>
             </grid-item>
             <grid-item id="hiBSRqE">
-              <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
+              <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitÃ©es</a>
             </grid-item>
             <grid-item id="OjbYQRM">
-              <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis B Conduite Accompagnée (ACC)</a>
+              <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis B Conduite AccompagnÃ©e (ACC)</a>
             </grid-item>
             <grid-item id="kIQzTQU">
-              <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage à Disney Paris</a>
+              <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage Ã  Disney Paris</a>
             </grid-item>
           </grid-box>
         </grid-item>
@@ -194,7 +194,7 @@ const htmlContent = `
               <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
             </grid-item>
             <grid-item id="lKuUGHy">
-              <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
+              <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">ActualitÃ©s</a>
             </grid-item>
             <grid-item id="yeMoevK">
               <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
@@ -205,16 +205,16 @@ const htmlContent = `
           <grid-box id="UyMBjVD">
             <h2 id="FoFpIVH">Legal</h2>
             <grid-item id="qvEHEFV">
-              <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions légales</a>
+              <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions lÃ©gales</a>
             </grid-item>
             <grid-item id="BnHeUtb">
-              <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions générales d'utilisation (CGU)</a>
+              <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions gÃ©nÃ©rales d'utilisation (CGU)</a>
             </grid-item>
             <grid-item id="baAHIuk">
-              <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions générales de vente (CGV) </a>
+              <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions gÃ©nÃ©rales de vente (CGV) </a>
             </grid-item>
             <grid-item id="aGbIoze">
-              <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialité (RGPD)</a>
+              <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialitÃ© (RGPD)</a>
             </grid-item>
             <grid-item id="Qmfwnwi">
               <a id="dcCYuoK" href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de cookies</a>
@@ -238,5 +238,5 @@ if (gridBody) {
   // Insertar el contenido HTML al final del div
   gridBody.insertAdjacentHTML('beforeend', htmlContent);
 } else {
-  console.error('El div con el id "grid-body" no se encontró.');
+  console.error('El div con el id "grid-body" no se encontrÃ³.');
 }
