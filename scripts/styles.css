@@ -26,9 +26,8 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background: #000000;
-   height: 50px;
+   height: 100px;
 }
 
 #header li {
