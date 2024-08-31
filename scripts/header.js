@@ -5,6 +5,10 @@ const menuJSON = {
             "name": "Independance Drive",
             "url": "./"
         },
+         {
+            "name": "Accueil",
+            "url": "./"
+        },
         {
             "name": "Prestations",
             "url": "javascript:void(0)",
@@ -20,8 +24,27 @@ const menuJSON = {
                 {
                     "name": "Permis B Accéléré",
                     "url": "#"
-                }
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                },
+                
+                
             ]
+            
+            {
+            "name": "Contact",
+            "url": "./"
+        	},
         }
     ]
 };
