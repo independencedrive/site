@@ -2,12 +2,12 @@
 const menuJSON = {
     "items": [
         {
-            "name": "Home",
-            "url": "#home"
+            "name": "Independance Drive",
+            "url": "./"
         },
         {
-            "name": "News",
-            "url": "#news"
+            "name": "Prestations",
+            "url": "#sAtwGqJ"
         },
         {
             "name": "Dropdown",
