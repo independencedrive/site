@@ -39,10 +39,37 @@ const menuJSON = {
                 }
             ]
         },
+   
         {
-            "name": "Accueil",
-            "url": "./"
-        }
+            "name": "Infos",
+            "url": "javascript:void(0)",
+            "dropdown": [
+                {
+                    "name": "Permis B Boîte Manuelle",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B boîte Automatique",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                },
+                {
+                    "name": "Permis B Accéléré",
+                    "url": "#"
+                }
+            ]
+        },
     ]
 };
 
