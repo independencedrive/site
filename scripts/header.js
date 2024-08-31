@@ -32,7 +32,7 @@ const menuJSON = {
 
 // Function to load the menu into the section
 function loadMenu(menu) {
-    const section = document.getElementById('menu-section');
+    const section = document.getElementById('header');
     let html = '<ul>';
 
     // Iterate over each item in the menu
