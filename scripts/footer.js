@@ -1,7 +1,5 @@
-// Definir el HTML que se desea insertar
 const htmlContent = `
 <section id="dgyxBuh" data-type="section">
-  <!--CSS-->
   <style id="NOXXCft" type="text/css" data-type="css" data-size="laptop" data-content="section">
     grid-container#PxwrHMs {
       position: relative;
@@ -120,23 +118,19 @@ const htmlContent = `
       }
     }
   </style>
-  <!--HTML-->
   <div id="XOwRsQI" data-type="html">
     <grid-container id="FQAmRAq">
       <grid-bg id="jNVivaa" data-type="grid-bg">
-        <!-- bg-color -->
         <div id="kMbKNTc" data-type="bg-color" class="div-visible">
           <div id="bDttxoW" data-type="solid-color" class="div-visible" style="background: rgb(98, 98, 98);"></div>
         </div>
-        <!-- bg-image -->
-        <!-- bg-video -->
       </grid-bg>
       <grid-box id="FUgAJeb">
         <grid-item id="xxIYmsi">
           <grid-box id="rkqUGeB">
             <h2 id="nHGqSlL">Contact</h2>
             <grid-item id="TvwPcFJ">
-              <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">Tél : 0664202157</a>
+              <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">TÃ©l : 0664202157</a>
             </grid-item>
             <grid-item id="fJMPPAQ">
               <a id="fZYKwPC" href="#" data-type="a-link" target="_self" class="">independencedrive2018@gmail.com</a>
@@ -165,93 +159,46 @@ const htmlContent = `
           <grid-box id="rRToYvo">
             <h2 id="aBYFfmZ">Prestations</h2>
             <grid-item id="pltjDLA">
-              <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
+              <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boÃ®te manuelle</a>
             </grid-item>
             <grid-item id="TIufMxK">
-              <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
+              <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boÃ®te Automatique</a>
             </grid-item>
             <grid-item id="kOfZrct">
-              <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
+              <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B AccÃ©lÃ©rÃ© </a>
             </grid-item>
             <grid-item id="hiBSRqE">
-              <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
+              <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitÃ©es</a>
             </grid-item>
             <grid-item id="OjbYQRM">
-              <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis B Conduite Accompagnée (ACC)</a>
+              <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis B Conduite AccompagnÃ©e (ACC)</a>
             </grid-item>
             <grid-item id="kIQzTQU">
-              <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage à Disney Paris</a>
-            </grid-item>
-          </grid-box>
+              <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage Ã  Disney Paris</a>
+            </grid-box>
         </grid-item>
         <grid-item id="SLfsEpf">
           <grid-box id="UybQYLA">
-            <h2 id="IFjiGUJ">Infos</h2>
-            <grid-item id="qtYogFf">
-              <a id="JqQycwh" href="./a-propos" data-type="a-link" target="_self" class="">A propos</a>
+            <h2 id="IhSAgYj">Heures d&apos;ouverture</h2>
+            <grid-item id="rYhKeXL">
+              <a id="IcQEVPv" data-type="a-link" target="_self" class="">lundi au vendredi : 9h - 19h</a>
             </grid-item>
-            <grid-item id="wQYzUMl">
-              <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
+            <grid-item id="XBkivDd">
+              <a id="vVrmzpr" data-type="a-link" target="_self" class="">Samedi : 9h - 12h</a>
             </grid-item>
-            <grid-item id="lKuUGHy">
-              <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
-            </grid-item>
-            <grid-item id="yeMoevK">
-              <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
-            </grid-item>
-          </grid-box>
+            <grid-item id="ZPaOvUt">
+              <a id="wyWkjOt" data-type="a-link" target="_self" class="">Dimanche : FermÃ©</a>
+            </grid-box>
         </grid-item>
-        <grid-item id="RfAeOfE">
+        <grid-item id="UisZhBL">
           <grid-box id="UyMBjVD">
-            <h2 id="FoFpIVH">Legal</h2>
-            <grid-item id="qvEHEFV">
-              <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions légales</a>
-            </grid-item>
-            <grid-item id="BnHeUtb">
-              <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions générales d'utilisation (CGU)</a>
-            </grid-item>
-            <grid-item id="baAHIuk">
-              <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions générales de vente (CGV) </a>
-            </grid-item>
-            <grid-item id="aGbIoze">
-              <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialité (RGPD)</a>
-            </grid-item>
-            <grid-item id="Qmfwnwi">
-              <a id="dcCYuoK" href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de cookies</a>
-            </grid-item>
-          </grid-box>
+            <h2 id="AsCkclD">Avis</h2>
+            <grid-item id="cfkDoTx">
+              <a id="zZrvNte" href="./avis-clients" data-type="a-link" target="_self" class="">Avis clients</a>
+            </grid-box>
         </grid-item>
       </grid-box>
     </grid-container>
   </div>
-  <!--JS-->
-  <script id="LnAiXhS" data-type="js"></script>
-  <!--EDIT-->
 </section>
 `;
-
-// Seleccionar el div con el id 'grid-body'
-const gridBody = document.getElementById('grid-body');
-
-// Verificar que el div existe antes de insertar el HTML
-if (gridBody) {
-  // Insertar el contenido HTML al final del div
-  gridBody.insertAdjacentHTML('beforeend', htmlContent);
-
-  // Ajustar los enlaces según la ubicación actual de la página
-  const adjustLinks = () => {
-    const links = gridBody.querySelectorAll('a[href^="./"]');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      // Si estamos en una subcarpeta, ajustar el enlace
-      if (window.location.pathname.split('/').length > 2) {
-        link.setAttribute('href', '../' + href);
-      }
-    });
-  };
-
-  // Ejecutar la función de ajuste de enlaces
-  adjustLinks();
-} else {
-  console.error('El div con el id "grid-body" no se encontró.');
-}
