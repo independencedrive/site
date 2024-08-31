@@ -5,7 +5,7 @@ const menuJSON = {
             "name": "Independance Drive",
             "url": "./"
         },
-         {
+        {
             "name": "Accueil",
             "url": "./"
         },
@@ -36,14 +36,9 @@ const menuJSON = {
                 {
                     "name": "Permis B Accéléré",
                     "url": "#"
-                },
-                
-                
+                }
             ]
-            
-            
         },
-        
         {
             "name": "Accueil",
             "url": "./"
