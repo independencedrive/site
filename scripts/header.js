@@ -1,10 +1,7 @@
 // Define the menu in JSON format with links
 const menuJSON = {
     "items": [
-        {
-            "name": "Independance Drive",
-            "url": "./"
-        },
+       
         {
             "name": "Accueil",
             "url": "./"
@@ -14,15 +11,15 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Boîte Manuelle",
+                    "name": "Permis B BoÃ®te Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Boîte Automatique",
+                    "name": "Permis B BoÃ®te Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 }
             ]
@@ -32,15 +29,15 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Boîte Manuelle",
+                    "name": "Permis B BoÃ®te Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Boîte Automatique",
+                    "name": "Permis B BoÃ®te Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 }
             ]
@@ -53,7 +50,7 @@ function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
-    // Añadir el logo antes del primer elemento del menú
+    // AÃ±adir el logo antes del primer elemento del menÃº
     html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
