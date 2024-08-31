@@ -14,69 +14,47 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Bo&#238;te Manuelle",
+                    "name": "Permis B Bo�te Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Bo&#238;te Automatique",
+                    "name": "Permis B Bo�te Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
-                    "url": "#"
-                },
-                {
-                    "name": "Permis B Accéléré",
-                    "url": "#"
-                },
-                {
-                    "name": "Permis B Accéléré",
-                    "url": "#"
-                },
-                {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B Acc�l�r�",
                     "url": "#"
                 }
             ]
         },
-   
         {
             "name": "Infos",
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Boîte Manuelle",
+                    "name": "Permis B Bo�te Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B boîte Automatique",
+                    "name": "Permis B Bo�te Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
-                    "url": "#"
-                },
-                {
-                    "name": "Permis B Accéléré",
-                    "url": "#"
-                },
-                {
-                    "name": "Permis B Accéléré",
-                    "url": "#"
-                },
-                {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B Acc�l�r�",
                     "url": "#"
                 }
             ]
-        },
+        }
     ]
 };
 
-// Function to load the menu into the section
-function loadMenu(menu) {
+// Function to load the header menu into the section
+function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
+
+    // A�adir el logo antes del primer elemento del men�
+    html += '<li><img src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
@@ -104,7 +82,7 @@ function loadMenu(menu) {
     section.innerHTML = html;
 }
 
-// Call the function to load the menu when the content is fully loaded
+// Call the function to load the header menu when the content is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-    loadMenu(menuJSON);
+    headerMenu(menuJSON);
 });
