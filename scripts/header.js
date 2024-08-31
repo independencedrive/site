@@ -41,10 +41,12 @@ const menuJSON = {
                 
             ]
             
-            {
-            "name": "Contact",
+            
+        },
+        
+        {
+            "name": "Accueil",
             "url": "./"
-        	},
         }
     ]
 };
