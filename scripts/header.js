@@ -14,27 +14,27 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Boîte Manuelle",
+                    "name": "Permis B Bo&#238;te Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B boîte Automatique",
+                    "name": "Permis B Bo&#238;te Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 }
             ]
@@ -45,27 +45,27 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Boîte Manuelle",
+                    "name": "Permis B BoÃ®te Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B boîte Automatique",
+                    "name": "Permis B boÃ®te Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B AccÃ©lÃ©rÃ©",
                     "url": "#"
                 }
             ]
