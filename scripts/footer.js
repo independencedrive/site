@@ -3,7 +3,108 @@ const htmlContent = `
 <section id="dgyxBuh" data-type="section">
   <!--CSS-->
   <style id="NOXXCft" type="text/css" data-type="css" data-size="laptop" data-content="section">
-    /* ... CSS styles here ... */
+    grid-container#PxwrHMs {
+      position: relative;
+    }
+    grid-bg#jNVivaa {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      display: block;
+    }
+    div#kMbKNTc,
+    div#bDttxoW,
+    div#iiysVnt,
+    div#byCidBs {
+      height: 100%;
+      width: 100%;
+    }
+    div#JvwieGb {
+      height: 100%;
+      width: 100%;
+    }
+    div#OWWFUPQ {
+      height: 100%;
+      width: 100%;
+    }
+    img#BEisfsU {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    video#fJiQLgU {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    grid-box#FUgAJeb {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: auto;
+      width: 100%;
+      height: 100%;
+      min-height: 50px;
+      gap: 1px;
+    }
+    grid-box#FUgAJeb h2 {
+      display: grid;
+      place-content: start;
+      font-size: 24px;
+      color: white;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    grid-box#FUgAJeb>grid-item {
+      padding: 35px;
+      display: grid;
+      height: 100%;
+      width: 100%;
+      place-items: baseline;
+      background: black;
+    }
+    grid-item#jadynVi {
+      padding: 35px;
+      display: grid;
+      height: 100%;
+      width: 100%;
+      place-items: baseline;
+      place-content: baseline center;
+    }
+    img#oStanlI {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    #rkqUGeB,
+    #rRToYvo,
+    #UybQYLA,
+    #UyMBjVD {
+      display: grid;
+      gap: 0px;
+    }
+    #rkqUGeB a,
+    #rRToYvo a,
+    #UybQYLA a,
+    #UyMBjVD a {
+      border: none;
+      padding: 5px 20px;
+      color: white;
+      font-size: 14px;
+      border-radius: 10px;
+      text-underline-position: under;
+      height: auto;
+      width: fit-content;
+      display: grid;
+      place-content: center;
+    }
+    a#iReVUOi,
+    a#zLwJfuG,
+    a#QBUJeeR {
+      display: flex;
+      gap: 10px;
+    }
   </style>
   <style id="fHtMcds" type="text/css" data-type="css" data-size="tablet" data-content="section">
     @media screen and (min-width:641px) and (max-width:1024px){
@@ -138,14 +239,12 @@ if (gridBody) {
   gridBody.insertAdjacentHTML('beforeend', htmlContent);
 
   // Ajustar los enlaces según la ubicación actual de la página
-  const basePath = window.location.pathname.split('/').slice(0, -1).join('/');
-
   const adjustLinks = () => {
     const links = gridBody.querySelectorAll('a[href^="./"]');
     links.forEach(link => {
       const href = link.getAttribute('href');
       // Si estamos en una subcarpeta, ajustar el enlace
-      if (basePath !== '') {
+      if (window.location.pathname.split('/').length > 2) {
         link.setAttribute('href', '../' + href);
       }
     });
