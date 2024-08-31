@@ -1,4 +1,5 @@
-const htmlContent = `
+const footer = document.getElementById("footer");
+footer.innerHTML = `
 <section id="dgyxBuh" data-type="section">
   <style id="NOXXCft" type="text/css" data-type="css" data-size="laptop" data-content="section">
     grid-container#PxwrHMs {
@@ -175,9 +176,10 @@ const htmlContent = `
             </grid-item>
             <grid-item id="kIQzTQU">
               <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage à Disney Paris</a>
-            </grid-box>
+            </grid-item>
+          </grid-box>
         </grid-item>
-        <grid-item id="SLfsEpf">
+        <grid-item id="FCOGhcT">
           <grid-box id="UybQYLA">
             <h2 id="IhSAgYj">Heures d&apos;ouverture</h2>
             <grid-item id="rYhKeXL">
