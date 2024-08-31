@@ -3,108 +3,7 @@ const htmlContent = `
 <section id="dgyxBuh" data-type="section">
   <!--CSS-->
   <style id="NOXXCft" type="text/css" data-type="css" data-size="laptop" data-content="section">
-    grid-container#PxwrHMs {
-      position: relative;
-    }
-    grid-bg#jNVivaa {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      z-index: -1;
-      display: block;
-    }
-    div#kMbKNTc,
-    div#bDttxoW,
-    div#iiysVnt,
-    div#byCidBs {
-      height: 100%;
-      width: 100%;
-    }
-    div#JvwieGb {
-      height: 100%;
-      width: 100%;
-    }
-    div#OWWFUPQ {
-      height: 100%;
-      width: 100%;
-    }
-    img#BEisfsU {
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    video#fJiQLgU {
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    grid-box#FUgAJeb {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-auto-rows: auto;
-      width: 100%;
-      height: 100%;
-      min-height: 50px;
-      gap: 1px;
-    }
-    grid-box#FUgAJeb h2 {
-      display: grid;
-      place-content: start;
-      font-size: 24px;
-      color: white;
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    grid-box#FUgAJeb>grid-item {
-      padding: 35px;
-      display: grid;
-      height: 100%;
-      width: 100%;
-      place-items: baseline;
-      background: black;
-    }
-    grid-item#jadynVi {
-      padding: 35px;
-      display: grid;
-      height: 100%;
-      width: 100%;
-      place-items: baseline;
-      place-content: baseline center;
-    }
-    img#oStanlI {
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    #rkqUGeB,
-    #rRToYvo,
-    #UybQYLA,
-    #UyMBjVD {
-      display: grid;
-      gap: 0px;
-    }
-    #rkqUGeB a,
-    #rRToYvo a,
-    #UybQYLA a,
-    #UyMBjVD a {
-      border: none;
-      padding: 5px 20px;
-      color: white;
-      font-size: 14px;
-      border-radius: 10px;
-      text-underline-position: under;
-      height: auto;
-      width: fit-content;
-      display: grid;
-      place-content: center;
-    }
-    a#iReVUOi,
-    a#zLwJfuG,
-    a#QBUJeeR {
-      display: flex;
-      gap: 10px;
-    }
+    /* ... CSS styles here ... */
   </style>
   <style id="fHtMcds" type="text/css" data-type="css" data-size="tablet" data-content="section">
     @media screen and (min-width:641px) and (max-width:1024px){
@@ -136,7 +35,7 @@ const htmlContent = `
           <grid-box id="rkqUGeB">
             <h2 id="nHGqSlL">Contact</h2>
             <grid-item id="TvwPcFJ">
-              <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">TÃ©l : 0664202157</a>
+              <a id="RpSIJyb" href="tel:+33664202157" data-type="a-link" target="_self" class="">Tél : 0664202157</a>
             </grid-item>
             <grid-item id="fJMPPAQ">
               <a id="fZYKwPC" href="#" data-type="a-link" target="_self" class="">independencedrive2018@gmail.com</a>
@@ -165,22 +64,22 @@ const htmlContent = `
           <grid-box id="rRToYvo">
             <h2 id="aBYFfmZ">Prestations</h2>
             <grid-item id="pltjDLA">
-              <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boÃ®te manuelle</a>
+              <a id="hPGkeKe" href="./permis-b-boite-manuelle" data-type="a-link" target="_self" class="">Permis B boîte manuelle</a>
             </grid-item>
             <grid-item id="TIufMxK">
-              <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boÃ®te Automatique</a>
+              <a id="eQkcVnB" href="./permis-b-boite-automatique" data-type="a-link" target="_self" class="">Permis B boîte Automatique</a>
             </grid-item>
             <grid-item id="kOfZrct">
-              <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B AccÃ©lÃ©rÃ© </a>
+              <a id="IKrvXsc" href="./permis-b-accelere" data-type="a-link" target="_self" class="">Permis B Accéléré </a>
             </grid-item>
             <grid-item id="hiBSRqE">
-              <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitÃ©es</a>
+              <a id="cmQoVzf" href="./permis-b-heures-illimitees" data-type="a-link" target="_self" class="">Permis B Heures illimitées</a>
             </grid-item>
             <grid-item id="OjbYQRM">
-              <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis B Conduite AccompagnÃ©e (ACC)</a>
+              <a id="etEgHaW" href="./permis-aac-conduite-accompagnee" data-type="a-link" target="_self" class="">Permis B Conduite Accompagnée (ACC)</a>
             </grid-item>
             <grid-item id="kIQzTQU">
-              <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage Ã  Disney Paris</a>
+              <a id="NtLoRtt" href="./permis-b-voyage-disney" data-type="a-link" target="_self" class="">Permis B + Voyage à Disney Paris</a>
             </grid-item>
           </grid-box>
         </grid-item>
@@ -194,7 +93,7 @@ const htmlContent = `
               <a id="nMOQKwg" href="./contact" data-type="a-link" target="_self" class="">Contact</a>
             </grid-item>
             <grid-item id="lKuUGHy">
-              <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">ActualitÃ©s</a>
+              <a id="jNSOoCC" href="./actualites" data-type="a-link" target="_self" class="">Actualités</a>
             </grid-item>
             <grid-item id="yeMoevK">
               <a id="vjZwEXD" href="./avis-clients" data-type="a-link" target="_self" class="">Avis Clients</a>
@@ -205,16 +104,16 @@ const htmlContent = `
           <grid-box id="UyMBjVD">
             <h2 id="FoFpIVH">Legal</h2>
             <grid-item id="qvEHEFV">
-              <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions lÃ©gales</a>
+              <a id="CyPmECS" href="./mentions-legales" data-type="a-link" target="_self" class="">Mentions légales</a>
             </grid-item>
             <grid-item id="BnHeUtb">
-              <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions gÃ©nÃ©rales d'utilisation (CGU)</a>
+              <a id="IcUhfNa" href="./conditions-generales-dutilisation" data-type="a-link" target="_self" class="">Conditions générales d'utilisation (CGU)</a>
             </grid-item>
             <grid-item id="baAHIuk">
-              <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions gÃ©nÃ©rales de vente (CGV) </a>
+              <a id="EovFyRd" href="./conditions-generales-de-vente" data-type="a-link" target="_self" class="">Conditions générales de vente (CGV) </a>
             </grid-item>
             <grid-item id="aGbIoze">
-              <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialitÃ© (RGPD)</a>
+              <a id="NypWPWn" href="./politique-de-confidentialite" data-type="a-link" target="_self" class="">Politique de confidentialité (RGPD)</a>
             </grid-item>
             <grid-item id="Qmfwnwi">
               <a id="dcCYuoK" href="./politique-de-cookies" data-type="a-link" target="_self" class="">Politique de cookies</a>
@@ -237,6 +136,23 @@ const gridBody = document.getElementById('grid-body');
 if (gridBody) {
   // Insertar el contenido HTML al final del div
   gridBody.insertAdjacentHTML('beforeend', htmlContent);
+
+  // Ajustar los enlaces según la ubicación actual de la página
+  const basePath = window.location.pathname.split('/').slice(0, -1).join('/');
+
+  const adjustLinks = () => {
+    const links = gridBody.querySelectorAll('a[href^="./"]');
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      // Si estamos en una subcarpeta, ajustar el enlace
+      if (basePath !== '') {
+        link.setAttribute('href', '../' + href);
+      }
+    });
+  };
+
+  // Ejecutar la función de ajuste de enlaces
+  adjustLinks();
 } else {
-  console.error('El div con el id "grid-body" no se encontrÃ³.');
+  console.error('El div con el id "grid-body" no se encontró.');
 }
