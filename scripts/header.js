@@ -7,10 +7,6 @@ const menuJSON = {
         },
         {
             "name": "Prestations",
-            "url": "#sAtwGqJ"
-        },
-        {
-            "name": "Dropdown",
             "url": "javascript:void(0)",
             "dropdown": [
                 {
