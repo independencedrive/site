@@ -30,6 +30,7 @@
    height: 100px;
        place-items: center;
     display: flex;
+    font-size: clamp(19px, 3vw, 24px);
 }
 
 #header li {
