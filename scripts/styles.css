@@ -28,9 +28,10 @@
   padding: 0;
   background: #000000;
    height: 100px;
-       place-items: center;
-    display: flex;
-    font-size: clamp(19px, 3vw, 24px);
+   place-items: center;
+   display: flex;
+   font-size: clamp(19px, 3vw, 24px);
+   gap:15px;
 }
 
 #header li {
