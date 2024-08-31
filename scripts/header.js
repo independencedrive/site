@@ -10,15 +10,15 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Link 1",
+                    "name": "Permis B Boîte Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Link 2",
+                    "name": "Permis B boîte Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Link 3",
+                    "name": "Permis B Accéléré",
                     "url": "#"
                 }
             ]
