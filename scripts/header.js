@@ -1,40 +1,67 @@
+// Define the menu in JSON format with links
 const menuJSON = {
-    "home": {
-        "name": "Home",
-        "url": "index.html"
-    },
-    "about": {
-        "name": "About Us",
-        "url": "about.html"
-    },
-    "services": {
-        "name": "Services",
-        "url": "services.html"
-    },
-    "contact": {
-        "name": "Contact",
-        "url": "contact.html"
-    },
-    "blog": {
-        "name": "Blog",
-        "url": "blog.html"
-    }
+    "items": [
+        {
+            "name": "Home",
+            "url": "#home"
+        },
+        {
+            "name": "News",
+            "url": "#news"
+        },
+        {
+            "name": "Dropdown",
+            "url": "javascript:void(0)",
+            "dropdown": [
+                {
+                    "name": "Link 1",
+                    "url": "#"
+                },
+                {
+                    "name": "Link 2",
+                    "url": "#"
+                },
+                {
+                    "name": "Link 3",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
 };
 
+// Function to load the menu into the section
 function loadMenu(menu) {
-    const headerDiv = document.getElementById('header');
+    const section = document.getElementById('menu-section');
     let html = '<ul>';
-    for (const key in menu) {
-        const item = menu[key];
-        html += `
-            <li><a href="${item.url}">${item.name}</a></li>
-        `;
-    }
+
+    // Iterate over each item in the menu
+    menu.items.forEach(item => {
+        if (item.dropdown) {
+            // Dropdown item
+            html += `
+                <li class="dropdown">
+                    <a href="${item.url}" class="dropbtn">${item.name}</a>
+                    <div class="dropdown-content">
+                        ${item.dropdown.map(subItem => `
+                            <a href="${subItem.url}">${subItem.name}</a>
+                        `).join('')}
+                    </div>
+                </li>
+            `;
+        } else {
+            // Regular item
+            html += `
+                <li><a href="${item.url}">${item.name}</a></li>
+            `;
+        }
+    });
 
     html += '</ul>';
-    headerDiv.innerHTML = html;
+    section.innerHTML = html;
 }
 
+// Call the function to load the menu when the content is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     loadMenu(menuJSON);
 });
