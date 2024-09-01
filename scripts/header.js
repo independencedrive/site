@@ -1,9 +1,9 @@
-// Define the menu in JSON format with links
+const baseUrl = "https://independencedrive.github.io/site/";
 const menuJSON = {
     "items": [
         {
             "name": "Accueil",
-            "url": "./"
+            "url": baseUrl,
         },
         {
             "name": "Prestations",
@@ -60,10 +60,7 @@ const menuJSON = {
     ]
 };
 
-const baseUrl1 = window.location.origin;
-console.log(baseUrl1); 
-const baseUrl2 = document.baseURI;
-console.log(baseUrl2);
+
 
 function headerMenu(menu) {
     const section = document.getElementById('header');
