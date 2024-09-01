@@ -207,7 +207,11 @@ div#footer {
     gap: 1px;
     background: #263238;
 }
-
+div#footer a {
+    color: #c9c9c9;
+    font-family: 'Gochi Hand';
+    font-size: 14px;
+}
 
       
       @media screen and (max-width:640px) {
