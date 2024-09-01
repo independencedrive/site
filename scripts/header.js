@@ -11,11 +11,11 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B boite manuelle",
+                    "name": "Permis B Boite Manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B boite Automatique",
+                    "name": "Permis B Boite Automatique",
                     "url": "#"
                 },
                 {
