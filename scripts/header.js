@@ -27,7 +27,7 @@ const menuJSON = {
                     "url": "#"
                 },
                  {
-                    "name": "Permis B Conduite Accompagnee (AAC)",
+                    "name": "Permis B Conduite Accompagnee",
                     "url": "#"
                 },
                  {
