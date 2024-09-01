@@ -193,6 +193,21 @@
     place-content: center;
 }
 
+div#footer grid-box {
+    padding: 0px;
+    background: black;
+    display: grid;
+    font-size: 14px;
+    place-content: center;
+    min-height: 300px;
+}
+div#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    background: #263238;
+}
+
 
       
       @media screen and (max-width:640px) {
