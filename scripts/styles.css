@@ -216,6 +216,7 @@ div#footer {
     gap: 1px;
     background: #263238;
     place-items: center;
+        font-family: 'Gochi Hand';
 }
 div#footer a {
    border: none;
@@ -232,7 +233,7 @@ div#footer a {
 div#footer h2 {
     color: white;
     font-size: 24px;
-    font-family: 'Gochi Hand';
+
 }
       
       @media screen and (max-width:640px) {
