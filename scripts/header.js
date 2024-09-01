@@ -32,6 +32,10 @@ const menuJSON = {
                  {
                     "name": "Permis B + Voyage a Disney Paris",
                     "url":  baseUrl+"permis-b-voyage-disney"
+                },
+                 {
+                    "name": Preparation au code de la route",
+                    "url":  baseUrl+"preparation-au-code-de-la-route"
                 }
             ]
         },
