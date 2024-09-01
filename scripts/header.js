@@ -61,12 +61,13 @@ const menuJSON = {
 };
 
 const baseUrl = document.baseURI;
-console.log(baseUrl);
+console.log('Base URI:', baseUrl);
 
 // Calculate the relative prefix based on the current path
 const currentPath = window.location.pathname;
-const pathDepth = currentPath.split('/').length - 2;
-const prefix = pathDepth > 0 ? '../'.repeat(pathDepth) : '.';
+const basePath = new URL(baseUrl).pathname;
+const relativeDepth = currentPath.replace(basePath, '').split('/').length - 2;
+const prefix = relativeDepth > 0 ? '../'.repeat(relativeDepth) : './';
 
 // Function to load the header menu into the section
 function headerMenu(menu) {
@@ -80,7 +81,7 @@ function headerMenu(menu) {
     menu.items.forEach(item => {
         let itemUrl = item.url;
         if (itemUrl.startsWith('/')) {
-            itemUrl = prefix + itemUrl;
+            itemUrl = prefix + itemUrl.slice(1);
         }
 
         if (item.dropdown) {
@@ -92,7 +93,7 @@ function headerMenu(menu) {
                         ${item.dropdown.map(subItem => {
                             let subItemUrl = subItem.url;
                             if (subItemUrl.startsWith('/')) {
-                                subItemUrl = prefix + subItemUrl;
+                                subItemUrl = prefix + subItemUrl.slice(1);
                             }
                             return `<a href="${subItemUrl}">${subItem.name}</a>`;
                         }).join('')}
