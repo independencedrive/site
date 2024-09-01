@@ -56,7 +56,7 @@ div#BBGQuEf {height: 100%;width: 100%;
         </item-head>
         <item-body id="fWSItej">
           <item-title id="NLgKlOk" contenteditable="true">Prestations Divers</item-title>
-          <item-desc id="ukzxtwy" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing</item-desc>
+          <item-desc id="ukzxtwy" contenteditable="true">Services Complémentaires</item-desc>
           <a id="YfdcXuh" href="./prestations-diverses/" data-type="a-link" target="_self" class="">En savoir plus </a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('ZyncGkV')">-</button>
