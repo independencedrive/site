@@ -199,7 +199,6 @@ div#footer grid-box > grid-box {
     display: grid;
     font-size: 14px;
     place-content: center;
-    min-height: 300px;
 }
 div#footer {
     display: grid;
