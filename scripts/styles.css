@@ -212,7 +212,11 @@ div#footer a {
     font-family: 'Gochi Hand';
     font-size: 14px;
 }
-
+div#footer h2 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Gochi Hand';
+}
       
       @media screen and (max-width:640px) {
           grid-body {
