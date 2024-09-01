@@ -193,7 +193,7 @@
     place-content: center;
 }
 
-div#footer grid-box {
+div#footer grid-box > grid-box {
     padding: 0px;
     background: black;
     display: grid;
