@@ -66,12 +66,12 @@ console.log(baseUrl1);
 const baseUrl2 = document.baseURI;
 console.log(baseUrl2);
 
-// Function to load the header menu into the section
+
 function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
-    // Añadir el logo antes del primer elemento del menú
+
     html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
@@ -100,7 +100,6 @@ function headerMenu(menu) {
     section.innerHTML = html;
 }
 
-// Call the function to load the header menu when the content is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     headerMenu(menuJSON);
 });
