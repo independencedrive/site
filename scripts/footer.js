@@ -18,7 +18,7 @@ const footerMenuJSON = {
                 { "name": "Permis B boite Automatique", "url": "./permis-b-boite-automatique" },
                 { "name": "Permis B Accelere", "url": "./permis-b-accelere" },
                 { "name": "Permis B Heures illimitees", "url": "./permis-b-heures-illimitees" },
-                { "name": "Permis B Conduite Accompagnee (ACC)", "url": "./permis-aac-conduite-accompagnee" },
+                { "name": "Permis B Conduite Accompagnee", "url": "./permis-aac-conduite-accompagnee" },
                 { "name": "Permis B + Voyage a Disney Paris", "url": "./permis-b-voyage-disney" }
             ]
         },
