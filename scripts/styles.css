@@ -206,6 +206,7 @@ div#footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1px;
     background: #263238;
+    place-items: center;
 }
 div#footer a {
     color: #c9c9c9;
