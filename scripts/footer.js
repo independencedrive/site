@@ -64,7 +64,7 @@ function loadFooterMenu(menu) {
             html += `${item.name}</a></grid-item>`;
         });
 
-        html += `</grid-box2></grid-box2>`;
+        html += `</grid-box1></grid-box1>`;
     });
 
     footer.innerHTML = html;
