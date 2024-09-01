@@ -19,7 +19,7 @@ const menuJSON = {
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Permis B Accelere",
                     "url": "#"
                 },
                  {
