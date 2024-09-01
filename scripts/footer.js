@@ -48,15 +48,15 @@ function loadFooterMenu(menu) {
     const footer = document.getElementById('footer');
     let html = '';
 
-    // Itera sobre cada sección del menú
+    // Itera sobre cada secciÃ³n del menÃº
     menu.sections.forEach(section => {
         html += `<grid-box><h2>${section.title}</h2><grid-box>`;
 
-        // Itera sobre cada ítem dentro de la sección
+        // Itera sobre cada Ã­tem dentro de la secciÃ³n
         section.items.forEach(item => {
             html += `<grid-item><a href="${item.url}" target="_self" class="">`;
 
-            // Si hay un icono, agrégalo antes del nombre
+            // Si hay un icono, agrÃ©galo antes del nombre
             if (item.icon) {
                 html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
             }
@@ -70,7 +70,7 @@ function loadFooterMenu(menu) {
     footer.innerHTML = html;
 }
 
-// Llama a la función para cargar el menú cuando el contenido esté completamente cargado
+// Llama a la funciÃ³n para cargar el menÃº cuando el contenido estÃ© completamente cargado
 document.addEventListener('DOMContentLoaded', () => {
     loadFooterMenu(footerMenuJSON);
 });
