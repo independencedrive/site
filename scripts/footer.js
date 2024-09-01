@@ -48,15 +48,15 @@ function loadFooterMenu(menu) {
     const footer = document.getElementById('footer');
     let html = '';
 
-    // Itera sobre cada sección del menú
+   
     menu.sections.forEach(section => {
-        html += `<grid-box><h2>${section.title}</h2><grid-box>`;
+        html += `<grid-box1><h2>${section.title}</h2><grid-box1>`;
 
-        // Itera sobre cada ítem dentro de la sección
+       
         section.items.forEach(item => {
             html += `<grid-item><a href="${item.url}" target="_self" class="">`;
 
-            // Si hay un icono, agrégalo antes del nombre
+           
             if (item.icon) {
                 html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
             }
@@ -64,13 +64,12 @@ function loadFooterMenu(menu) {
             html += `${item.name}</a></grid-item>`;
         });
 
-        html += `</grid-box></grid-box>`;
+        html += `</grid-box2></grid-box2>`;
     });
 
     footer.innerHTML = html;
 }
 
-// Llama a la función para cargar el menú cuando el contenido esté completamente cargado
 document.addEventListener('DOMContentLoaded', () => {
     loadFooterMenu(footerMenuJSON);
 });
