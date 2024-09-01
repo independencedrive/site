@@ -15,15 +15,15 @@ const menuJSON = {
                 },
                 {
                     "name": "Permis B Boite Automatique",
-                    "url": "#"
+                    "url":  baseUrl+"permis-b-boite-automatique"
                 },
                 {
                     "name": "Permis B Accelere",
-                    "url": "#"
+                    "url":  baseUrl+"permis-b-accelere"
                 },
                  {
                     "name": "Permis B Heures illimitees",
-                    "url": "#"
+                     "url":  baseUrl+"permis-b-heures-illimitees"
                 },
                  {
                     "name": "Permis B Conduite Accompagnee",
