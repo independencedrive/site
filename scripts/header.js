@@ -11,15 +11,27 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Bo√Æte Manuelle",
+                    "name": "Permis B boite manuelle",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Bo√Æte Automatique",
+                    "name": "Permis B boite Automatique",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Acc√©l√©r√©",
+                    "name": "Permis B AccÈlÈrÈ",
+                    "url": "#"
+                },
+                 {
+                    "name": "Permis B Heures illimitees",
+                    "url": "#"
+                },
+                 {
+                    "name": "Permis B Conduite Accompagnee (AAC)",
+                    "url": "#"
+                },
+                 {
+                    "name": "Permis B + Voyage a Disney Paris",
                     "url": "#"
                 }
             ]
