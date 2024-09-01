@@ -193,6 +193,14 @@
     place-content: center;
 }
 
+grid-box > grid-item {
+    padding: 35px;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: baseline;
+    background: black;
+}
 div#footer grid-box > grid-box {
     padding: 0px;
     background: black;
