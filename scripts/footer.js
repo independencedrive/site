@@ -48,15 +48,12 @@ function loadFooterMenu(menu) {
     const footer = document.getElementById('footer');
     let html = '';
 
-   
     menu.sections.forEach(section => {
-        html += `<grid-box1><h2>${section.title}</h2><grid-box1>`;
+        html += `<grid-box><h2>${section.title}</h2>`;
 
-       
         section.items.forEach(item => {
             html += `<grid-item><a href="${item.url}" target="_self" class="">`;
 
-           
             if (item.icon) {
                 html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
             }
@@ -64,7 +61,7 @@ function loadFooterMenu(menu) {
             html += `${item.name}</a></grid-item>`;
         });
 
-        html += `</grid-box1></grid-box1>`;
+        html += `</grid-box>`;
     });
 
     footer.innerHTML = html;
