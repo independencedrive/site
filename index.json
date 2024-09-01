@@ -47,7 +47,7 @@ div#BBGQuEf {height: 100%;width: 100%;
         <item-body id="DtYWFsy">
           <item-title id="QOPazcg" contenteditable="true">Préparation au Code de la Route</item-title>
           <item-desc id="KxbKuRW" contenteditable="true">Forfait "Test Drive"</item-desc>
-          <a id="AyNWTpr" href="www" data-type="a-link" target="_self" class="">En savoir plus</a>
+          <a id="AyNWTpr" href="./preparation-au-code-de-la-route" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('tNcBLJU')">-</button>
       </grid-item><grid-item id="ZyncGkV">
@@ -57,7 +57,7 @@ div#BBGQuEf {height: 100%;width: 100%;
         <item-body id="fWSItej">
           <item-title id="NLgKlOk" contenteditable="true">Prestations Divers</item-title>
           <item-desc id="ukzxtwy" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing</item-desc>
-          <a id="YfdcXuh" href="#" data-type="a-link" target="_self" class="">En savoir plus </a>
+          <a id="YfdcXuh" href="./prestations-diverses/" data-type="a-link" target="_self" class="">En savoir plus </a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('ZyncGkV')">-</button>
       </grid-item><button id="NzWwriK" class="no-export grid-add-item" onclick="items200x200('LLlrTkC','NzWwriK', '../global/file/empty.svg')">+</button></grid-box></grid-container></div><!--JS--><script id="QtQnZDk" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section></grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
