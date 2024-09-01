@@ -41,15 +41,19 @@ const menuJSON = {
             "url": "javascript:void(0)",
             "dropdown": [
                 {
-                    "name": "Permis B Boîte Manuelle",
+                    "name": "A propos",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Boîte Automatique",
+                    "name": "Contact",
                     "url": "#"
                 },
                 {
-                    "name": "Permis B Accéléré",
+                    "name": "Actualites",
+                    "url": "#"
+                },
+                {
+                    "name": "Avis client",
                     "url": "#"
                 }
             ]
