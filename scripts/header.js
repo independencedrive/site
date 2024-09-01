@@ -61,6 +61,10 @@ const menuJSON = {
     ]
 };
 
+const baseUrl = window.location.origin;
+console.log(baseUrl); 
+
+
 // Function to load the header menu into the section
 function headerMenu(menu) {
     const section = document.getElementById('header');
