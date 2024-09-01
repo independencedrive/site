@@ -41,19 +41,19 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "A propos",
-                    "url": "#"
+                    "url":  baseUrl+"a-propos"
                 },
                 {
                     "name": "Contact",
-                    "url": "#"
+                    "url":  baseUrl+"contact"
                 },
                 {
                     "name": "Actualites",
-                    "url": "#"
+                    "url":  baseUrl+"actualites"
                 },
                 {
                     "name": "Avis client",
-                    "url": "#"
+                    "url":  baseUrl+"avis-client"
                 }
             ]
         }
