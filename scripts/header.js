@@ -27,11 +27,11 @@ const menuJSON = {
                 },
                  {
                     "name": "Permis B Conduite Accompagnee",
-                    "url": "#"
+                    "url":  baseUrl+"permis-aac-conduite-accompagnee"
                 },
                  {
                     "name": "Permis B + Voyage a Disney Paris",
-                    "url": "#"
+                    "url":  baseUrl+"permis-b-voyage-disney"
                 }
             ]
         },
