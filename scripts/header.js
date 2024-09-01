@@ -34,7 +34,7 @@ const menuJSON = {
                     "url":  baseUrl+"permis-b-voyage-disney"
                 },
                  {
-                    "name": Preparation au code de la route",
+                    "name": "Preparation au code de la route",
                     "url":  baseUrl+"preparation-au-code-de-la-route"
                 }
             ]
