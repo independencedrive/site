@@ -36,6 +36,10 @@ const menuJSON = {
                  {
                     "name": "Preparation au code de la route",
                     "url":  baseUrl+"preparation-au-code-de-la-route"
+                },
+                 {
+                    "name": "Prestations Diverses",
+                    "url":  baseUrl+"prestations-diverses"
                 }
             ]
         },
