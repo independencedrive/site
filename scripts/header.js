@@ -1,6 +1,7 @@
 // Define the menu in JSON format with links
 const menuJSON = {
     "items": [
+       
         {
             "name": "Accueil",
             "url": "./"
@@ -11,7 +12,7 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "Permis B Boite Manuelle",
-                    "url": "./permis-b-boite-manuelle"
+                    "url": "#"
                 },
                 {
                     "name": "Permis B Boite Automatique",
@@ -21,15 +22,15 @@ const menuJSON = {
                     "name": "Permis B Accelere",
                     "url": "#"
                 },
-                {
+                 {
                     "name": "Permis B Heures illimitees",
                     "url": "#"
                 },
-                {
+                 {
                     "name": "Permis B Conduite Accompagnee",
                     "url": "#"
                 },
-                {
+                 {
                     "name": "Permis B + Voyage a Disney Paris",
                     "url": "#"
                 }
@@ -60,35 +61,24 @@ const menuJSON = {
     ]
 };
 
-// Function to adjust URLs based on the current location
-function adjustUrl(url) {
-    const pathSegments = window.location.pathname.split('/').filter(Boolean);
-    if (pathSegments.length > 0) {
-        // If we're in a subdirectory, prepend '../' to the URL
-        return url.replace('./', '../');
-    }
-    return url;
-}
-
 // Function to load the header menu into the section
 function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
-    // Añadir el logo antes del primer elemento del menú
+    // AÃ±adir el logo antes del primer elemento del menÃº
     html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
-        const adjustedUrl = adjustUrl(item.url);
         if (item.dropdown) {
             // Dropdown item
             html += `
                 <li class="dropdown">
-                    <a href="${adjustedUrl}" class="dropbtn">${item.name}</a>
+                    <a href="${item.url}" class="dropbtn">${item.name}</a>
                     <div class="dropdown-content">
                         ${item.dropdown.map(subItem => `
-                            <a href="${adjustUrl(subItem.url)}">${subItem.name}</a>
+                            <a href="${subItem.url}">${subItem.name}</a>
                         `).join('')}
                     </div>
                 </li>
@@ -96,7 +86,7 @@ function headerMenu(menu) {
         } else {
             // Regular item
             html += `
-                <li><a href="${adjustedUrl}">${item.name}</a></li>
+                <li><a href="${item.url}">${item.name}</a></li>
             `;
         }
     });
