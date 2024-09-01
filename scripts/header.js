@@ -1,7 +1,6 @@
 // Define the menu in JSON format with links
 const menuJSON = {
     "items": [
-       
         {
             "name": "Accueil",
             "url": "./"
@@ -66,11 +65,9 @@ console.log(baseUrl1);
 const baseUrl2 = document.baseURI;
 console.log(baseUrl2);
 
-
 function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
-
 
     html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
@@ -78,21 +75,21 @@ function headerMenu(menu) {
     menu.items.forEach(item => {
         if (item.dropdown) {
             // Dropdown item
-            html += 
+            html += `
                 <li class="dropdown">
                     <a href="${item.url}" class="dropbtn">${item.name}</a>
                     <div class="dropdown-content">
                         ${item.dropdown.map(subItem => 
-                            <a href="${subItem.url}">${subItem.name}</a>
+                            `<a href="${subItem.url}">${subItem.name}</a>`
                         ).join('')}
                     </div>
                 </li>
-            ;
+            `;
         } else {
             // Regular item
-            html += 
+            html += `
                 <li><a href="${item.url}">${item.name}</a></li>
-            ;
+            `;
         }
     });
 
