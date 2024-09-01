@@ -60,7 +60,7 @@ const menuJSON = {
                     "url":  baseUrl+"actualites"
                 },
                 {
-                    "name": "Avis client",
+                    "name": "Avis clients",
                     "url":  baseUrl+"avis-clients"
                 }
             ]
