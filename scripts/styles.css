@@ -218,9 +218,16 @@ div#footer {
     place-items: center;
 }
 div#footer a {
-    color: #c9c9c9;
-    font-family: 'Gochi Hand';
+   border: none;
+    padding: 5px 20px;
+    color: white;
     font-size: 14px;
+    border-radius: 10px;
+    text-underline-position: under;
+    height: auto;
+    width: fit-content;
+    display: grid;
+    place-content: center;
 }
 div#footer h2 {
     color: white;
