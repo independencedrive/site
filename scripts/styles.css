@@ -211,6 +211,7 @@ div#footer {
     min-height: 50px;
     gap: 1px;
     font-family: 'Gochi Hand';
+    background: #263238;
 }
 div#footer a {
    border: none;
