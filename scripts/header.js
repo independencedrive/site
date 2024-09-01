@@ -1,9 +1,10 @@
 // Define the menu in JSON format with links
 const menuJSON = {
     "items": [
+       
         {
             "name": "Accueil",
-            "url": "/"
+            "url": "./"
         },
         {
             "name": "Prestations",
@@ -11,27 +12,27 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "Permis B Boite Manuelle",
-                    "url": "/permis-b-manuelle"
+                    "url": "#"
                 },
                 {
                     "name": "Permis B Boite Automatique",
-                    "url": "/permis-b-automatique"
+                    "url": "#"
                 },
                 {
                     "name": "Permis B Accelere",
-                    "url": "/permis-b-accelere"
+                    "url": "#"
                 },
-                {
+                 {
                     "name": "Permis B Heures illimitees",
-                    "url": "/permis-b-illimitees"
+                    "url": "#"
                 },
-                {
+                 {
                     "name": "Permis B Conduite Accompagnee",
-                    "url": "/permis-b-conduite-accompagnee"
+                    "url": "#"
                 },
-                {
+                 {
                     "name": "Permis B + Voyage a Disney Paris",
-                    "url": "/permis-b-disney"
+                    "url": "#"
                 }
             ]
         },
@@ -41,70 +42,57 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "A propos",
-                    "url": "/a-propos"
+                    "url": "#"
                 },
                 {
                     "name": "Contact",
-                    "url": "/contact"
+                    "url": "#"
                 },
                 {
                     "name": "Actualites",
-                    "url": "/actualites"
+                    "url": "#"
                 },
                 {
                     "name": "Avis client",
-                    "url": "/avis-client"
+                    "url": "#"
                 }
             ]
         }
     ]
 };
 
-const baseUrl = document.baseURI;
-console.log('Base URI:', baseUrl);
-
-// Calculate the relative prefix based on the current path
-const currentPath = window.location.pathname;
-const basePath = new URL(baseUrl).pathname;
-const relativeDepth = currentPath.replace(basePath, '').split('/').length - 2;
-const prefix = relativeDepth > 0 ? '../'.repeat(relativeDepth) : './';
+const baseUrl1 = window.location.origin;
+console.log(baseUrl1); 
+const baseUrl2 = document.baseURI;
+console.log(baseUrl2);
 
 // Function to load the header menu into the section
 function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
-    // Add the logo before the first menu item
+    // Añadir el logo antes del primer elemento del menú
     html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
-        let itemUrl = item.url;
-        if (itemUrl.startsWith('/')) {
-            itemUrl = prefix + itemUrl.slice(1);
-        }
-
         if (item.dropdown) {
             // Dropdown item
-            html += `
+            html += 
                 <li class="dropdown">
-                    <a href="${itemUrl}" class="dropbtn">${item.name}</a>
+                    <a href="${item.url}" class="dropbtn">${item.name}</a>
                     <div class="dropdown-content">
-                        ${item.dropdown.map(subItem => {
-                            let subItemUrl = subItem.url;
-                            if (subItemUrl.startsWith('/')) {
-                                subItemUrl = prefix + subItemUrl.slice(1);
-                            }
-                            return `<a href="${subItemUrl}">${subItem.name}</a>`;
-                        }).join('')}
+                        ${item.dropdown.map(subItem => 
+                            <a href="${subItem.url}">${subItem.name}</a>
+                        ).join('')}
                     </div>
                 </li>
-            `;
+            ;
         } else {
             // Regular item
-            html += `
-                <li><a href="${itemUrl}">${item.name}</a></li>
-            `;
+            html += 
+                <li><a href="${item.url}">${item.name}</a></li>
+            ;
         }
     });
 
