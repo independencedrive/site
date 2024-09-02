@@ -1,7 +1,4 @@
-<style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page">body {
-  overflow-x: hidden;
-}
-</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><section id="WmaCJDV"><!--CSS--><style id="NZHFspT" type="text/css" data-type="css" data-size="laptop" data-content="section">h2#cTqusAV:before {content: 'Ecole de conduite';font-size: 19px;position: absolute;margin-top: -33px;background: #e9e9e900;padding: 5px;color: white;font-family: 'Gochi Hand';
+<style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><section id="WmaCJDV"><!--CSS--><style id="NZHFspT" type="text/css" data-type="css" data-size="laptop" data-content="section">h2#cTqusAV:before {content: 'Ecole de conduite';font-size: 19px;position: absolute;margin-top: -33px;background: #e9e9e900;padding: 5px;color: white;font-family: 'Gochi Hand';
 }grid-container#keKheDf {position: relative;
 }grid-bg#RzkXgte {position: absolute;height: 100%;width: 100%;z-index: -1;display: block;
 }div#DQFpDAf,
