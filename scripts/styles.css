@@ -113,8 +113,12 @@
           font-style: normal;
        }
        
+       body{
+       	background: #263238;
+        overflow-x:hidden;
+       }
+       
       grid-page {
-        background: #263238;
         display:block;
         width: 100%;
         height: 100%;
