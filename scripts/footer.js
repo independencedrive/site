@@ -1,3 +1,5 @@
+const baseUrl = "https://independencedrive.github.io/site/";
+
 const footerMenuJSON = {
     "sections": [
         {
@@ -14,31 +16,31 @@ const footerMenuJSON = {
         {
             "title": "Prestations",
             "items": [
-                { "name": "Permis B boite manuelle", "url": "./permis-b-boite-manuelle" },
-                { "name": "Permis B boite Automatique", "url": "./permis-b-boite-automatique" },
-                { "name": "Permis B Accelere", "url": "./permis-b-accelere" },
-                { "name": "Permis B Heures illimitees", "url": "./permis-b-heures-illimitees" },
-                { "name": "Permis B Conduite Accompagnee", "url": "./permis-aac-conduite-accompagnee" },
-                { "name": "Permis B + Voyage a Disney Paris", "url": "./permis-b-voyage-disney" }
+                { "name": "Permis B boite manuelle", "url": baseUrl + "permis-b-boite-manuelle" },
+                { "name": "Permis B boite Automatique", "url": baseUrl + "permis-b-boite-automatique" },
+                { "name": "Permis B Accelere", "url": baseUrl + "permis-b-accelere" },
+                { "name": "Permis B Heures illimitees", "url": baseUrl + "permis-b-heures-illimitees" },
+                { "name": "Permis B Conduite Accompagnee", "url": baseUrl + "permis-aac-conduite-accompagnee" },
+                { "name": "Permis B + Voyage a Disney Paris", "url": baseUrl + "permis-b-voyage-disney" }
             ]
         },
         {
             "title": "Infos",
             "items": [
-                { "name": "A propos", "url": "./a-propos" },
-                { "name": "Contact", "url": "./contact" },
-                { "name": "Actualites", "url": "./actualites" },
-                { "name": "Avis Clients", "url": "./avis-clients" }
+                { "name": "A propos", "url": baseUrl + "a-propos" },
+                { "name": "Contact", "url": baseUrl + "contact" },
+                { "name": "Actualites", "url": baseUrl + "actualites" },
+                { "name": "Avis Clients", "url": baseUrl + "avis-clients" }
             ]
         },
         {
             "title": "Legal",
             "items": [
-                { "name": "Mentions legales", "url": "./mentions-legales" },
-                { "name": "Conditions generales d'utilisation (CGU)", "url": "./conditions-generales-dutilisation" },
-                { "name": "Conditions generales de vente (CGV)", "url": "./conditions-generales-de-vente" },
-                { "name": "Politique de confidentialite (RGPD)", "url": "./politique-de-confidentialite" },
-                { "name": "Politique de cookies", "url": "./politique-de-cookies" }
+                { "name": "Mentions legales", "url": baseUrl + "mentions-legales" },
+                { "name": "Conditions generales d'utilisation (CGU)", "url": baseUrl + "conditions-generales-dutilisation" },
+                { "name": "Conditions generales de vente (CGV)", "url": baseUrl + "conditions-generales-de-vente" },
+                { "name": "Politique de confidentialite (RGPD)", "url": baseUrl + "politique-de-confidentialite" },
+                { "name": "Politique de cookies", "url": baseUrl + "politique-de-cookies" }
             ]
         }
     ]
@@ -52,7 +54,10 @@ function loadFooterMenu(menu) {
         html += `<grid-box><h2>${section.title}</h2>`;
 
         section.items.forEach(item => {
-            html += `<grid-item><a href="${item.url}" target="_self" class="">`;
+            // Se mantiene la URL como está en "Contact", se agrega el baseUrl a las otras.
+            let url = section.title === "Contact" ? item.url : baseUrl + item.url;
+            
+            html += `<grid-item><a href="${url}" target="_self" class="">`;
 
             if (item.icon) {
                 html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
@@ -70,4 +75,3 @@ function loadFooterMenu(menu) {
 document.addEventListener('DOMContentLoaded', () => {
     loadFooterMenu(footerMenuJSON);
 });
-
