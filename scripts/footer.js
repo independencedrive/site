@@ -21,7 +21,10 @@ const footerMenuJSON = {
                 { "name": "Permis B Accelere", "url": footerBaseUrl + "permis-b-accelere" },
                 { "name": "Permis B Heures illimitees", "url": footerBaseUrl + "permis-b-heures-illimitees" },
                 { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "permis-aac-conduite-accompagnee" },
-                { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "permis-b-voyage-disney" }
+                { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "permis-b-voyage-disney" },
+                { "name": "Prestation Code de la Route", "url": baseUrl+"preparation-au-code-de-la-route"  },
+          		{ "name": "Prestation Divers","url":  baseUrl+"prestations-diverses"  }
+           
             ]
         },
         {
