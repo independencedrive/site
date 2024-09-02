@@ -51,19 +51,19 @@ function loadFooterMenu(menu) {
     let html = '';
 
     menu.sections.forEach(section => {
-        html += <grid-box><h2>${section.title}</h2>;
+        html += `<grid-box><h2>${section.title}</h2>`;
 
         section.items.forEach(item => {
-            html += <grid-item><a href="${item.url}" target="_self" class="">;
+            html += `<grid-item><a href="${item.url}" target="_self" class="">`;
 
             if (item.icon) {
-                html += <img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> ;
+                html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
             }
 
-            html += ${item.name}</a></grid-item>;
+            html += `${item.name}</a></grid-item>`;
         });
 
-        html += </grid-box>;
+        html += `</grid-box>`;
     });
     
     footer.innerHTML = html;
