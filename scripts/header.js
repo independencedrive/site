@@ -104,7 +104,7 @@ function headerMenu(menu) {
     // Add an image at the end of the menu
     html += `
         <li>
-            <img class="end-image" src="https://via.placeholder.com/150" alt="End Image" />
+            <img class="menu-mobile" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/menu-mobile_256x256.png" />
         </li>
     `;
 
