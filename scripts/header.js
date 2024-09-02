@@ -45,28 +45,6 @@ const menuJSON = {
             "url":  baseUrl+"prestations-diverses"
          },
         
-         {
-            "name": "Infos",
-            "url": "javascript:void(0)",
-            "dropdown": [
-                {
-                    "name": "A propos",
-                    "url":  baseUrl+"a-propos"
-                },
-                {
-                    "name": "Contact",
-                    "url":  baseUrl+"contact"
-                },
-                {
-                    "name": "Actualites",
-                    "url":  baseUrl+"actualites"
-                },
-                {
-                    "name": "Avis clients",
-                    "url":  baseUrl+"avis-clients"
-                }
-            ]
-        },
         {
             "name": "Infos",
             "url": "javascript:void(0)",
