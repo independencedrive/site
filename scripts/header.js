@@ -76,6 +76,7 @@ function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
+    // Logo
     html += '<li><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></li>';
 
     // Iterate over each item in the menu
@@ -99,6 +100,13 @@ function headerMenu(menu) {
             `;
         }
     });
+
+    // Add an image at the end of the menu
+    html += `
+        <li>
+            <img class="end-image" src="https://via.placeholder.com/150" alt="End Image" />
+        </li>
+    `;
 
     html += '</ul>';
     section.innerHTML = html;
