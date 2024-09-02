@@ -42,7 +42,31 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
   
     <h2>3. Inscription et Accès aux Services</h2>
   
-    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+    <p>L'inscription aux services de l'auto-école est ouverte à toute personne remplissant les conditions légales requises pour l'obtention du permis de conduire. L'accès aux services est conditionné par l'inscription préalable et le paiement des frais correspondants.</p>
+  
+    <h2>4. Séances ou Leçons Annulées</h2>
+  
+    <h3>4.1 **Par l'élève**&nbsp;&nbsp;</h3>
+  
+    <p>Les leçons de conduite non décommandées 48 heures à l'avance en agence ou via l'application SAROOL ne seront pas reportées et ne donneront lieu à aucun remboursement, sauf en cas de force majeure justifiée, telle que maladie ou décès d'un parent proche (preuve à l'appui). Toute autre raison sera refusée.</p>
+  
+    <h3>4.2 **Par l'auto-école**&nbsp;&nbsp;</h3>
+  
+    <p>L'auto-école se réserve la possibilité d'annuler des cours ou leçons sans préavis en cas de force majeure, notamment si la sécurité ne peut être assurée. Les leçons déjà réglées hors forfait et non reportées donneront lieu à remboursement ou à report.</p>
+  
+    <h2>5. Durée et Rupture du Contrat</h2>
+  
+    <p>Le présent contrat entre en vigueur au jour de sa signature. Lorsque la formule choisie est un forfait, sa durée de validité est de 12 mois pour la conduite et 6 mois pour le code en salle. Passé ce délai, les prestations non effectuées deviennent caduques et le contrat arrive à son terme sans remboursement possible. Le contrat peut être résilié à tout moment par l'une ou l'autre des parties en cas de non-paiement, de non-respect des prescriptions pédagogiques, ou en cas de violences ou tout autre abus de la part de l'élève.</p>
+  
+    <h2>6. Démarches Administratives</h2>
+  
+    <p>L'élève mandate l'établissement pour accomplir en son nom les démarches nécessaires auprès de l'administration pour l'obtention du permis de conduire. Les frais relatifs à la création du titre définitif sur le site ANTS ne sont pas inclus dans les formules et seront à régler en supplément.</p>
+  
+    <h2>7. Formations Théoriques</h2>
+  
+    <p>Conformément aux dispositions de l’article L.121-21 du Code de la Consommation, l'élève dispose d’un délai de rétractation de 14 jours à compter du jour de son premier règlement. Ce droit peut être exercé sans motif ni pénalité, à condition que la formation n'ait pas encore débuté.</p><p><span style="font-size: 44px;">8. Rétractation pour Achat en Ligne</span><br></p>
+  
+    <p>Conformément aux dispositions de l’article L.121-21 du Code de la Consommation, l'élève dispose d’un délai de rétractation de 14 jours à compter du jour de son premier règlement. Ce droit peut être exercé sans motif ni pénalité, à condition que la formation n'ait pas encore débuté.</p>
   </grid-box1>
 </grid-content>
 <div class="grid-edit-buttons"><button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button><button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
