@@ -232,12 +232,22 @@ div#footer h2 {
     font-size: 24px;
 
 }
+img.menu-mobile {
+    display: none;
+}
 
 
 @media screen and (min-width:641px) and (max-width:1024px) {
   div#footer {
     grid-template-columns: repeat(2, 1fr);
   }
+  img.menu-mobile {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 100px;
+    width: 100px;
+}
 }
 
       
