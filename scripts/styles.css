@@ -241,13 +241,7 @@ img.menu-mobile {
   div#footer {
     grid-template-columns: repeat(2, 1fr);
   }
-  img.menu-mobile {
-    display: grid;
-    place-content: center;
-    place-items: center;
-    height: 100px;
-    width: 100px;
-}
+  
 }
 
       
@@ -269,5 +263,12 @@ img.menu-mobile {
          .display-none{
             display:none!important;
          }
+         img.menu-mobile {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 100px;
+    width: 100px;
+}
      }
      
