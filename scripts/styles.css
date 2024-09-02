@@ -88,9 +88,14 @@
       item-desc
       
       {
-          font-family: "Gochi Hand", cursive;
+          
           font-weight: 400;
           font-style: normal;
+          font-family: system-ui;
+          font-size: 17px;
+          font-weight: 400;
+          color: #434242;
+          line-height: 1.5;
       }
       
        grid-body h1,
