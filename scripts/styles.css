@@ -155,7 +155,7 @@
     }
 
     grid-content h2 {
-      font-size: clamp(24px, 5vw, 44px);
+      font-size: clamp(28px, 5vw, 44px);
     }
 
     grid-content h3 {
