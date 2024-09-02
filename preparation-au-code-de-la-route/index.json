@@ -53,4 +53,10 @@ div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
     <ul>
       <li><li>Prix : 60€</li><li>Soyez accompagné par nos professionnels lors de votre examen du Code de la Route. Nous vous guiderons jusqu'au centre d'examen pour vous assurer d'être dans les meilleures conditions possibles.</li></li>
     </ul>
+  
+    <h3>Examen de Code sans Accompagnement</h3>
+  
+    <ul>
+      <li><li>Prix : 30€</li><li>Si vous préférez vous rendre seul à l'examen, nous facilitons votre inscription pour vous permettre de passer votre test en toute autonomie.</li></li>
+    </ul>
   </grid-box1></grid-content><div class="grid-edit-buttons"><button contenteditable="false" id="zIiyUPN" class="always-at-end no-export" onclick="addContent('grid-content-VKgwhtt', add_GridBox1(), 'beforeend');">+</button><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></div></grid-container><!--JS--><script id="eQvfrms" data-type="js"></script><!--EDIT--><div class="no-export"></div></section></grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
