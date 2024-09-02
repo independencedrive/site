@@ -34,7 +34,7 @@ const footerMenuJSON = {
             ]
         },
         {
-            "title": "Legal",
+            "title": "Informations Legales",
             "items": [
                 { "name": "Mentions legales", "url": footerBaseUrl + "mentions-legales" },
                 { "name": "Conditions generales d'utilisation (CGU)", "url": footerBaseUrl + "conditions-generales-dutilisation" },
