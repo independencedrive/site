@@ -220,7 +220,7 @@ div#footer {
 div#footer a {
    border: none;
     color: white;
-    font-size: 14px;
+    font-size: clamp(16px, 4vw, 19px);
     border-radius: 10px;
     text-underline-position: under;
     height: auto;
@@ -230,7 +230,7 @@ div#footer a {
 }
 div#footer h2 {
     color: white;
-    font-size: 24px;
+    font-size: 26px;
 
 }
 img.menu-mobile {
