@@ -46,7 +46,7 @@ div#BBGQuEf {height: 100%;width: 100%;
         </item-head>
         <item-body id="DtYWFsy">
           <item-title id="QOPazcg" contenteditable="true">Préparation au Code de la Route</item-title>
-          <item-desc id="KxbKuRW" contenteditable="true">Forfait "Test Drive"</item-desc>
+          <item-desc id="KxbKuRW" contenteditable="true">Préparez-vous avec Excellence</item-desc>
           <a id="AyNWTpr" href="./preparation-au-code-de-la-route" data-type="a-link" target="_self" class="">En savoir plus</a>
         </item-body>
         <button class="no-export grid-delete-item" onclick="deleteItem('tNcBLJU')">-</button>
