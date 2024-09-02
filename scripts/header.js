@@ -83,7 +83,7 @@ function headerMenu(menu) {
         if (item.dropdown) {
             // Dropdown item
             html += `
-                <li class="dropdown">
+                <li class="display-none dropdown">
                     <a href="${item.url}" class="dropbtn">${item.name}</a>
                     <div class="dropdown-content">
                         ${item.dropdown.map(subItem => 
@@ -95,7 +95,7 @@ function headerMenu(menu) {
         } else {
             // Regular item
             html += `
-                <li><a href="${item.url}">${item.name}</a></li>
+                <li class="display-none"><a href="${item.url}">${item.name}</a></li>
             `;
         }
     });
