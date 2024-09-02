@@ -1,4 +1,4 @@
-const baseUrl = "https://independencedrive.github.io/site/";
+const footerBaseUrl = "https://independencedrive.github.io/site/";
 
 const footerMenuJSON = {
     "sections": [
@@ -16,31 +16,31 @@ const footerMenuJSON = {
         {
             "title": "Prestations",
             "items": [
-                { "name": "Permis B boite manuelle", "url": baseUrl + "permis-b-boite-manuelle" },
-                { "name": "Permis B boite Automatique", "url": baseUrl + "permis-b-boite-automatique" },
-                { "name": "Permis B Accelere", "url": baseUrl + "permis-b-accelere" },
-                { "name": "Permis B Heures illimitees", "url": baseUrl + "permis-b-heures-illimitees" },
-                { "name": "Permis B Conduite Accompagnee", "url": baseUrl + "permis-aac-conduite-accompagnee" },
-                { "name": "Permis B + Voyage a Disney Paris", "url": baseUrl + "permis-b-voyage-disney" }
+                { "name": "Permis B boite manuelle", "url": footerBaseUrl + "permis-b-boite-manuelle" },
+                { "name": "Permis B boite Automatique", "url": footerBaseUrl + "permis-b-boite-automatique" },
+                { "name": "Permis B Accelere", "url": footerBaseUrl + "permis-b-accelere" },
+                { "name": "Permis B Heures illimitees", "url": footerBaseUrl + "permis-b-heures-illimitees" },
+                { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "permis-aac-conduite-accompagnee" },
+                { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "permis-b-voyage-disney" }
             ]
         },
         {
             "title": "Infos",
             "items": [
-                { "name": "A propos", "url": baseUrl + "a-propos" },
-                { "name": "Contact", "url": baseUrl + "contact" },
-                { "name": "Actualites", "url": baseUrl + "actualites" },
-                { "name": "Avis Clients", "url": baseUrl + "avis-clients" }
+                { "name": "A propos", "url": footerBaseUrl + "a-propos" },
+                { "name": "Contact", "url": footerBaseUrl + "contact" },
+                { "name": "Actualites", "url": footerBaseUrl + "actualites" },
+                { "name": "Avis Clients", "url": footerBaseUrl + "avis-clients" }
             ]
         },
         {
             "title": "Legal",
             "items": [
-                { "name": "Mentions legales", "url": baseUrl + "mentions-legales" },
-                { "name": "Conditions generales d'utilisation (CGU)", "url": baseUrl + "conditions-generales-dutilisation" },
-                { "name": "Conditions generales de vente (CGV)", "url": baseUrl + "conditions-generales-de-vente" },
-                { "name": "Politique de confidentialite (RGPD)", "url": baseUrl + "politique-de-confidentialite" },
-                { "name": "Politique de cookies", "url": baseUrl + "politique-de-cookies" }
+                { "name": "Mentions legales", "url": footerBaseUrl + "mentions-legales" },
+                { "name": "Conditions generales d'utilisation (CGU)", "url": footerBaseUrl + "conditions-generales-dutilisation" },
+                { "name": "Conditions generales de vente (CGV)", "url": footerBaseUrl + "conditions-generales-de-vente" },
+                { "name": "Politique de confidentialite (RGPD)", "url": footerBaseUrl + "politique-de-confidentialite" },
+                { "name": "Politique de cookies", "url": footerBaseUrl + "politique-de-cookies" }
             ]
         }
     ]
@@ -54,8 +54,8 @@ function loadFooterMenu(menu) {
         html += `<grid-box><h2>${section.title}</h2>`;
 
         section.items.forEach(item => {
-            // Se mantiene la URL como está en "Contact", se agrega el baseUrl a las otras.
-            let url = section.title === "Contact" ? item.url : baseUrl + item.url;
+            // Se mantiene la URL como está en "Contact", se agrega el footerBaseUrl a las otras.
+            let url = section.title === "Contact" ? item.url : footerBaseUrl + item.url;
             
             html += `<grid-item><a href="${url}" target="_self" class="">`;
 
