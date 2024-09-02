@@ -6,7 +6,7 @@ const menuJSON = {
             "url": baseUrl,
         },
         {
-            "name": "Prestations",
+            "name": "Prestations Permis B",
             "url": "javascript:void(0)",
             "dropdown": [
                 {
@@ -40,6 +40,38 @@ const menuJSON = {
                  {
                     "name": "Prestations Diverses",
                     "url":  baseUrl+"prestations-diverses"
+                }
+            ]
+        },
+        
+         {
+            "name": "Prestation Code de la Route",
+            "url": baseUrl,
+         },
+          {
+            "name": "Prestation Divers",
+            "url": baseUrl,
+         },
+        
+         {
+            "name": "Infos",
+            "url": "javascript:void(0)",
+            "dropdown": [
+                {
+                    "name": "A propos",
+                    "url":  baseUrl+"a-propos"
+                },
+                {
+                    "name": "Contact",
+                    "url":  baseUrl+"contact"
+                },
+                {
+                    "name": "Actualites",
+                    "url":  baseUrl+"actualites"
+                },
+                {
+                    "name": "Avis clients",
+                    "url":  baseUrl+"avis-clients"
                 }
             ]
         },
