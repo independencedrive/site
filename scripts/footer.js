@@ -1,4 +1,4 @@
-const footerBaseUrl = "https://independencedrive.github.io/site/";
+const footerBaseUrl = "https://independencedrive.github.io/site";
 
 const footerMenuJSON = {
     "sections": [
@@ -6,7 +6,7 @@ const footerMenuJSON = {
             "title": "Contact",
             "items": [
                 { "name": "Tel : 0664202157", "url": "tel:+33664202157" },
-                { "name": "independencedrive2018@gmail.com", "url": "#" },
+               { "name": "independencedrive2018@gmail.com", "url": "mailto:independencedrive2018@gmail.com" },
                 { "name": "83 Rue Michel Ange, 34070 Montpellier", "url": "https://www.google.com/maps/search/?api=1&query=83+Rue+Michel+Ange,+34070+Montpellier" },
                 { "name": "Facebook", "url": "https://www.facebook.com/share/5rUeTrLHtpJt3UWt/", "icon": "https://raw.githubusercontent.com/independencedrive/site/main/media/images/facebook_50x50.png" },
                 { "name": "Tiktok", "url": "https://www.tiktok.com/@drivingschool_tv?_t=8ojG0WE6Cob&_r=1", "icon": "https://raw.githubusercontent.com/independencedrive/site/main/media/images/tiktok_50x50.png" },
@@ -16,33 +16,33 @@ const footerMenuJSON = {
         {
             "title": "Prestations",
             "items": [
-                { "name": "Permis B boite manuelle", "url": footerBaseUrl + "permis-b-boite-manuelle" },
-                { "name": "Permis B boite Automatique", "url": footerBaseUrl + "permis-b-boite-automatique" },
-                { "name": "Permis B Accelere", "url": footerBaseUrl + "permis-b-accelere" },
-                { "name": "Permis B Heures illimitees", "url": footerBaseUrl + "permis-b-heures-illimitees" },
-                { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "permis-aac-conduite-accompagnee" },
-                { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "permis-b-voyage-disney" },
-                { "name": "Prestation Code de la Route", "url": footerBaseUrl + "preparation-au-code-de-la-route"  },
-          		{ "name": "Prestation Divers","url":  footerBaseUrl + "prestations-diverses"  }
+                { "name": "Permis B boite manuelle", "url": footerBaseUrl + "/permis-b-boite-manuelle/" },
+                { "name": "Permis B boite Automatique", "url": footerBaseUrl + "/permis-b-boite-automatique/" },
+                { "name": "Permis B Accelere", "url": footerBaseUrl + "/permis-b-accelere/" },
+                { "name": "Permis B Heures illimitees", "url": footerBaseUrl + "/permis-b-heures-illimitees/" },
+                { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "/permis-aac-conduite-accompagnee/" },
+                { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "/permis-b-voyage-disney/" },
+                { "name": "Prestation Code de la Route", "url": footerBaseUrl + "/preparation-au-code-de-la-route/"  },
+          		{ "name": "Prestation Divers","url":  footerBaseUrl + "/prestations-diverses/"  }
             ]
         },
         {
             "title": "Infos",
             "items": [
-                { "name": "A propos", "url": footerBaseUrl + "a-propos" },
-                { "name": "Contact", "url": footerBaseUrl + "contact" },
-                { "name": "Actualites", "url": footerBaseUrl + "actualites" },
-                { "name": "Avis Clients", "url": footerBaseUrl + "avis-clients" }
+                { "name": "A propos", "url": footerBaseUrl + "/a-propos/" },
+                { "name": "Contact", "url": footerBaseUrl + "/contact/" },
+                { "name": "Actualites", "url": footerBaseUrl + "/actualites/" },
+                { "name": "Avis Clients", "url": footerBaseUrl + "/avis-clients/" }
             ]
         },
         {
             "title": "Informations Legales",
             "items": [
-                { "name": "Mentions legales", "url": footerBaseUrl + "mentions-legales" },
-                { "name": "Conditions generales d'utilisation (CGU)", "url": footerBaseUrl + "conditions-generales-dutilisation" },
-                { "name": "Conditions generales de vente (CGV)", "url": footerBaseUrl + "conditions-generales-de-vente" },
-                { "name": "Politique de confidentialite (RGPD)", "url": footerBaseUrl + "politique-de-confidentialite" },
-                { "name": "Politique de cookies", "url": footerBaseUrl + "politique-de-cookies" }
+                { "name": "Mentions legales", "url": footerBaseUrl + "/mentions-legales/" },
+                { "name": "Conditions generales d'utilisation (CGU)", "url": footerBaseUrl + "/conditions-generales-dutilisation/" },
+                { "name": "Conditions generales de vente (CGV)", "url": footerBaseUrl + "/conditions-generales-de-vente/" },
+                { "name": "Politique de confidentialite (RGPD)", "url": footerBaseUrl + "/politique-de-confidentialite/" },
+                { "name": "Politique de cookies", "url": footerBaseUrl + "/politique-de-cookies/" }
             ]
         }
     ]
