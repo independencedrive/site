@@ -43,7 +43,7 @@ a.logo-link {
    padding: 0px;
 }
 div#header a {
-    padding: 10px;
+    padding: 10px!important;
 }
 
 #header ul {
