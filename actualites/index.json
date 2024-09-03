@@ -17,7 +17,199 @@ div#nhcOYHk {height: 100%;width: 100%;
 }
 </style><style id="HLptcXQ" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="YbNqjOs" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {grid-box#sXPUTdC {grid-template-columns: repeat(1, 1fr);height: 100vh;}img#PJkZwTG {object-fit: cover;object-position: -180px;height: 100%;width: 100%;}
 }
-</style><!--HTML--><div id="VNsqjjd" data-type="html"><grid-container id="jFWInJm"><grid-bg id="CiMuPSn" data-type="grid-bg"><!-- bg-color --><div id="GbKbmpK" data-type="bg-color" class="div-hidden"><div id="onzgAVS" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div><div id="TfIWQOG" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="nhcOYHk" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div><!-- bg-image --><div id="OUtHgXF" data-type="bg-image" class="div-visible"><picture id="wFDloVV"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/news-tiny_1456x816.png" data-type="image-bg" loading="lazy"></picture></div><!-- bg-video --><div id="BvNiNWR" data-type="bg-video" class="div-hidden"><video id="evwpvzd" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div></grid-bg><grid-box id="sXPUTdC" style="background-color: rgba(0, 0, 0, 0.16);"><grid-item id="EgsFByC"><h2 id="aujqDur" contenteditable="true"><div>Actualités</div></h2><p id="HNDUHob" contenteditable="true">Mises à Jour du Code de la Route</p></grid-item><grid-item id="yfqClMX"></grid-item></grid-box></grid-container></div><!--JS--><script id="ApnasUp" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section><section id="xCgYQuF" data-type="section"><!--CSS--><grid-css><style id="bVoElWt" type="text/css" data-type="css" data-size="laptop" data-content="section">:root {
+</style><!--HTML--><div id="VNsqjjd" data-type="html"><grid-container id="jFWInJm"><grid-bg id="CiMuPSn" data-type="grid-bg"><!-- bg-color --><div id="GbKbmpK" data-type="bg-color" class="div-hidden"><div id="onzgAVS" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div><div id="TfIWQOG" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div><div id="nhcOYHk" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div></div><!-- bg-image --><div id="OUtHgXF" data-type="bg-image" class="div-visible"><picture id="wFDloVV"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/news-tiny_1456x816.png" data-type="image-bg" loading="lazy"></picture></div><!-- bg-video --><div id="BvNiNWR" data-type="bg-video" class="div-hidden"><video id="evwpvzd" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video></div></grid-bg><grid-box id="sXPUTdC" style="background-color: rgba(0, 0, 0, 0.16);"><grid-item id="EgsFByC"><h2 id="aujqDur" contenteditable="true"><div>Actualités</div></h2><p id="HNDUHob" contenteditable="true">Mises à Jour du Code de la Route</p></grid-item><grid-item id="yfqClMX"></grid-item></grid-box></grid-container></div><!--JS--><script id="ApnasUp" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section><section id="NZjhors" data-type="section">
+      
+      <!--CSS-->
+      <grid-css>
+        <style id="QYQqlGQ" type="text/css" data-type="css" data-size="laptop" data-content="section">:root {
+  --grid-gap: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: var(--grid-gap);
+  width: 100%;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  padding: 35px;
+  border-radius: 0;
+  width: 100%;
+}
+
+grid-content h2 {
+  font-size: clamp(24px, 5vw, 44px);
+  margin-top: 0;
+}
+
+grid-content p {
+  font-size: 16px;
+  margin: 10px 0 0;
+}
+
+.flex-25-percent {
+  flex: 1 1 calc(25% - var(--grid-gap));
+}
+
+.flex-33-percent {
+  flex: 1 1 calc(33.33% - var(--grid-gap));
+}
+
+.flex-50-percent {
+  flex: 1 1 calc(50% - var(--grid-gap));
+}
+
+.flex-100-percent {
+  flex: 1 1 calc(100% - var(--grid-gap));
+}
+
+grid-container#KHjgtyb {
+  position: relative;
+}
+
+grid-bg#YnLpYAE {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  display: block;
+}
+
+div#ZNeZTyT,
+div#hHhRcxc,
+div#mpXgUHp,
+div#qihVzwP {
+  height: 100%;
+  width: 100%;
+}
+
+div#VONdKbw {
+  height: 100%;
+  width: 100%;
+}
+
+div#SNtWjsn {
+  height: 100%;
+  width: 100%;
+}
+
+img#tzeThSV {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+video#bnVzRtC {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+grid-content#lwYliWG {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--grid-gap);
+  width: 100%;
+  height: 80vh;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+grid-content#lwYliWG grid-box1 {
+  display: grid;
+  background: white;
+  padding: 35px;
+  gap: 1px;
+  grid-template-columns: 1fr;
+  place-content: baseline;
+}
+</style>
+        <style id="GawYRhY" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
+  
+  }</style>
+        <style id="qMxFIFA" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style>
+      </grid-css>  
+      <!--BG-->
+      <grid-bg id="YnLpYAE" data-type="grid-bg">
+          <!-- bg-color -->
+          <div id="ZNeZTyT" data-type="bg-color" class="div-hidden">
+            <div id="hHhRcxc" data-type="solid-color" class="div-visible" style="background: rgb(0, 115, 255);"></div>
+            <div id="mpXgUHp" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="qihVzwP" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          </div> 
+          <!-- bg-image -->
+          <div id="VONdKbw" data-type="bg-image" class="div-visible">
+            <picture id="sgccRMK">
+              <source srcset="" media="(max-width:640px)">
+              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+              <img id="tzeThSV" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/news-tiny_1456x816.png" data-type="image-bg" loading="lazy">
+            </picture>
+          </div> 
+          <!-- bg-video -->
+          <div id="SNtWjsn" data-type="bg-video" class="div-hidden">
+            <video id="bnVzRtC" autoplay="" loop="" muted="" loading="lazy" data-type="video-bg" src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4"></video>
+          </div> 
+      </grid-bg>
+      <!--HTML-->
+      <grid-container id="KHjgtyb" data-type="html">
+      
+      <grid-content id="lwYliWG" contenteditable="true">
+      <p class="grid-id-info no-export">grid-content: lwYliWG</p>
+          
+          
+      
+    
+
+  
+    
+
+  
+    
+
+  
+    <flex-box1 id="NsQjvpb" class="box flex-33-percent">
+    <!-- grid-flexID -->
+      <p class="grid-id-info no-export">grid-flexID : NsQjvpb</p>
+
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('NsQjvpb')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('NsQjvpb')">
+          -
+        </button>
+      </div>
+    
+    </flex-box1>
+
+    
+
+    
+  </grid-content>
+      <div class="grid-edit-buttons"> 
+      <button contenteditable="false" id="kULKFnu" class="add-gridbox1" no-export"="" onclick="addFlexCols('lwYliWG');">+</button>    
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+      </div> 
+      
+    </grid-container>
+      
+      
+      <!--JS-->
+      <script id="oXlAeUu" data-type="js"></script>
+      <!--EDIT-->
+      <div class="no-export">
+        
+        
+      </div>
+  </section><section id="xCgYQuF" data-type="section"><!--CSS--><grid-css><style id="bVoElWt" type="text/css" data-type="css" data-size="laptop" data-content="section">:root {
   --grid-gap: 10px;
 }
 
@@ -224,4 +416,6 @@ grid-content#dLBFBWb grid-box1 {
     <p>Une formation sur la conduite éco-responsable devient obligatoire pour les candidats ayant échoué à leur première tentative d'examen pratique.</p>
   </flex-box1>
 
-  </grid-content><div class="grid-edit-buttons"><button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></div></grid-container><!--JS--><script id="JnrcWZl" data-type="js"></script><!--EDIT--><div class="no-export"></div></section></grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
+  </grid-content><div class="grid-edit-buttons"><button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></div></grid-container><!--JS--><script id="JnrcWZl" data-type="js"></script><!--EDIT--><div class="no-export"></div></section>
+  
+  </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
