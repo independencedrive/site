@@ -35,6 +35,10 @@ img.logo-header {
     width: 100%;
 }
 
+a.logo-link:hover {
+    background: none !important;
+}
+
 #header ul {
     list-style-type: none;
     margin: 0;
