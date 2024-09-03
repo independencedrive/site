@@ -40,10 +40,10 @@ a.logo-link:hover {
 }
 
 a.logo-link {
-   padding: 0px;
+   padding: 0px!important;
 }
 div#header a {
-    padding: 10px!important;
+    padding: 10px;
 }
 
 #header ul {
