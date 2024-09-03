@@ -186,9 +186,9 @@ grid-content#dLBFBWb grid-box1 {
     
     <h2>Formation Complémentaire sur la Conduite Éco-Responsable</h2>
   
-    <h4>Octobre 2024</h4>
+    <h4>Janvier 2022</h4>
   
-    <p>Une formation sur la conduite éco-responsable devient obligatoire pour les candidats ayant échoué à leur première tentative d'examen pratique</p>
+    <p>Création d'une nouvelle catégorie de permis pour les véhicules électriques légers, avec des formations spécifiques sur ces véhicules.</p>
   </flex-box1>
 
   
@@ -199,6 +199,28 @@ grid-content#dLBFBWb grid-box1 {
     
 
     
+  
+    <flex-box1 id="BQeAfHP" class="box flex-100-percent">
+    <!-- grid-flexID -->
+      <p class="grid-id-info no-export">grid-flexID : BQeAfHP</p>
+
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('BQeAfHP')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('BQeAfHP')">
+          -
+        </button>
+      </div>
+    
+    
+    <h2>Este es un H2</h2>
+  
+    <h4>Este es un H4</h4>
+  
+    <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre</p>
+  </flex-box1>
+
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button>    
