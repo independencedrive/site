@@ -287,6 +287,28 @@ grid-content#dLBFBWb grid-box1 {
     <p>Extension du système de permis à points à certains véhicules légers, y compris les motos de faible cylindrée.</p>
   </flex-box1>
 
+  
+    <flex-box1 id="VzXRIAT" class="box flex-100-percent">
+    <!-- grid-flexID -->
+      <p class="grid-id-info no-export">grid-flexID : VzXRIAT</p>
+
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('VzXRIAT')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('VzXRIAT')">
+          -
+        </button>
+      </div>
+    
+    
+    <h2>Réforme de l'Examen Pratique du Permis B</h2>
+  
+    <h4>Décembre 2022</h4>
+  
+    <p>Réforme de l'examen pratique pour inclure des évaluations en situation réelle, comme la conduite sur autoroute et dans des conditions météorologiques défavorables.</p>
+  </flex-box1>
+
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button>    
