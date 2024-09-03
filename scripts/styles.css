@@ -169,7 +169,7 @@ div#footer {
 }
 
 .footer-section {
-    padding: clamp(5%, 3vw, 10%);
+    padding: clamp(35, 3vw, 35px);
     background: #000000;
     display: grid;
     gap: 20px;
@@ -185,7 +185,7 @@ div#footer grid-box {
 
 div#footer a {
     color: white;
-    font-size: clamp(16px, 4vw, 19px);
+    font-size: clamp(16px, 4vw, 16px);
     border-radius: 10px;
     text-underline-position: under;
     display: grid;
