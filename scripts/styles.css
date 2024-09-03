@@ -163,6 +163,13 @@ div#footer {
     background: #263238;
     min-height: 50px;
 }
+.footer-section {
+    padding: clamp(5%, 3vw, 10%);
+    background: #000000;
+    display: grid;
+    gap: 20px;
+    place-content: baseline;
+}
 
 div#footer grid-box {
     padding: 35px;
