@@ -77,7 +77,7 @@ function headerMenu(menu) {
     let html = '<ul>';
 
     // Logo
-    html += '<li><a href = "${baseUrl}" ><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></a></li>';
+    html += `<li><a href = "${baseUrl}" ><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></a></li>`;
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
