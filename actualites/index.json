@@ -275,7 +275,29 @@ grid-content#dLBFBWb grid-box1 {
     <h4>Janvier 2024</h4>
     <p>Tous les candidats au permis doivent suivre une formation spécifique sur l'éco-conduite pour réduire les émissions polluantes et la consommation de carburant.</p>
   </flex-box1>
-</grid-content>
+
+    <flex-box1 id="MFdVYfN" class="box flex-100-percent">
+    <!-- grid-flexID -->
+      <p class="grid-id-info no-export">grid-flexID : MFdVYfN</p>
+
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('MFdVYfN')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('MFdVYfN')">
+          -
+        </button>
+      </div>
+    
+    
+    <h2>Introduction du Permis de Conduire à 17 Ans</h2>
+  
+    <h4>Janvier 2024</h4>
+  
+    <p>Les jeunes conducteurs peuvent désormais obtenir leur permis de conduire dès 17 ans, à condition d'avoir suivi un parcours de conduite accompagnée (AAC) pendant au moins un an. Toutefois, ils ne peuvent conduire seuls qu'à partir de 18 ans.</p>
+  </flex-box1>
+
+  </grid-content>
 <div class="grid-edit-buttons">
   <button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button>
   <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
