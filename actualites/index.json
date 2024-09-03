@@ -31,7 +31,6 @@ div#nhcOYHk {height: 100%;width: 100%;
   justify-content: space-around;
   gap: var(--grid-gap);
   width: 100%;
-  height: 80vh;
   padding: 35px;
   box-sizing: border-box;
 }
@@ -43,6 +42,7 @@ div#nhcOYHk {height: 100%;width: 100%;
   padding: 35px;
   border-radius: 0;
   width: 100%;
+  height: 80vh;
 }
 
 grid-content h2 {
