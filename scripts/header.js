@@ -1,9 +1,9 @@
-const baseUrl = "https://independencedrive.github.io/site/";
+const baseUrl = "https://independencedrive.github.io/site";
 const menuJSON = {
     "items": [
         {
             "name": "Accueil",
-            "url": baseUrl,
+            "url": "/",
         },
         {
             "name": "Prestations Permis B",
@@ -11,38 +11,38 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "Permis B Boite Manuelle",
-                    "url":  baseUrl+"permis-b-boite-manuelle"
+                    "url":  baseUrl+"/permis-b-boite-manuelle/"
                 },
                 {
                     "name": "Permis B Boite Automatique",
-                    "url":  baseUrl+"permis-b-boite-automatique"
+                    "url":  baseUrl+"/permis-b-boite-automatique/"
                 },
                 {
                     "name": "Permis B Accelere",
-                    "url":  baseUrl+"permis-b-accelere"
+                    "url":  baseUrl+"/permis-b-accelere/"
                 },
                  {
                     "name": "Permis B Heures illimitees",
-                     "url":  baseUrl+"permis-b-heures-illimitees"
+                     "url":  baseUrl+"/permis-b-heures-illimitees/"
                 },
                  {
                     "name": "Permis B Conduite Accompagnee",
-                    "url":  baseUrl+"permis-aac-conduite-accompagnee"
+                    "url":  baseUrl+"/permis-aac-conduite-accompagnee/"
                 },
                  {
                     "name": "Permis B + Voyage a Disney Paris",
-                    "url":  baseUrl+"permis-b-voyage-disney"
+                    "url":  baseUrl+"/permis-b-voyage-disney/"
                 }
             ]
         },
         
          {
             "name": "Prestation Code de la Route",
-            "url": baseUrl+"preparation-au-code-de-la-route"
+            "url": baseUrl+"/preparation-au-code-de-la-route/"
          },
           {
             "name": "Prestation Divers",
-            "url":  baseUrl+"prestations-diverses"
+            "url":  baseUrl+"/prestations-diverses/"
          },
         
         {
@@ -51,19 +51,19 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "A propos",
-                    "url":  baseUrl+"a-propos"
+                    "url":  baseUrl+"/a-propos/"
                 },
                 {
                     "name": "Contact",
-                    "url":  baseUrl+"contact"
+                    "url":  baseUrl+"/contact/"
                 },
                 {
                     "name": "Actualites",
-                    "url":  baseUrl+"actualites"
+                    "url":  baseUrl+"/actualites/"
                 },
                 {
                     "name": "Avis clients",
-                    "url":  baseUrl+"avis-clients"
+                    "url":  baseUrl+"/avis-clients/"
                 }
             ]
         }
