@@ -190,7 +190,7 @@ div#footer a {
     text-underline-position: under;
     display: grid;
     place-content: center;
-    height: clamp(35px, 3vw, 40px);
+    height: clamp(35px, 3vw, 35px);
     font-family: system-ui;
 }
 
