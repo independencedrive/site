@@ -12,6 +12,11 @@ p.grid-id-info {
     display: none;
 }
 
+img.menu-mobile {
+    height: 100px;
+    width: 100px;
+}
+
 #header {
     position: sticky;
     top: 0;
