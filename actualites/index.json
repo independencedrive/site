@@ -309,6 +309,28 @@ grid-content#dLBFBWb grid-box1 {
     <p>Réforme de l'examen pratique pour inclure des évaluations en situation réelle, comme la conduite sur autoroute et dans des conditions météorologiques défavorables.</p>
   </flex-box1>
 
+  
+    <flex-box1 id="WxSGEOg" class="box flex-100-percent">
+    <!-- grid-flexID -->
+      <p class="grid-id-info no-export">grid-flexID : WxSGEOg</p>
+
+      <div class="grid-edit-buttons"> 
+        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('WxSGEOg')">
+            +
+        </button>
+        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('WxSGEOg')">
+          -
+        </button>
+      </div>
+    
+    
+    <h2>Nouveau Barème des Points pour les Jeunes Conducteurs</h2>
+  
+    <h4>Mars 2023</h4>
+  
+    <p>Introduction d'un nouveau barème de points pour les jeunes conducteurs, avec des pénalités plus sévères pour certaines infractions.</p>
+  </flex-box1>
+
   </grid-content>
       <div class="grid-edit-buttons"> 
       <button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button>    
