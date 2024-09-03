@@ -184,14 +184,13 @@ div#footer grid-box {
 }
 
 div#footer a {
-    color: white;
+  	color: white;
     font-size: clamp(16px, 4vw, 16px);
-    border-radius: 10px;
     text-underline-position: under;
-    display: grid;
-    place-content: center;
+    display: flex;
     height: clamp(35px, 3vw, 35px);
     font-family: system-ui;
+    gap: 10px;
 }
 
 div#footer h2 {
