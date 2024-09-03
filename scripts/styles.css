@@ -15,6 +15,7 @@ p.grid-id-info {
 img.menu-mobile {
     height: 100px;
     width: 100px;
+    display:none;
 }
 
 #header {
@@ -245,16 +246,16 @@ div#footer li {
         grid-template-columns: 1fr;
     }
 
-    img.menu-mobile {
-        display: grid;
-        place-content: center;
-        height: 100px;
-        width: 100px;
-    }
 }
 
 @media screen and (max-width: 1024px) {
     .display-none {
         display: none !important;
+    }
+    img.menu-mobile {
+        display: grid;
+        place-content: center;
+        height: 100px;
+        width: 100px;
     }
 }
