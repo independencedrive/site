@@ -3,7 +3,7 @@ const menuJSON = {
     "items": [
         {
             "name": "Accueil",
-            "url": "/",
+            "url": baseUrl,
         },
         {
             "name": "Prestations Permis B",
