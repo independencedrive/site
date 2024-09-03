@@ -22,9 +22,8 @@ const footerMenuJSON = {
                 { "name": "Permis B Heures illimitees", "url": footerBaseUrl + "permis-b-heures-illimitees" },
                 { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "permis-aac-conduite-accompagnee" },
                 { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "permis-b-voyage-disney" },
-                { "name": "Prestation Code de la Route", "url": baseUrl+"preparation-au-code-de-la-route"  },
-          		{ "name": "Prestation Divers","url":  baseUrl+"prestations-diverses"  }
-           
+                { "name": "Prestation Code de la Route", "url": footerBaseUrl + "preparation-au-code-de-la-route"  },
+          		{ "name": "Prestation Divers","url":  footerBaseUrl + "prestations-diverses"  }
             ]
         },
         {
@@ -51,25 +50,29 @@ const footerMenuJSON = {
 
 function loadFooterMenu(menu) {
     const footer = document.getElementById('footer');
-    let html = '';
+    if (footer) {
+        let html = '';
 
-    menu.sections.forEach(section => {
-        html += `<grid-box><h2>${section.title}</h2>`;
+        menu.sections.forEach(section => {
+            html += `<div class="footer-section"><h2>${section.title}</h2><ul>`;
 
-        section.items.forEach(item => {
-            html += `<grid-item><a href="${item.url}" target="_self" class="">`;
+            section.items.forEach(item => {
+                html += `<li><a href="${item.url}" class="">`;
 
-            if (item.icon) {
-                html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
-            }
+                if (item.icon) {
+                    html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
+                }
 
-            html += `${item.name}</a></grid-item>`;
+                html += `${item.name}</a></li>`;
+            });
+
+            html += `</ul></div>`;
         });
 
-        html += `</grid-box>`;
-    });
-    
-    footer.innerHTML = html;
+        footer.innerHTML = html;
+    } else {
+        console.error('Footer element not found!');
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
