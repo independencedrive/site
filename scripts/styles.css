@@ -232,15 +232,7 @@ div#footer li {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    img.logo-header {
-        object-fit: cover;
-        width: 300px;
-    }
-
-    #header ul {
-        display: grid;
-        grid-template-columns: 1fr 100px;
-    }
+   
 }
 
 @media screen and (max-width: 640px) {
@@ -263,5 +255,14 @@ div#footer li {
         place-content: center;
         height: 100px;
         width: 100px;
+    }
+     img.logo-header {
+        object-fit: cover;
+        width: 300px;
+    }
+
+    #header ul {
+        display: grid;
+        grid-template-columns: 1fr 100px;
     }
 }
