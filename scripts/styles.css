@@ -191,6 +191,7 @@ div#footer a {
     display: grid;
     place-content: center;
     height: clamp(35px, 3vw, 40px);
+    font-family: system-ui;
 }
 
 div#footer h2 {
