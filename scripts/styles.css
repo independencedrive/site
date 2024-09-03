@@ -186,6 +186,7 @@ div#footer a {
     text-underline-position: under;
     display: grid;
     place-content: center;
+    margin-bottom: clamp(5px, 3vw, 10px);
 }
 
 div#footer h2 {
