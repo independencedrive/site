@@ -38,7 +38,11 @@ img.logo-header {
 a.logo-link:hover {
     background: none !important;
 }
-div#header a:not(:first-of-type) {
+
+a.logo-link {
+   padding: 0px;
+}
+div#header a {
     padding: 10px;
 }
 
