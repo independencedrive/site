@@ -31,6 +31,7 @@ div#nhcOYHk {height: 100%;width: 100%;
   justify-content: space-around;
   gap: var(--grid-gap);
   width: 100%;
+  height: 80vh;
   padding: 35px;
   box-sizing: border-box;
 }
@@ -118,7 +119,6 @@ grid-content#lwYliWG {
   justify-content: flex-start;
   gap: var(--grid-gap);
   width: 100%;
-  height: 80vh;
   padding: 3%;
   box-sizing: border-box;
 }
