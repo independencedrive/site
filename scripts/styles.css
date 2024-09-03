@@ -8,6 +8,10 @@ body {
     font-family: system-ui;
 }
 
+p.grid-id-info {
+    display: none;
+}
+
 #header {
     position: sticky;
     top: 0;
