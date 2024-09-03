@@ -184,6 +184,9 @@ div#footer h2 {
     color: white;
     font-size: 26px;
 }
+div#footer li {
+    display:flex;
+}
 
 /* Buttons */
 .white-button {
