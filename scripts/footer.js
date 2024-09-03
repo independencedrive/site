@@ -6,7 +6,7 @@ const footerMenuJSON = {
             "title": "Contact",
             "items": [
                 { "name": "Tel : 0664202157", "url": "tel:+33664202157" },
-               { "name": "independencedrive2018@gmail.com", "url": "mailto:independencedrive2018@gmail.com" },
+                { "name": "independencedrive2018@gmail.com", "url": "mailto:independencedrive2018@gmail.com" },
                 { "name": "83 Rue Michel Ange, 34070 Montpellier", "url": "https://www.google.com/maps/search/?api=1&query=83+Rue+Michel+Ange,+34070+Montpellier" },
                 { "name": "Facebook", "url": "https://www.facebook.com/share/5rUeTrLHtpJt3UWt/", "icon": "https://raw.githubusercontent.com/independencedrive/site/main/media/images/facebook_50x50.png" },
                 { "name": "Tiktok", "url": "https://www.tiktok.com/@drivingschool_tv?_t=8ojG0WE6Cob&_r=1", "icon": "https://raw.githubusercontent.com/independencedrive/site/main/media/images/tiktok_50x50.png" },
