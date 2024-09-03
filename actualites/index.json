@@ -163,225 +163,112 @@ grid-content#dLBFBWb grid-box1 {
           </div> 
       </grid-bg>
       <!--HTML-->
-      <grid-container id="fBEMAFi" data-type="html">
-      
-      <grid-content id="dLBFBWb" contenteditable="true">
-      <p class="grid-id-info no-export">grid-content: dLBFBWb</p>
-          
-          
-      
-    <flex-box1 id="joxMrQg" class="box flex-100-percent">
+      <grid-container id="fBEMAFi" data-type="html"><grid-content id="dLBFBWb" contenteditable="true">
+  <p class="grid-id-info no-export">grid-content: dLBFBWb</p>
+  <flex-box1 id="joxMrQg" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : joxMrQg</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('joxMrQg')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('joxMrQg')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : joxMrQg</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('joxMrQg')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('joxMrQg')"> - </button>
+    </div>
     <h2>Formation Complémentaire sur la Conduite Éco-Responsable</h2>
-  
     <h4>Janvier 2022</h4>
-  
     <p>Création d'une nouvelle catégorie de permis pour les véhicules électriques légers, avec des formations spécifiques sur ces véhicules.</p>
   </flex-box1>
-
-  
-    
-
-    
-  
-    
-
-    
-  
-    <flex-box1 id="BQeAfHP" class="box flex-100-percent">
+  <flex-box1 id="BQeAfHP" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : BQeAfHP</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('BQeAfHP')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('BQeAfHP')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : BQeAfHP</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('BQeAfHP')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('BQeAfHP')"> - </button>
+    </div>
     <h2>Accès Simplifié aux Cours de Code en Ligne</h2>
-  
     <h4>Février 2022</h4>
-  
     <p>Facilitation de l'accès aux cours de code en ligne avec validation numérique des heures de formation.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="FLzdprv" class="box flex-100-percent">
+  <flex-box1 id="FLzdprv" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : FLzdprv</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('FLzdprv')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('FLzdprv')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : FLzdprv</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('FLzdprv')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('FLzdprv')"> - </button>
+    </div>
     <h2>Introduction d'une Formation Complémentaire Post-Permis</h2>
-  
     <h4>Mai 2022</h4>
-  
     <p>Introduction d'une formation complémentaire post-permis pour les nouveaux conducteurs, visant à renforcer leur expérience.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="IcVGQrD" class="box flex-100-percent">
+  <flex-box1 id="IcVGQrD" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : IcVGQrD</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('IcVGQrD')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('IcVGQrD')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : IcVGQrD</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('IcVGQrD')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('IcVGQrD')"> - </button>
+    </div>
     <h2>Simplification de la Procédure de Renouvellement du Permis</h2>
-  
     <h4>Août 2022</h4>
-  
     <p>Simplification de la procédure de renouvellement du permis, avec la possibilité de faire la demande en ligne via le portail France Titre.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="LROxzOn" class="box flex-100-percent">
+  <flex-box1 id="LROxzOn" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : LROxzOn</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('LROxzOn')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('LROxzOn')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : LROxzOn</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('LROxzOn')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('LROxzOn')"> - </button>
+    </div>
     <h2>Extension des Permis à Points pour les Véhicules Légers</h2>
-  
     <h4>Septembre 2022</h4>
-  
     <p>Extension du système de permis à points à certains véhicules légers, y compris les motos de faible cylindrée.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="VzXRIAT" class="box flex-100-percent">
+  <flex-box1 id="VzXRIAT" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : VzXRIAT</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('VzXRIAT')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('VzXRIAT')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : VzXRIAT</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('VzXRIAT')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('VzXRIAT')"> - </button>
+    </div>
     <h2>Réforme de l'Examen Pratique du Permis B</h2>
-  
     <h4>Décembre 2022</h4>
-  
     <p>Réforme de l'examen pratique pour inclure des évaluations en situation réelle, comme la conduite sur autoroute et dans des conditions météorologiques défavorables.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="WxSGEOg" class="box flex-100-percent">
+  <flex-box1 id="WxSGEOg" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : WxSGEOg</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('WxSGEOg')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('WxSGEOg')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : WxSGEOg</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('WxSGEOg')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('WxSGEOg')"> - </button>
+    </div>
     <h2>Nouveau Barème des Points pour les Jeunes Conducteurs</h2>
-  
     <h4>Mars 2023</h4>
-  
     <p>Introduction d'un nouveau barème de points pour les jeunes conducteurs, avec des pénalités plus sévères pour certaines infractions.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="VVswHKU" class="box flex-100-percent">
+  <flex-box1 id="VVswHKU" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : VVswHKU</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('VVswHKU')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('VVswHKU')">
-          -
-        </button>
-      </div>
-    
-    
+    <p class="grid-id-info no-export">grid-flexID : VVswHKU</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('VVswHKU')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('VVswHKU')"> - </button>
+    </div>
     <h2>Augmentation des Pénalités pour Usage du Téléphone au Volant</h2>
-  
     <h4>Juin 2023</h4>
-  
     <p>Renforcement des sanctions pour l'usage du téléphone au volant avec une amende augmentée et un retrait de 3 points sur le permis.</p>
   </flex-box1>
-
-  
-    <flex-box1 id="OMTyzEC" class="box flex-100-percent">
+  <flex-box1 id="OMTyzEC" class="box flex-100-percent">
     <!-- grid-flexID -->
-      <p class="grid-id-info no-export">grid-flexID : OMTyzEC</p>
-
-      <div class="grid-edit-buttons"> 
-        <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('OMTyzEC')">
-            +
-        </button>
-        <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('OMTyzEC')">
-          -
-        </button>
-      </div>
-    
-    
-    <h1 class="style=" grid-column:="" span="" 12;""="">Mise à jour du Code de la Route</h1>
-  
+    <p class="grid-id-info no-export">grid-flexID : OMTyzEC</p>
+    <div class="grid-edit-buttons">
+      <button contenteditable="false" class="always-at-end no-export" onclick="openFlexItems('OMTyzEC')"> + </button>
+      <button contenteditable="false" class="delete-grid no-export" onclick="removeContent('OMTyzEC')"> - </button>
+    </div>
+    <h2 class="style=" grid-column:="" span="" 12;""="">Mise à jour du Code de la Route</h2>
     <h3>Octobre 2023</h3>
-  
     <p>Mise à jour du Code de la Route pour inclure de nouvelles règles concernant les trottinettes électriques et autres engins de déplacement personnel motorisés.</p>
   </flex-box1>
-
-  </grid-content>
-      <div class="grid-edit-buttons"> 
-      <button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button>    
-      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
-      </div> 
-      
-    </grid-container>
+</grid-content>
+<div class="grid-edit-buttons">
+  <button contenteditable="false" id="rrZJRBx" class="add-gridbox1" no-export"="" onclick="addFlexCols('dLBFBWb');">+</button>
+  <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+</div></grid-container>
       
       
       <!--JS-->
