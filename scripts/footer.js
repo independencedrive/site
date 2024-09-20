@@ -2,12 +2,12 @@ const footerBaseUrl = "https://independencedrive.github.io/site";
 
 const footerMenuJSON = {
     "cta": {
-        "title": "Rejoignez-nous dès aujourd'hui !",
+        "title": "Pr&eacute;'inscription en ligne",
         "items": [
             { 
-                "name": "Inscrivez-vous maintenant", 
+                "name": "Choisissez votre formule", 
                 "url": "https://www.sarool.fr/ext/inscription-formule/?cle=41986111447775083",
-                "button": true // Indica que este elemento es un botón
+                "button": true 
             }
         ]
     },
