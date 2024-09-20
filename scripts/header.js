@@ -110,9 +110,12 @@ function headerMenu(menu) {
     // Add click event to the mobile menu image to toggle the menu
     const menuIcon = document.getElementById('menu-icon');
     menuIcon.addEventListener('click', () => {
-        
-       alert('open sidebar');
-       
+        const menuItems = document.querySelectorAll('#header ul li');
+        menuItems.forEach((item, index) => {
+            if (index > 0) { // Skip the logo
+                item.classList.toggle('display-none');
+            }
+        });
     });
 }
 
