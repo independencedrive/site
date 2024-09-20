@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 /* General */
+.footer-cta {
+    grid-column: 1 / -1;
+    place-content: center;
+    place-items: center;
+    display: grid;
+    gap: 20px;
+    background: white;
+    min-height: 200px;
+}
 body {
     background: #263238;
     width: 100%;
