@@ -110,7 +110,7 @@ function headerMenu(menu) {
     // Add click event to the mobile menu image to toggle the menu
     const menuIcon = document.getElementById('menu-icon');
     menuIcon.addEventListener('click', () => {
-        alert('hi');
+        openSidebar();
     });
 }
 
