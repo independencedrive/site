@@ -38,6 +38,7 @@ div#sidebar {
     #sidebar li {
         font-size: 16px;
         font-family: inherit;
+        margin: 15px 0;
     }
 }
 
