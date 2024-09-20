@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 div#sidebar {
-    display: none;
+    display:none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,6 +12,7 @@ div#sidebar {
         width: 100px;
     }
     div#sidebar {
+        display:none;
         position: fixed;
         top: 0;
         right: 0;
@@ -23,21 +24,8 @@ div#sidebar {
         overflow-y: scroll;
         place-content: baseline;
     }
-    .close-div {
-        position: fixed;
-        top: 0;
-        right: 0;
-        margin: 15px;
-    }
-    #sidebar h2 {
-        font-size: 24px;
-        font-family: inherit;
-    }
-    #sidebar li {
-        font-size: 16px;
-        font-family: inherit;
-    }
 }
+
 
 /* General */
 .footer-cta {
@@ -64,7 +52,7 @@ p.grid-id-info {
 img.menu-mobile {
     height: 100px;
     width: 100px;
-    display: none;
+    display:none;
 }
 
 #header {
@@ -88,9 +76,8 @@ a.logo-link:hover {
 }
 
 a.logo-link {
-    padding: 0 !important;
+   padding: 0px!important;
 }
-
 div#header a {
     padding: 10px;
 }
@@ -255,7 +242,7 @@ div#footer grid-box {
 }
 
 div#footer a {
-    color: white;
+  	color: white;
     font-size: clamp(16px, 4vw, 16px);
     text-underline-position: under;
     display: flex;
@@ -268,9 +255,8 @@ div#footer h2 {
     color: #00a5ff;
     font-size: 26px;
 }
-
 div#footer li {
-    display: flex;
+    display:flex;
 }
 
 /* Buttons */
@@ -291,6 +277,8 @@ div#footer li {
     div#footer {
         grid-template-columns: repeat(2, 1fr);
     }
+
+   
 }
 
 @media screen and (max-width: 640px) {
@@ -301,13 +289,20 @@ div#footer li {
     div#footer {
         grid-template-columns: 1fr;
     }
+
 }
 
 @media screen and (max-width: 1024px) {
     .display-none {
         display: none !important;
     }
-    img.logo-header {
+    img.menu-mobile {
+        display: grid;
+        place-content: center;
+        height: 100px;
+        width: 100px;
+    }
+     img.logo-header {
         object-fit: cover;
         width: 300px;
     }
@@ -355,3 +350,4 @@ div#footer li {
 .sidebar a:hover {
     color: #f1f1f1;
 }
+
