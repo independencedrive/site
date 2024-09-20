@@ -65,6 +65,7 @@ div#sidebar {
         padding: 35px;
         overflow-y: scroll;
         place-content: baseline;
+        gap:10px;
     }
 }
 
