@@ -1,6 +1,16 @@
 const footerBaseUrl = "https://independencedrive.github.io/site";
 
 const footerMenuJSON = {
+    "cta": {
+        "title": "Rejoignez-nous dès aujourd'hui !",
+        "items": [
+            { 
+                "name": "Inscrivez-vous maintenant", 
+                "url": "https://www.sarool.fr/ext/inscription-formule/?cle=41986111447775083",
+                "button": true // Indica que este elemento es un botón
+            }
+        ]
+    },
     "sections": [
         {
             "title": "Contact",
@@ -23,7 +33,7 @@ const footerMenuJSON = {
                 { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "/permis-aac-conduite-accompagnee/" },
                 { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "/permis-b-voyage-disney/" },
                 { "name": "Prestation Code de la Route", "url": footerBaseUrl + "/preparation-au-code-de-la-route/"  },
-          		{ "name": "Prestation Divers","url":  footerBaseUrl + "/prestations-diverses/"  }
+                { "name": "Prestation Divers","url":  footerBaseUrl + "/prestations-diverses/"  }
             ]
         },
         {
@@ -53,6 +63,21 @@ function loadFooterMenu(menu) {
     if (footer) {
         let html = '';
 
+        // Genera primero el bloque del CTA
+        if (menu.cta) {
+            html += `<div class="footer-cta" style="background-color: #f9f9f9; padding: 20px; text-align: center;">`;
+            html += `<h2>${menu.cta.title}</h2>`;
+            menu.cta.items.forEach(item => {
+                if (item.button) {
+                    html += `<a href="${item.url}" style="text-decoration: none;">`;
+                    html += `<button style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">${item.name}</button>`;
+                    html += `</a>`;
+                }
+            });
+            html += `</div>`;
+        }
+
+        // Genera las secciones del footer
         menu.sections.forEach(section => {
             html += `<div class="footer-section"><h2>${section.title}</h2><ul>`;
 
@@ -78,20 +103,3 @@ function loadFooterMenu(menu) {
 document.addEventListener('DOMContentLoaded', () => {
     loadFooterMenu(footerMenuJSON);
 });
-
-function insertDivAfterFooter(content) {
-    const footer = document.getElementById('footer');
-    
-    if (footer) {
-        // Inserta el nuevo div justo después del footer
-        footer.insertAdjacentHTML('afterend', `<div id="new-div">${content}</div>`);
-    } else {
-        console.error('Footer element not found!');
-    }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Llama a la función con el contenido que deseas insertar en el nuevo div
-    insertDivAfterFooter('<p>This is the content of the new div, right after the footer.</p>');
-});
-
