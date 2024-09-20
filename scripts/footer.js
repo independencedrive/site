@@ -160,7 +160,7 @@ function loadSidebarMenu(menu) {
 
         // Añade funcionalidad para cerrar el sidebar
         document.getElementById('closeSidebar').addEventListener('click', () => {
-            sidebar.style.display = 'none';
+            closeSidebar();
         });
     } else {
         console.error('Sidebar element not found!');
