@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
+div#sidebar {
+    display:none;
+}
+
+@media screen and (max-width: 1024px) {
+    img.menu-mobile {
+        display: grid;
+        place-content: center;
+        height: 100px;
+        width: 100px;
+    }
+    div#sidebar {
+        display:none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        background: white;
+        min-height: 100vh;
+        box-sizing: border-box;
+        padding: 35px;
+        overflow-y: scroll;
+        place-content: baseline;
+    }
+}
+
+
 /* General */
 .footer-cta {
     grid-column: 1 / -1;
