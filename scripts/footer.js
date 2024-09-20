@@ -78,3 +78,20 @@ function loadFooterMenu(menu) {
 document.addEventListener('DOMContentLoaded', () => {
     loadFooterMenu(footerMenuJSON);
 });
+
+function insertDivAfterFooter(content) {
+    const footer = document.getElementById('footer');
+    
+    if (footer) {
+        // Inserta el nuevo div justo después del footer
+        footer.insertAdjacentHTML('afterend', `<div id="new-div">${content}</div>`);
+    } else {
+        console.error('Footer element not found!');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Llama a la función con el contenido que deseas insertar en el nuevo div
+    insertDivAfterFooter('<p>This is the content of the new div, right after the footer.</p>');
+});
+
