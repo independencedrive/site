@@ -21,30 +21,28 @@ const menuJSON = {
                     "name": "Permis B Accelere",
                     "url":  baseUrl+"/permis-b-accelere/"
                 },
-                 {
+                {
                     "name": "Permis B Heures illimitees",
-                     "url":  baseUrl+"/permis-b-heures-illimitees/"
+                    "url":  baseUrl+"/permis-b-heures-illimitees/"
                 },
-                 {
+                {
                     "name": "Permis B Conduite Accompagnee",
                     "url":  baseUrl+"/permis-aac-conduite-accompagnee/"
                 },
-                 {
+                {
                     "name": "Permis B + Voyage a Disney Paris",
                     "url":  baseUrl+"/permis-b-voyage-disney/"
                 }
             ]
         },
-        
-         {
+        {
             "name": "Prestation Code de la Route",
             "url": baseUrl+"/preparation-au-code-de-la-route/"
-         },
-          {
+        },
+        {
             "name": "Prestation Divers",
             "url":  baseUrl+"/prestations-diverses/"
-         },
-        
+        },
         {
             "name": "Infos",
             "url": "javascript:void(0)",
@@ -70,14 +68,12 @@ const menuJSON = {
     ]
 };
 
-
-
 function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
     // Logo
-    html += `<li><a href = "${baseUrl}" class = "logo-link" ><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></a></li>`;
+    html += `<li><a href="${baseUrl}" class="logo-link"><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></a></li>`;
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
@@ -104,12 +100,23 @@ function headerMenu(menu) {
     // Add an image at the end of the menu
     html += `
         <li>
-            <img class="menu-mobile" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/menu-mobile_256x256.png" />
+            <img id="menu-icon" class="menu-mobile" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/menu-mobile_256x256.png" />
         </li>
     `;
 
     html += '</ul>';
     section.innerHTML = html;
+
+    // Add click event to the mobile menu image to toggle the menu
+    const menuIcon = document.getElementById('menu-icon');
+    menuIcon.addEventListener('click', () => {
+        const menuItems = document.querySelectorAll('#header ul li');
+        menuItems.forEach((item, index) => {
+            if (index > 0) { // Skip the logo
+                item.classList.toggle('display-none');
+            }
+        });
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
