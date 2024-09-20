@@ -168,8 +168,17 @@ function loadSidebarMenu(menu) {
 }
 
 function openSidebar(){
-    const opensidebar = document.getElementById('sidebar');
-    opensidebar.style.display = 'grid';
+    const header = document.getElementById('header');
+    const sidebar = document.getElementById('sidebar');
+    header.style.display = 'none';
+    sidebar.style.display = 'grid';
+}
+
+function closeSidebar(){
+    const header = document.getElementById('header');
+    const sidebar = document.getElementById('sidebar');
+    header.style.display = 'none';
+    sidebar.style.display = 'none';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
