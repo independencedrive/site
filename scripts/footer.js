@@ -177,7 +177,7 @@ function openSidebar(){
 function closeSidebar(){
     const header = document.getElementById('header');
     const sidebar = document.getElementById('sidebar');
-    header.style.display = 'none';
+    header.style.display = 'grid';
     sidebar.style.display = 'none';
 }
 
