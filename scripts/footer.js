@@ -58,6 +58,36 @@ const footerMenuJSON = {
     ]
 };
 
+const footerSidebarJSON = {
+    "sections": [
+        
+        
+        {
+            "title": "Prestations",
+            "items": [
+                { "name": "Permis B boite manuelle", "url": footerBaseUrl + "/permis-b-boite-manuelle/" },
+                { "name": "Permis B boite Automatique", "url": footerBaseUrl + "/permis-b-boite-automatique/" },
+                { "name": "Permis B Accelere", "url": footerBaseUrl + "/permis-b-accelere/" },
+                { "name": "Permis B Heures illimitees", "url": footerBaseUrl + "/permis-b-heures-illimitees/" },
+                { "name": "Permis B Conduite Accompagnee", "url": footerBaseUrl + "/permis-aac-conduite-accompagnee/" },
+                { "name": "Permis B + Voyage a Disney Paris", "url": footerBaseUrl + "/permis-b-voyage-disney/" },
+                { "name": "Prestation Code de la Route", "url": footerBaseUrl + "/preparation-au-code-de-la-route/"  },
+                { "name": "Prestation Divers","url":  footerBaseUrl + "/prestations-diverses/"  }
+            ]
+        },
+        {
+            "title": "Infos",
+            "items": [
+                { "name": "A propos", "url": footerBaseUrl + "/a-propos/" },
+                { "name": "Contact", "url": footerBaseUrl + "/contact/" },
+                { "name": "Actualites", "url": footerBaseUrl + "/actualites/" },
+                { "name": "Avis Clients", "url": footerBaseUrl + "/avis-clients/" }
+            ]
+        },
+        
+    ]
+};
+
 function loadFooterMenu(menu) {
     const footer = document.getElementById('footer');
     if (footer) {
@@ -99,6 +129,53 @@ function loadFooterMenu(menu) {
         console.error('Footer element not found!');
     }
 }
+function loadSidebarMenu(menu) {
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar) {
+        let html = '';
+
+        // Botón para cerrar el sidebar
+        html += `<div class="close-div">
+                    <button id="closeSidebar">Fermer</button>
+                 </div>`;
+
+        // Genera las secciones del sidebar
+        menu.sections.forEach(section => {
+            html += `<div class="sidebar-section"><h2>${section.title}</h2><ul>`;
+
+            section.items.forEach(item => {
+                html += `<li><a href="${item.url}" class="">`;
+
+                if (item.icon) {
+                    html += `<img src="${item.icon}" alt="${item.name}" style="width: 20px; height: 20px;"> `;
+                }
+
+                html += `${item.name}</a></li>`;
+            });
+
+            html += `</ul></div>`;
+        });
+
+        sidebar.innerHTML = html;
+
+        // Añade funcionalidad para cerrar el sidebar
+        document.getElementById('closeSidebar').addEventListener('click', () => {
+            sidebar.style.display = 'none';
+        });
+    } else {
+        console.error('Sidebar element not found!');
+    }
+}
+
+function openSidebar(){
+    const opensidebar = document.getElementById('sidebar');
+    opensidebar.style.display = 'grid';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadSidebarMenu(footerSidebarJSON);
+});
+
 
 document.addEventListener('DOMContentLoaded', () => {
     loadFooterMenu(footerMenuJSON);
