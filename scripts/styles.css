@@ -296,24 +296,176 @@ div#footer a {
 }
 
 div#footer h2 {
-    color: #00a5ff;
+    color: white;
     font-size: 26px;
 }
 div#footer li {
     display:flex;
 }
 
-/* Buttons */
-.white-button {
-    border: 3px solid white;
-    padding: 0 15px;
-    color: black;
-    background: white;
-    font-size: 14px;
-    border-radius: 10px;
-    height: 50px;
+/* Footer CTA Section - Modern 3-Column Design */
+.footer-cta-section {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 40px 20px;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.footer-cta-title {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: system-ui;
+}
+
+.footer-cta-grid {
     display: grid;
-    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-cta-card {
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
+    position: relative;
+}
+
+.footer-cta-card:hover {
+    transform: translateY(-5px);
+}
+
+.cta-card-title {
+    color: #333;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: system-ui;
+    order: 1;
+}
+
+.cta-card-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    order: 2;
+}
+
+.cta-card-logo {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+.qualiopi-logo {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+}
+
+.cta-card-iframe {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    order: 2;
+}
+
+.rating-iframe {
+    border: none;
+    overflow: hidden;
+    height: 40px;
+    min-width: 250px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.cta-card-description {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    flex-grow: 1;
+    order: 3;
+    font-family: system-ui;
+}
+
+.cta-button {
+    display: inline-block;
+    color: white;
+    padding: 16px 32px;
+    margin: 10px 0;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    order: 4;
+    align-self: center;
+    width: fit-content;
+    font-family: system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button-inscription {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3);
+}
+
+.cta-button-inscription:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(79, 172, 254, 0.4);
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+}
+
+.cta-button-qualiopi {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.cta-button-qualiopi:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.cta-button-rating {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ffa726 100%);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+}
+
+.cta-button-rating:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(255, 107, 107, 0.4);
+    background: linear-gradient(135deg, #ffa726 0%, #ff6b6b 100%);
 }
 
 /* Media Queries */
@@ -393,5 +545,19 @@ div#footer li {
 /* When sidebar is open */
 .sidebar a:hover {
     color: #f1f1f1;
+}
+
+.cta-card-check {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 10;
+}
+
+.check-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 

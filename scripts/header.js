@@ -1,9 +1,16 @@
-const baseUrl = "https://independencedrive.github.io/site";
+// Dynamic base URL that works for both local and web, and all page levels
+function getBaseUrl() {
+    const path = window.location.pathname;
+    const isSubPage = path.split('/').filter(p => p).length > 1 || (path !== '/' && path !== '/site/' && !path.endsWith('/site/'));
+    return isSubPage ? '../' : './';
+}
+
 const menuJSON = {
     "items": [
         {
             "name": "Accueil",
-            "url": baseUrl,
+            "url": "javascript:void(0)",
+            "onclick": "window.location.href = getBaseUrl()",
         },
         {
             "name": "Prestations Permis B",
@@ -11,37 +18,50 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "Permis B Boite Manuelle",
-                    "url":  baseUrl+"/permis-b-boite-manuelle/"
+                    "url":  "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'permis-b-boite-manuelle/'"
                 },
                 {
                     "name": "Permis B Boite Automatique",
-                    "url":  baseUrl+"/permis-b-boite-automatique/"
+                    "url":  "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'permis-b-boite-automatique/'"
                 },
                 {
                     "name": "Permis B Accelere",
-                    "url":  baseUrl+"/permis-b-accelere/"
+                    "url":  "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'permis-b-accelere/'"
                 },
                 {
                     "name": "Permis B Heures illimitees",
-                    "url":  baseUrl+"/permis-b-heures-illimitees/"
+                    "url":  "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'permis-b-heures-illimitees/'"
                 },
                 {
                     "name": "Permis B Conduite Accompagnee",
-                    "url":  baseUrl+"/permis-aac-conduite-accompagnee/"
+                    "url":  "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'permis-aac-conduite-accompagnee/'"
                 },
                 {
                     "name": "Permis B + Voyage a Disney Paris",
-                    "url":  baseUrl+"/permis-b-voyage-disney/"
+                    "url":  "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'permis-b-voyage-disney/'"
                 }
             ]
         },
         {
             "name": "Prestation Code de la Route",
-            "url": baseUrl+"/preparation-au-code-de-la-route/"
+            "url": "javascript:void(0)",
+            "onclick": "window.location.href = getBaseUrl() + 'preparation-au-code-de-la-route/'"
         },
         {
             "name": "Prestation Divers",
-            "url":  baseUrl+"/prestations-diverses/"
+            "url": "javascript:void(0)",
+            "onclick": "window.location.href = getBaseUrl() + 'prestations-diverses/'"
+        },
+        {
+            "name": "Label Qualiopi",
+            "url": "javascript:void(0)",
+            "onclick": "window.location.href = getBaseUrl() + 'label-qualiopi/'"
         },
         {
             "name": "Infos",
@@ -49,19 +69,23 @@ const menuJSON = {
             "dropdown": [
                 {
                     "name": "A propos",
-                    "url":  baseUrl+"/a-propos/"
+                    "url": "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'a-propos/'"
                 },
                 {
                     "name": "Contact",
-                    "url":  baseUrl+"/contact/"
+                    "url": "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'contact/'"
                 },
                 {
                     "name": "Actualites",
-                    "url":  baseUrl+"/actualites/"
+                    "url": "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'actualites/'"
                 },
                 {
                     "name": "Avis clients",
-                    "url":  baseUrl+"/avis-clients/"
+                    "url": "javascript:void(0)",
+                    "onclick": "window.location.href = getBaseUrl() + 'avis-clients/'"
                 }
             ]
         }
@@ -72,8 +96,8 @@ function headerMenu(menu) {
     const section = document.getElementById('header');
     let html = '<ul>';
 
-    // Logo
-    html += `<li><a href="${baseUrl}" class="logo-link"><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></a></li>`;
+    // Logo - use dynamic base URL
+    html += `<li><a href="javascript:void(0)" onclick="window.location.href = getBaseUrl()" class="logo-link"><img class="logo-header" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/logo_300x172.jpeg" alt="Logo" class="logo" /></a></li>`;
 
     // Iterate over each item in the menu
     menu.items.forEach(item => {
@@ -84,7 +108,7 @@ function headerMenu(menu) {
                     <a href="${item.url}" class="dropbtn">${item.name}</a>
                     <div class="dropdown-content">
                         ${item.dropdown.map(subItem => 
-                            `<a href="${subItem.url}">${subItem.name}</a>`
+                            `<a href="${subItem.url}" onclick="${subItem.onclick || ''}">${subItem.name}</a>`
                         ).join('')}
                     </div>
                 </li>
@@ -92,7 +116,7 @@ function headerMenu(menu) {
         } else {
             // Regular item
             html += `
-                <li class="display-none"><a href="${item.url}">${item.name}</a></li>
+                <li class="display-none"><a href="${item.url}" onclick="${item.onclick || ''}">${item.name}</a></li>
             `;
         }
     });
