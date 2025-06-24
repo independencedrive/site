@@ -16,8 +16,7 @@ const footerData = {
   contact: {
     phone: "06 64 20 21 57",
     email: "independencedrive2018@gmail.com",
-    address: "83 Rue Michel Ange, 34070 Montpellier",
-    hours: "Lun - Ven: 9h00 - 18h00"
+    address: "83 Rue Michel Ange <p> 34070 Montpellier</p>"
   },
   services: {
     title: "Nos Prestations",
@@ -346,12 +345,7 @@ class FooterComponent {
                   <span>${footerData.contact.address}</span>
                 </div>
                 
-                <div class="flex items-center text-sm text-gray-600">
-                  <svg class="w-4 h-4 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <span>${footerData.contact.hours}</span>
-                </div>
+                
               </div>
 
               
