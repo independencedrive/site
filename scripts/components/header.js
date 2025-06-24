@@ -9,6 +9,14 @@
 
 function getBaseUrl() {
   const path = window.location.pathname;
+  const hostname = window.location.hostname;
+  
+  // Check if we're on GitHub Pages (production)
+  if (hostname === 'independencedrive.fr' || hostname.includes('github.io')) {
+    return '/';
+  }
+  
+  // Local development logic
   const cleanPath = path.replace(/\/$/, '');
   const pathParts = cleanPath.split('/').filter(p => p);
   const currentPage = pathParts[pathParts.length - 1];
@@ -18,6 +26,7 @@ function getBaseUrl() {
     pathParts.pop();
   }
   
+  // For local development, check if we're in a subdirectory
   const isSubPage = pathParts.length > 1;
   return isSubPage ? '../' : './';
 }
