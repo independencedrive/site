@@ -57,7 +57,13 @@ function createCTASection() {
                     
                     <!-- Card Content -->
                     <div class="mb-6">
-                        <div class="text-4xl mb-4">📋</div>
+                        <div class="mb-4">
+                            <img 
+                                src="${getBaseUrl()}media/images/pre-inscription.jpeg" 
+                                alt="Independence Drive - Pré-inscription rapide" 
+                                class="h-[200px] mx-auto rounded-lg object-cover"
+                            >
+                        </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-4">
                             1. Pré-inscription rapide en ligne
                         </h3>
@@ -129,6 +135,13 @@ function createCTASection() {
                     
                     <!-- Card Content -->
                     <div class="mb-6">
+                        <div class="mb-4">
+                            <img 
+                                src="${getBaseUrl()}media/images/avis-clients.jpeg" 
+                                alt="Independence Drive - Avis clients vérifiés" 
+                                class="h-[200px] mx-auto rounded-lg object-cover"
+                            >
+                        </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-4">
                             3. Avis Clients Vérifiés
                         </h3>
@@ -140,7 +153,7 @@ function createCTASection() {
                                 scrolling="no" 
                                 frameborder="0" 
                                 allowtransparency="true"
-                                class="w-full h-24 border-0"
+                                class="w-full h-5 border-0"
                                 title="Avis clients Independence Drive"
                             ></iframe>
                         </div>
