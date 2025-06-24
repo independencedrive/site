@@ -1,141 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permis B Boîte Automatique - Independence Drive</title>
+    <meta name="description" content="Formation au Permis B boîte automatique. Forfait Automatic Drive à partir de 690€. Auto-école moderne à Paris.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../scripts/tailwind-config.js"></script>
+</head>
+<body class="font-sans bg-white">
+    <!-- Header Container -->
+    <div id="header-container"></div>
 
-  <!DOCTYPE html>
-  <html lang="fr">
-  <!-- Header -->
-  <head>
-  <!-- Reset CSS -->
-  <style>html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0;-webkit-font-smoothing:antialiased;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}ul{list-style:none;}button,input,select{margin:0;}html{box-sizing:border-box;}*,*::before,*::after{box-sizing:inherit;}img,video{height:auto;max-width:100%;}iframe{border:0;}table{border-collapse:collapse;border-spacing:0;}td,th{padding:0;}a{text-decoration:none;}a:hover{text-decoration:underline;}</style>
-  <link rel="stylesheet" type="text/css" href=../scripts/styles.css>
-  <div id="header"></div>
-  <meta charset="UTF-8">
-  <meta name="google" content="notranslate">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Preconnect to the Google Fonts server -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Load the Material Symbols Outlined font with display=swap -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" />
-  <script src=../scripts/header.js></script>
-  </head>
-  <!-- Body -->
-  <body>
-  <grid-page id="grid" class="grid-page" data-type="body">
-  <style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><section id="opBYBId"><!--CSS--><style id="Iteissf" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#fvEXXRD {
-  position: relative;
-}
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat" 
+             style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://raw.githubusercontent.com/independencedrive/site/main/media/images/automatic-tiny_1456x816.png');">
+        <div class="text-center text-white px-6 max-w-4xl">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
+                Permis B boîte automatique
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl mb-8 drop-shadow-lg">
+                Forfait "Automatic Drive"
+            </p>
+            <a href="#details" 
+               class="inline-block bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+                En savoir plus
+            </a>
+        </div>
+    </section>
 
-grid-bg#CiMuPSn {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  display: block;
-}
+    <!-- Main Content -->
+    <section id="details" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            
+            <!-- Introduction -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Notre forfait "Automatic Drive"</h2>
+                <p class="text-lg text-gray-700 mb-4">
+                    Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !
+                </p>
+                <p class="text-lg text-gray-700">
+                    Notre forfait "Automatic Drive" pour le Permis B en boîte automatique est conçu pour vous offrir une formation complète et enrichissante.
+                </p>
+            </div>
 
-div#GbKbmpK,
-div#onzgAVS,
-div#TfIWQOG,
-div#nhcOYHk {
-  height: 100%;
-  width: 100%;
-}
+            <!-- Pricing -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Tarifs</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="border border-blue-200 rounded-lg p-6 bg-blue-50">
+                        <h3 class="text-xl font-semibold text-blue-900 mb-3">Option 1 : Vous avez déjà le code</h3>
+                        <p class="text-3xl font-bold text-blue-600">690€</p>
+                    </div>
+                    <div class="border border-green-200 rounded-lg p-6 bg-green-50">
+                        <h3 class="text-xl font-semibold text-green-900 mb-3">Option 2 : Vous n'avez pas le code</h3>
+                        <p class="text-3xl font-bold text-green-600">760€</p>
+                    </div>
+                </div>
+                <div class="mt-6 bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-4">
+                    <p class="text-center text-purple-800 font-semibold">
+                        ✨ Formation plus rapide et plus accessible avec la boîte automatique !
+                    </p>
+                </div>
+            </div>
 
-div#OUtHgXF {
-  height: 100%;
-  width: 100%;
-}
+            <!-- Package Includes -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Ce Forfait Comprend</h2>
+                <ul class="space-y-3">
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-blue-100 text-blue-800 rounded-full p-1 mr-3">✓</span>
+                        Frais de gestion de dossier
+                    </li>
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-blue-100 text-blue-800 rounded-full p-1 mr-3">✓</span>
+                        13 heures de conduite
+                    </li>
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-blue-100 text-blue-800 rounded-full p-1 mr-3">✓</span>
+                        1 accompagnement à l'examen
+                    </li>
+                </ul>
+            </div>
 
-div#BvNiNWR {
-  height: 100%;
-  width: 100%;
-}
+            <!-- Code Benefits -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Avantages de la Formule avec le Code</h2>
+                <p class="text-lg text-gray-700 mb-4">En plus des prestations de base, bénéficiez de :</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-green-100 text-green-800 rounded-full p-1 mr-3">✓</span>
+                        Livre de Code offert
+                    </li>
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-green-100 text-green-800 rounded-full p-1 mr-3">✓</span>
+                        Accès en ligne aux cours de code
+                    </li>
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-green-100 text-green-800 rounded-full p-1 mr-3">✓</span>
+                        Cours en salle de code
+                    </li>
+                    <li class="flex items-center text-lg text-gray-700">
+                        <span class="bg-green-100 text-green-800 rounded-full p-1 mr-3">✓</span>
+                        Inscription sur France Titre si nécessaire
+                    </li>
+                </ul>
+            </div>
 
-img#SMuLtkC {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
+            <!-- Automatic Advantages -->
+            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl border border-orange-200 p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Pourquoi Choisir la Boîte Automatique ?</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-orange-500 text-white rounded-full p-2 mt-1">🚗</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Apprentissage Simplifié</h3>
+                                <p class="text-gray-700">Plus besoin de gérer l'embrayage ! Concentrez-vous sur la conduite et la sécurité routière.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-green-500 text-white rounded-full p-2 mt-1">⚡</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Formation Plus Rapide</h3>
+                                <p class="text-gray-700">Seulement 13 heures de conduite nécessaires au lieu de 20 heures.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-blue-500 text-white rounded-full p-2 mt-1">💰</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Plus Économique</h3>
+                                <p class="text-gray-700">Tarifs réduits grâce à la formation accélérée.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="bg-purple-500 text-white rounded-full p-2 mt-1">🎯</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Idéal pour Débuter</h3>
+                                <p class="text-gray-700">Parfait pour les conducteurs novices ou stressés par l'embrayage.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-video#evwpvzd {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
+            <!-- Training Program -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Notre Programme de Formation</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Cours Théoriques</h3>
+                    <p class="text-lg text-gray-700">
+                        <strong>Code de la route :</strong> Nos cours interactifs et dynamiques vous préparent efficacement à l'examen théorique. 
+                        Vous aurez accès à une plateforme en ligne pour réviser à votre rythme, accompagnée de tests blancs réguliers pour évaluer vos progrès.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Cours Pratiques</h3>
+                    <ul class="space-y-3">
+                        <li class="text-lg text-gray-700">
+                            <strong>Formation spécialisée :</strong> Vous serez formé par des instructeurs expérimentés en boîte automatique qui vous guideront 
+                            à travers toutes les étapes de l'apprentissage pratique.
+                        </li>
+                        <li class="text-lg text-gray-700">
+                            <strong>Maîtrise simplifiée :</strong> Apprenez à conduire en toute sécurité sans vous soucier de l'embrayage. 
+                            Concentrez-vous sur l'observation, le positionnement et les règles de circulation.
+                        </li>
+                        <li class="text-lg text-gray-700">
+                            <strong>Adaptation rapide :</strong> Grâce à la simplicité de la boîte automatique, 
+                            vous progresserez plus rapidement et serez opérationnel en moins de temps !
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-grid-box#sXPUTdC {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-auto-rows: auto;
-  width: 100%;
-  height: calc(100vh - 100px);
-  place-content: center;
-}
+            <!-- Advantages -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Avantages de Notre Auto-École</h2>
+                <div class="grid lg:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-blue-500 pl-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">Instructeurs Spécialisés</h3>
+                            <p class="text-gray-700">
+                                Nos moniteurs sont des professionnels certifiés et expérimentés en boîte automatique. 
+                                Ils connaissent parfaitement les spécificités de ce type de transmission.
+                            </p>
+                        </div>
+                        <div class="border-l-4 border-green-500 pl-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">Véhicules Automatiques Modernes</h3>
+                            <p class="text-gray-700">
+                                Nos voitures d'apprentissage automatiques sont équipées des dernières technologies et offrent un confort optimal !
+                            </p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-purple-500 pl-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">Flexibilité des Horaires</h3>
+                            <p class="text-gray-700">
+                                Nous offrons des horaires de conduite flexibles, incluant des options en matinée tôt et le week-end, 
+                                pour s'adapter à votre emploi du temps.
+                            </p>
+                        </div>
+                        <div class="border-l-4 border-red-500 pl-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">Accompagnement Personnalisé</h3>
+                            <p class="text-gray-700">
+                                Chaque élève bénéficie d'un suivi personnalisé pour maximiser ses chances de réussite à l'examen pratique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-grid-item#EgsFByC {
-  display: grid;
-  place-content: center;
-  padding: 15%;
-  gap: 15px;
-  height: auto;
-  min-height: 50vh;
-}
+            <!-- Registration -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Inscription et Tarifs</h2>
+                <p class="text-lg text-gray-700">
+                    L'inscription est simple et rapide ! Contactez-nous dès aujourd'hui pour plus d'informations sur nos tarifs 
+                    et pour planifier votre première leçon. Nous proposons des forfaits adaptés à tous les budgets grâce aux facilités de paiement jusqu'à 3x !
+                </p>
+            </div>
 
-img#PJkZwTG {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
+            <!-- Call to Action -->
+            <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl shadow-lg p-8 text-white text-center">
+                <h2 class="text-3xl font-bold mb-6">Rejoignez-nous !</h2>
+                <p class="text-lg mb-4">
+                    Faites le premier pas vers votre indépendance et votre liberté sur la route avec Independence Drive. 
+                    Notre équipe est impatiente de vous accueillir et de vous accompagner tout au long de votre parcours de formation au Permis B boîte automatique.
+                </p>
+                <p class="text-lg mb-6">
+                    Pour plus de détails ou pour vous inscrire, n'hésitez pas à nous contacter via l'onglet Contact de notre site web.
+                </p>
+                <p class="text-xl font-semibold">
+                    Votre réussite est notre priorité. Rejoignez Independence Drive et obtenez votre liberté en toute confiance !
+                </p>
+            </div>
 
-h2#aujqDur {
-  color: white;
-  font-size: clamp(42px, 6vw, 8rem);
-  line-height: 1;
-  text-shadow: 1px 1px 16px black;
-}
+        </div>
+    </section>
 
-p#HNDUHob {
-  color: white;
-  font-size: clamp(19px, 4vw, 4rem);
-}
+    <!-- CTA Section -->
+    <div id="cta-container"></div>
 
-#GpRJgFI {
-  display: flex;
-  gap: 10px;
-  flex-flow: wrap;
-}
-</style><style id="HLptcXQ" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="YbNqjOs" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px) {
-  grid-box#sXPUTdC {
-    grid-template-columns: repeat(1, 1fr);
-    height:100vh;
-  }
-}
-</style><!--HTML--><div id="VNsqjjd" data-type="html"><grid-container id="jFWInJm"><grid-bg id="CiMuPSn" data-type="grid-bg"><!-- bg-color --> <!-- bg-image --><div id="OUtHgXF" data-type="bg-image" class="div-visible"><picture id="wFDloVV"><source srcset="" media="(max-width:640px)"><source srcset="" media="(min-width:641px) and (max-width:1024px)"><img id="SMuLtkC" src="https://raw.githubusercontent.com/independencedrive/site/main/media/images/automatic-tiny_1456x816.png" data-type="image-bg" loading="lazy"></picture></div> <!-- bg-video --> </grid-bg><grid-box id="sXPUTdC" style="background-color: rgba(0, 0, 0, 0.41);"><grid-item id="EgsFByC"><h2 id="aujqDur"><div>Permis B boîte automatic</div></h2><p id="HNDUHob">forfait "Automatic Drive"</p><grid-box id="GpRJgFI"><grid-item id="EItJkwG"><a id="XpjhtSF" href="#grid-section-LWPZfeL" data-type="a-link" target="_self" class="white-button">En savoir plus</a></grid-item></grid-box></grid-item><grid-item id="yfqClMX"></grid-item></grid-box></grid-container></div><!--JS--><script id="ApnasUp" data-type="js"></script><!--EDIT--></section><section id="grid-section-LWPZfeL"><!--CSS--><grid-css><style id="wVZcpuH" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#grid-container-ouGnAtq {position: relative;
-}grid-bg#grid-bg-EdgFgtz {position: absolute;height: 100%;width: 100%;z-index: -1;display: block;
-}div#grid-color-DVwAXvQ,
-div#grid-solid-color-qseYbkr,
-div#grid-radial-color-KHMkIwL,
-div#grid-linear-color-OWPMdQV {height: 100%;width: 100%;
-}div#NTPCoBu {height: 100%;width: 100%;
-}div#gdqafUy {height: 100%;width: 100%;
-}img#grid-img-WjAZOdf {object-fit: cover;height: 100%;width: 100%;
-}video#OzzJjzc {object-fit: cover;height: 100%;width: 100%;
-}grid-content#grid-content-VKgwhtt {display: grid;grid-template-columns: repeat(1, 1fr);grid-auto-rows: auto;gap: 1px;width: 100%;margin: auto;height: 100%;padding: 0px;
-}grid-content#grid-content-VKgwhtt grid-box1 {display: grid;padding: 5% 15%;background: red;gap: 1px;grid-template-columns: 1fr;place-content: baseline;
-}grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(odd) {background-color: white;
-}grid-content#grid-content-VKgwhtt grid-box1:nth-of-type(even) {background-color: #f1f1f1;
-}
-</style><style id="EEjwMrX" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="uwOjQMH" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){}</style></grid-css>  <!--BG--><grid-bg id="grid-bg-EdgFgtz" data-type="grid-bg"><!-- bg-color --><div id="grid-color-DVwAXvQ" data-type="bg-color" class="div-visible"><div id="grid-solid-color-qseYbkr" data-type="solid-color" class="div-visible" style="background: rgb(239, 239, 239);"></div></div> <!-- bg-image --> <!-- bg-video --> </grid-bg><!--HTML--><grid-container id="grid-container-ouGnAtq" data-type="html"><p class="grid-id-info">grid-content-VKgwhtt</p>
-<grid-content id="grid-content-VKgwhtt"><grid-box1 id="RopwJdp"><!-- grid-box1 --><p class="grid-id-info">RopwJdp</p><div class="grid-edit-buttons"></div><h2>Notre forfait "Automatic Drive"</h2><p>Bienvenue chez l'école de conduite Independence Drive, votre partenaire de confiance pour l'apprentissage de la conduite !</p><p>Notre forfait "Automatic Drive" pour le Permis B en boîte automatique est conçu pour vous offrir une formation complète et enrichissante.</p><div><br></div><p></p></grid-box1><grid-box1 id="HZaHSrR"><!-- grid-box1 --><p class="grid-id-info">HZaHSrR</p><div class="grid-edit-buttons"></div><h2>Tarifs :</h2><p>Option 1 : Vous avez déjà le code</p><ul><li>Prix : 690€</li></ul><p>Option 2 : Vous n'avez pas le code</p><ul><li>Prix :760€</li></ul><h1 class="style=" grid-column:="" span="" 12;""=""></h1></grid-box1><grid-box1 id="pKqhhWC"><!-- grid-box1 --><p class="grid-id-info">pKqhhWC</p><div class="grid-edit-buttons"></div><h2>Ce Forfait Comprend :</h2><ul><li>Frais de gestion de dossier</li><li>13 heures de conduite</li><li>1 accompagnement à l'examen</li></ul></grid-box1><grid-box1 id="LVmowFC"><!-- grid-box1 --><p class="grid-id-info">LVmowFC</p><div class="grid-edit-buttons"></div><h2>Avantages de la Formule avec le Code :</h2><p>En plus des prestations de base, bénéficiez de</p><ul><li>Livre de Code offert</li><li>Accès en ligne aux cours de code</li><li>Cours en salle de code</li><li>Inscription sur France Titre si nécessaire</li></ul></grid-box1><grid-box1 id="PUMeAGb"><!-- grid-box1 --><p class="grid-id-info">PUMeAGb</p><div class="grid-edit-buttons"></div><h2>Notre Programme de Formation</h2><p>Cours Théoriques</p><ul><li>Code de la route : Nos cours interactifs et dynamiques vous préparent efficacement à l'examen théorique. Vous aurez accès à une plateforme en ligne pour réviser à votre rythme, accompagnée de tests blancs réguliers pour évaluer vos progrès.</li></ul><p>Cours Pratiques</p><ul><li>Vous serez formé par des instructeurs qualifiés et expérimentés qui vous guideront à travers toutes les étapes de l'apprentissage pratique, depuis les bases de la conduite jusqu'aux manœuvres complexes.</li><li>Maîtrise du véhicule : Apprenez à passer les vitesses, gérer l’embrayage, et conduire en toute sécurité dans différentes conditions de circulation !</li></ul></grid-box1><grid-box1 id="xPdufMW"><!-- grid-box1 --><p class="grid-id-info">xPdufMW</p><div class="grid-edit-buttons"></div><h2>Avantages de Notre Auto-École</h2><ul><li>Instructeurs Soigneusement choisit : Nos moniteurs sont des professionnels certifiés et passionnés par l’enseignement de la conduite. Ils sauront s’adapter à votre rythme et à vos besoins spécifiques.</li><li>Véhicules modernes : Nos voitures d'apprentissage sont équipées des dernières technologies !</li><li>Flexibilité des horaires : Nous offrons des horaires de conduite flexibles, incluant des options en matinée tôt et le week-end, pour s’adapter à votre emploi du temps.</li><li>Accompagnement personnalisé : Chaque élève bénéficie d’un suivi personnalisé pour maximiser ses chances de réussite à l’examen pratique.</li></ul></grid-box1><grid-box1 id="QhmrxfL"><!-- grid-box1 --><p class="grid-id-info">QhmrxfL</p><div class="grid-edit-buttons"></div><h2>Inscription et Tarifs</h2><p>L’inscription est simple et rapide ! Contactez-nous dès aujourd’hui pour plus d’informations sur nos tarifs et pour planifier votre première leçon. Nous proposons des forfaits adaptés à tous les budgets grâce aux facilités de paiement jusqu'à 3x !</p></grid-box1><grid-box1 id="QTtuVjA"><!-- grid-box1 --><p class="grid-id-info">QTtuVjA</p><div class="grid-edit-buttons"></div><h2>Rejoignez-nous !</h2><p>Faites le premier pas vers votre indépendance et votre liberté sur la route avec Independence Drive Notre équipe est impatiente de vous accueillir et de vous accompagner tout au long de votre parcours de formation au Permis B boîte automatic.</p><p>Pour plus de détails ou pour vous inscrire, n'hésitez pas à nous contacter via l'onglet de notre site web.</p><p>Votre réussite est notre priorité. Rejoignez Independence Drive et obtenez votre liberté en toute confiance !</p><div><br></div></grid-box1>
-</grid-content>
-<div class="grid-edit-buttons">
-</div></grid-container><!--JS--><script id="eQvfrms" data-type="js"></script><!--EDIT--></section></grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
-  </grid-page>
-  
-  </body>
-  <!-- Footer -->
-  <footer>
-  <div id="sidebar"></div>
-  <div id="footer"></div>
-  <script src=../scripts/footer.js></script>
-  </footer>
-  </html>
-  
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Load Components -->
+    <script src="../scripts/components/MobileSidebar.js"></script>
+    <script src="../scripts/components/header.js"></script>
+    <script src="../scripts/components/footer.js"></script>
+    <script src="../scripts/components/cta.js"></script>
+</body>
+</html>

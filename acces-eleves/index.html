@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horaires - Independence Drive</title>
+    <meta name="description" content="Découvrez les horaires d'ouverture d'Independence Drive. Bureau et cours de conduite, horaires flexibles 7j/7 pour votre formation au permis de conduire.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../scripts/tailwind-config.js"></script>
+</head>
+<body class="font-sans bg-white">
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
+        <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div class="relative text-center text-white px-6 max-w-4xl">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 drop-shadow-lg">
+                Horaires
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl mb-8 drop-shadow-lg">
+                Nos horaires d'ouverture
+            </p>
+            <a href="#horaires-info" 
+               class="inline-block bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+                Voir les horaires
+            </a>
+        </div>
+    </section>
+
+    <!-- Horaires Information -->
+    <section id="horaires-info" class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6">
+            
+            <!-- Opening Hours -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Horaires d'Ouverture</h2>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Horaires Bureau</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Lundi</span>
+                                <span class="font-semibold text-blue-600">13h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Mardi</span>
+                                <span class="font-semibold text-blue-600">13h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Mercredi</span>
+                                <span class="font-semibold text-blue-600">13h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Jeudi</span>
+                                <span class="font-semibold text-blue-600">17h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Vendredi</span>
+                                <span class="font-semibold text-blue-600">13h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Samedi</span>
+                                <span class="font-semibold text-blue-600">13h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Dimanche</span>
+                                <span class="font-semibold text-red-600">Fermé</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-700 font-medium">Jours fériés</span>
+                                <span class="font-semibold text-red-600">Fermés</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Horaires Conduite</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Lundi - Samedi</span>
+                                <span class="font-semibold text-green-600">7h–20h</span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-200 pb-3">
+                                <span class="text-gray-700 font-medium">Dimanche</span>
+                                <span class="font-semibold text-orange-600">Sur demande</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-700 font-medium">Jours fériés</span>
+                                <span class="font-semibold text-orange-600">Sur demande</span>
+                            </div>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-lg mt-6">
+                            <p class="text-green-800 text-sm font-medium">
+                                ✓ Cours disponibles tôt le matin et flexibilité en week-end
+                            </p>
+                            <p class="text-green-800 text-sm mt-2">
+                                ✓ Horaires adaptables selon vos disponibilités
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <div id="cta-container"></div>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Load Components -->
+    <script src="../scripts/components/MobileSidebar.js"></script>
+    <script src="../scripts/components/header.js"></script>
+    <script src="../scripts/components/footer.js"></script>
+    <script src="../scripts/components/cta.js"></script>
+</body>
+</html>
