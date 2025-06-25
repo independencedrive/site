@@ -261,6 +261,34 @@ const navigationData = {
       ]
     },
     {
+      name: "Autres prestations",
+      href: "#",
+      megamenu: true,
+      categories: [
+        {
+          title: 'Autres prestations',
+          items: [
+            {
+              name: 'Cours théoriques',
+              href: () => getBaseUrl() + 'prestations-diverses/',
+              description: 'Formation théorique personnalisée',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>`
+            },
+            {
+              name: 'Formation passerelle',
+              href: () => getBaseUrl() + 'formation-passerelle/',
+              description: 'Formation de transition pour nouveaux conducteurs',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>`
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: "Code de la route",
       href: () => "https://www.prepacode-enpc.fr/connexion",
       cta: true
@@ -323,6 +351,28 @@ class NavigationGenerator {
     return `
       <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">${item.name}</h3>
       <div class="grid grid-cols-3 gap-x-6 gap-y-4">
+        ${item.categories[0].items.map(subItem => `
+          <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
+             class="flex items-start p-3 rounded-lg hover:bg-red-50 transition-all duration-200 border border-transparent hover:border-red-200 group">
+            <div class="flex-shrink-0 w-8 h-8 mr-3 text-red-600 group-hover:text-red-700">
+              ${subItem.icon}
+            </div>
+            <div class="flex-1">
+              <div class="font-medium text-gray-900 transition-colors">
+                ${subItem.name}
+              </div>
+              ${subItem.description ? `<div class="text-sm text-gray-600 mt-1">${subItem.description}</div>` : ''}
+            </div>
+          </a>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  static generateAutresPrestationsLayout(item) {
+    return `
+      <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">${item.name}</h3>
+      <div class="grid grid-cols-2 gap-x-8 gap-y-4">
         ${item.categories[0].items.map(subItem => `
           <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
              class="flex items-start p-3 rounded-lg hover:bg-red-50 transition-all duration-200 border border-transparent hover:border-red-200 group">
@@ -432,6 +482,7 @@ class NavigationGenerator {
     const isPrestations = item.name === 'Nos Prestations';
     const isLabelQualiopi = item.name === 'Label Qualiopi';
     const isAutoEcole = item.name === "L'auto école";
+    const isAutresPrestations = item.name === 'Autres prestations';
     const isSingleCategory = item.categories.length === 1;
     
     return `
@@ -443,10 +494,10 @@ class NavigationGenerator {
           </svg>
         </button>
         
-        <div class="megamenu-dropdown absolute top-full mt-0 bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-red-600 rounded-b-lg z-50 ${isPrestations || isLabelQualiopi || isAutoEcole ? 'w-[600px] max-w-[90vw]' : isSingleCategory ? 'min-w-[320px] max-w-[420px] mx-auto' : 'w-screen max-w-[min(90vw,1152px)]'}" 
+        <div class="megamenu-dropdown absolute top-full mt-0 bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-red-600 rounded-b-lg z-50 ${isPrestations || isLabelQualiopi || isAutoEcole || isAutresPrestations ? 'w-[600px] max-w-[90vw]' : isSingleCategory ? 'min-w-[320px] max-w-[420px] mx-auto' : 'w-screen max-w-[min(90vw,1152px)]'}" 
              style="left: 50%; transform: translateX(-50%);">
           <div class="p-6">
-            ${isPrestations ? this.generatePrestationsLayout(item) : isLabelQualiopi ? this.generateLabelQualiopiLayout(item) : isAutoEcole ? this.generateAutoEcoleLayout(item) : this.generateStandardLayout(item)}
+            ${isPrestations ? this.generatePrestationsLayout(item) : isLabelQualiopi ? this.generateLabelQualiopiLayout(item) : isAutoEcole ? this.generateAutoEcoleLayout(item) : isAutresPrestations ? this.generateAutresPrestationsLayout(item) : this.generateStandardLayout(item)}
             ${this.generateCallToAction(item)}
           </div>
         </div>

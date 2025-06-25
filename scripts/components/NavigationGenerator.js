@@ -36,13 +36,14 @@ export class NavigationGenerator {
   // Generate mega menu content
   static generateMegaMenuContent(item) {
     const isFormations = item.name === 'Formations';
+    const isAutresPrestations = item.name === 'Autres prestations';
     const isSingleCategory = item.categories.length === 1;
     
     return `
-      <div class="megamenu-dropdown absolute top-full mt-0 bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-red-600 rounded-b-lg z-50 ${isFormations ? 'w-[600px] max-w-[90vw]' : isSingleCategory ? 'min-w-[320px] max-w-[420px] mx-auto' : 'w-screen max-w-[min(90vw,1152px)]'}" 
+      <div class="megamenu-dropdown absolute top-full mt-0 bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-red-600 rounded-b-lg z-50 ${isFormations || isAutresPrestations ? 'w-[600px] max-w-[90vw]' : isSingleCategory ? 'min-w-[320px] max-w-[420px] mx-auto' : 'w-screen max-w-[min(90vw,1152px)]'}" 
            style="left: 50%; transform: translateX(-50%);">
         <div class="p-6">
-          ${isFormations ? this.generateFormationsLayout(item) : this.generateStandardLayout(item)}
+          ${isFormations ? this.generateFormationsLayout(item) : isAutresPrestations ? this.generateAutresPrestationsLayout(item) : this.generateStandardLayout(item)}
           ${this.generateCallToAction(item)}
         </div>
       </div>
@@ -51,6 +52,29 @@ export class NavigationGenerator {
 
   // Generate Formations specific layout (2-column grid)
   static generateFormationsLayout(item) {
+    return `
+      <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">${item.name}</h3>
+      <div class="grid grid-cols-2 gap-x-8 gap-y-4">
+        ${item.categories[0].items.map(subItem => `
+          <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
+             class="flex items-start p-3 rounded-lg hover:bg-red-50 transition-all duration-200 border border-transparent hover:border-red-200 group">
+            <div class="flex-shrink-0 w-8 h-8 mr-3 text-red-600 group-hover:text-red-700">
+              ${subItem.icon}
+            </div>
+            <div class="flex-1">
+              <div class="font-medium text-gray-900 transition-colors">
+                ${subItem.name}
+              </div>
+              ${subItem.description ? `<div class="text-sm text-gray-600 mt-1">${subItem.description}</div>` : ''}
+            </div>
+          </a>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // Generate layout for "Autres prestations" menu
+  static generateAutresPrestationsLayout(item) {
     return `
       <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">${item.name}</h3>
       <div class="grid grid-cols-2 gap-x-8 gap-y-4">
