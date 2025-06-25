@@ -49,7 +49,7 @@ const footerData = {
       { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/" },
       { name: "Le permis à 1 € par jour", href: () => "https://www.securite-routiere.gouv.fr/passer-son-permis-de-conduire/financement-du-permis-de-conduire/permis-1-eu-par-jour" },
       { name: "Fonds d'aide aux jeunes (FAJ)", href: () => "https://herault.fr/615-fdaj.htm" },
-      { name: "Service national universel (SNU)", href: () => "https://www.code-en-ligne.fr/" },
+      { name: "Service national universel (SNU)", href: () => "https://www.snu.gouv.fr/" },
       { name: "Tous les aides (Service Public)", href: () => "https://www.service-public.fr/particuliers/vosdroits/F13609" }
 
     ]
