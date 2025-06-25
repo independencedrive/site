@@ -290,8 +290,31 @@ const navigationData = {
     },
     {
       name: "Code de la route",
-      href: () => "https://www.prepacode-enpc.fr/connexion",
-      cta: true
+      href: "#",
+      megamenu: true,
+      categories: [
+        {
+          title: 'Code de la route',
+          items: [
+            {
+              name: "S'entraîner au code",
+              href: () => "https://www.prepacode-enpc.fr/connexion",
+              description: 'Accéder à la plateforme d\'entraînement',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>`
+            },
+            {
+              name: 'Prendre rendez-vous',
+              href: () => "https://www.objectifcode.sgs.com/fr_FR/rechercher-centre/centres?location=Montpellier,%20France&latitude=43.6108535&longitude=3.8761323",
+              description: 'Réserver votre examen du code de la route',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+              </svg>`
+            }
+          ]
+        }
+      ]
     }
   ]
 };
@@ -375,6 +398,29 @@ class NavigationGenerator {
       <div class="grid grid-cols-2 gap-x-8 gap-y-4">
         ${item.categories[0].items.map(subItem => `
           <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
+             class="flex items-start p-3 rounded-lg hover:bg-red-50 transition-all duration-200 border border-transparent hover:border-red-200 group">
+            <div class="flex-shrink-0 w-8 h-8 mr-3 text-red-600 group-hover:text-red-700">
+              ${subItem.icon}
+            </div>
+            <div class="flex-1">
+              <div class="font-medium text-gray-900 transition-colors">
+                ${subItem.name}
+              </div>
+              ${subItem.description ? `<div class="text-sm text-gray-600 mt-1">${subItem.description}</div>` : ''}
+            </div>
+          </a>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  static generateCodeDeLaRouteLayout(item) {
+    return `
+      <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">${item.name}</h3>
+      <div class="grid grid-cols-2 gap-x-8 gap-y-4">
+        ${item.categories[0].items.map(subItem => `
+          <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
+             target="_blank"
              class="flex items-start p-3 rounded-lg hover:bg-red-50 transition-all duration-200 border border-transparent hover:border-red-200 group">
             <div class="flex-shrink-0 w-8 h-8 mr-3 text-red-600 group-hover:text-red-700">
               ${subItem.icon}
@@ -483,6 +529,7 @@ class NavigationGenerator {
     const isLabelQualiopi = item.name === 'Label Qualiopi';
     const isAutoEcole = item.name === "L'auto école";
     const isAutresPrestations = item.name === 'Autres prestations';
+    const isCodeDeLaRoute = item.name === 'Code de la route';
     const isSingleCategory = item.categories.length === 1;
     
     return `
@@ -494,10 +541,10 @@ class NavigationGenerator {
           </svg>
         </button>
         
-        <div class="megamenu-dropdown absolute top-full mt-0 bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-red-600 rounded-b-lg z-50 ${isPrestations || isLabelQualiopi || isAutoEcole || isAutresPrestations ? 'w-[600px] max-w-[90vw]' : isSingleCategory ? 'min-w-[320px] max-w-[420px] mx-auto' : 'w-screen max-w-[min(90vw,1152px)]'}" 
+        <div class="megamenu-dropdown absolute top-full mt-0 bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-red-600 rounded-b-lg z-50 ${isPrestations || isLabelQualiopi || isAutoEcole || isAutresPrestations || isCodeDeLaRoute ? 'w-[600px] max-w-[90vw]' : isSingleCategory ? 'min-w-[320px] max-w-[420px] mx-auto' : 'w-screen max-w-[min(90vw,1152px)]'}" 
              style="left: 50%; transform: translateX(-50%);">
           <div class="p-6">
-            ${isPrestations ? this.generatePrestationsLayout(item) : isLabelQualiopi ? this.generateLabelQualiopiLayout(item) : isAutoEcole ? this.generateAutoEcoleLayout(item) : isAutresPrestations ? this.generateAutresPrestationsLayout(item) : this.generateStandardLayout(item)}
+            ${isPrestations ? this.generatePrestationsLayout(item) : isLabelQualiopi ? this.generateLabelQualiopiLayout(item) : isAutoEcole ? this.generateAutoEcoleLayout(item) : isAutresPrestations ? this.generateAutresPrestationsLayout(item) : isCodeDeLaRoute ? this.generateCodeDeLaRouteLayout(item) : this.generateStandardLayout(item)}
             ${this.generateCallToAction(item)}
           </div>
         </div>

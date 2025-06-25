@@ -172,6 +172,34 @@ export const navigationData = {
       ]
     },
     {
+      name: "Code de la route",
+      href: "#",
+      megamenu: true,
+      categories: [
+        {
+          title: 'Code de la route',
+          items: [
+            {
+              name: "S'entraîner au code",
+              href: () => "https://www.prepacode-enpc.fr/connexion",
+              description: 'Accéder à la plateforme d\'entraînement',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>`
+            },
+            {
+              name: 'Prendre rendez-vous',
+              href: () => "https://www.objectifcode.sgs.com/fr_FR/rechercher-centre/centres?location=Montpellier,%20France&latitude=43.6108535&longitude=3.8761323",
+              description: 'Réserver votre examen du code de la route',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+              </svg>`
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: "Label Qualiopi",
       href: () => getBaseUrl() + 'label-qualiopi/',
       active: false
