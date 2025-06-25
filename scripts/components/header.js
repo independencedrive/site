@@ -536,7 +536,7 @@ class HeaderComponent {
 
   render() {
     const headerHTML = `
-      <header id="main-header" class="bg-slate-800 shadow-lg fixed top-0 left-0 right-0 z-40 transition-transform duration-300 ease-in-out">
+      <header id="main-header" class="bg-black shadow-lg fixed top-0 left-0 right-0 z-40 transition-transform duration-300 ease-in-out">
         <div class="max-w-7xl mx-auto">
           <div class="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
             
