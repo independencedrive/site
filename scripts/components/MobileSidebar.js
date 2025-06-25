@@ -115,16 +115,13 @@ class MobileSidebar {
       <!-- Mobile Navigation Overlay -->
       <div id="mobile-sidebar" 
            class="lg:hidden fixed inset-0 z-50 transform translate-x-full transition-transform duration-300 ease-in-out">
-        <!-- Backdrop -->
-        <div class="fixed inset-0 bg-black bg-opacity-50" id="mobile-sidebar-backdrop"></div>
-        
         <!-- Sidebar Panel -->
-        <div class="fixed right-0 top-0 h-full w-80 max-w-sm bg-gradient-to-b from-red-600 to-red-800 shadow-xl overflow-y-auto">
+        <div class="fixed inset-0 bg-black text-white w-full h-full overflow-y-auto p-[10%]">
           <!-- Header -->
-          <div class="flex items-center justify-between p-6 border-b border-red-500">
-            <h2 class="text-xl font-bold text-white">Menu</h2>
+          <div class="flex items-center justify-between p-6 border-b border-white">
+            <h2 class="font-bold uppercase" style="font-size: 2rem;">MENU</h2>
             <button id="mobile-sidebar-close" 
-                    class="text-white hover:text-red-300 transition-colors p-2">
+                    class="hover:text-gray-300 transition-colors p-2">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
               </svg>
@@ -148,10 +145,10 @@ class MobileSidebar {
         const allItems = item.categories.reduce((acc, category) => {
           return acc.concat(category.items);
         }, []);
-        
+
         return `
-          <div class="mobile-dropdown-container">
-            <button class="mobile-dropdown-toggle w-full flex items-center justify-between px-6 py-4 text-white hover:bg-red-700 transition-colors" 
+          <div class="mobile-dropdown-container border-b" style="border-color: #ffffff63;">
+            <button class="mobile-dropdown-toggle w-full flex items-center justify-between px-6 py-4 text-white hover:bg-gray-800 transition-colors" 
                     data-dropdown="${item.name.toLowerCase().replace(/\s+/g, '-')}">
               <span class="text-lg font-medium">${item.name}</span>
               <svg class="mobile-dropdown-icon w-5 h-5 transform transition-transform duration-200" 
@@ -159,11 +156,11 @@ class MobileSidebar {
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </button>
-            <div class="mobile-dropdown-menu max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-red-700">
+            <div class="mobile-dropdown-menu max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
               ${allItems.map(subItem => `
                 <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
                    ${item.name === 'Label Qualiopi' ? 'target="_blank"' : ''}
-                   class="block px-10 py-3 text-red-100 hover:text-white hover:bg-red-600 transition-colors">
+                   class="block px-10 py-3 hover:bg-gray-800 transition-colors">
                   ${subItem.name}
                   ${item.name === 'Label Qualiopi' ? '<svg class="w-4 h-4 inline-block ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>' : ''}
                 </a>
@@ -171,33 +168,14 @@ class MobileSidebar {
             </div>
           </div>
         `;
-      } else if (item.dropdown) {
-        return `
-          <div class="mobile-dropdown-container">
-            <button class="mobile-dropdown-toggle w-full flex items-center justify-between px-6 py-4 text-white hover:bg-red-700 transition-colors" 
-                    data-dropdown="${item.name.toLowerCase().replace(/\s+/g, '-')}">
-              <span class="text-lg font-medium">${item.name}</span>
-              <svg class="mobile-dropdown-icon w-5 h-5 transform transition-transform duration-200" 
-                   fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-              </svg>
-            </button>
-            <div class="mobile-dropdown-menu max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-red-700">
-              ${item.dropdown.map(subItem => `
-                <a href="${typeof subItem.href === 'function' ? subItem.href() : subItem.href}" 
-                   class="block px-10 py-3 text-red-100 hover:text-white hover:bg-red-600 transition-colors">
-                  ${subItem.name}
-                </a>
-              `).join('')}
-            </div>
-          </div>
-        `;
       } else {
         return `
-          <a href="${typeof item.href === 'function' ? item.href() : item.href}" 
-             class="block px-6 py-4 text-white hover:bg-red-700 transition-colors">
-            <span class="text-lg font-medium">${item.name}</span>
-          </a>
+          <div class="border-b" style="border-color: #ffffff63;">
+            <a href="${typeof item.href === 'function' ? item.href() : item.href}" 
+               class="block px-6 py-4 hover:bg-gray-800 transition-colors">
+              <span class="text-lg font-medium">${item.name}</span>
+            </a>
+          </div>
         `;
       }
     }).join('');

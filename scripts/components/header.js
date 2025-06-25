@@ -564,7 +564,7 @@ class HeaderComponent {
             <div class="lg:hidden">
               <button id="mobile-menu-button" 
                       class="text-white hover:text-red-300 p-2 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 touch-manipulation">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
               </button>
