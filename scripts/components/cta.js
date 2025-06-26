@@ -107,9 +107,6 @@ function createCTASection() {
                         <p class="text-gray-600 leading-relaxed">
                             Bénéficiez d'une formation de qualité, reconnue et certifiée Qualiopi pour un accompagnement fiable et professionnel.
                         </p>
-                        <p> 
-                            N° Qualiopi : 0745217839
-                        </p>
 
                     </div>
                     

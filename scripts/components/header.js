@@ -481,7 +481,7 @@ class NavigationGenerator {
             <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
             </svg>
-            <span class="text-xs sm:text-sm text-gray-600">Formation agréée par l'État - N° Qualiopi : 0745217839</span>
+            <span class="text-xs sm:text-sm text-gray-600">Formation agréée par l'État</span>
           </div>
           <a href="${getBaseUrl()}contact/" class="bg-red-600 text-white text-sm font-semibold px-4 py-2 rounded hover:bg-red-700 transition">
             Demander un devis
@@ -493,7 +493,7 @@ class NavigationGenerator {
             <svg class="w-4 h-4 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
-            <span class="text-xs sm:text-sm text-gray-600">Formation agréée par l'État - N° Qualiopi : 0745217839</span>
+            <span class="text-xs sm:text-sm text-gray-600">Formation agréée par l'État</span>
           </div>
           <a href="${getBaseUrl()}contact/" 
              class="w-full inline-flex items-center justify-center px-3 sm:px-4 py-2 bg-red-600 text-white text-xs sm:text-sm font-medium rounded-lg hover:bg-red-700 transition-colors touch-manipulation whitespace-nowrap">
@@ -509,7 +509,7 @@ class NavigationGenerator {
             <svg class="w-3 h-3 sm:w-4 sm:h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
-            <span class="text-xs sm:text-sm text-gray-600">Formation agréée par l'État - N° Qualiopi : 0745217839</span>
+            <span class="text-xs sm:text-sm text-gray-600">Formation agréée par l'État</span>
           </div>
           <a href="${getBaseUrl()}contact/" 
              class="inline-flex items-center px-3 sm:px-4 py-2 bg-red-600 text-white text-xs sm:text-sm font-medium rounded-lg hover:bg-red-700 transition-colors touch-manipulation whitespace-nowrap">

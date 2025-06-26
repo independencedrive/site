@@ -9,7 +9,6 @@ const footerData = {
     name: "Independence Drive",
     description: `
     <span>L'indépendance commence ici.</span><br>
-    <span>N° Qualiopi : 0745217839</span><br>
     <span>N° Agreement : E2403400150</span>
     `,
   },
