@@ -636,7 +636,7 @@ class HeaderComponent {
     const headerHTML = `
       <header id="main-header" class="bg-black shadow-lg fixed top-0 left-0 right-0 z-40 transition-transform duration-300 ease-in-out">
         <div class="max-w-7xl mx-auto">
-          <div class="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-20 px-0 sm:px-6 lg:px-8">
             
             <!-- Logo -->
             <div class="flex-shrink-0">
@@ -662,7 +662,7 @@ class HeaderComponent {
             <div class="lg:hidden">
               <button id="mobile-menu-button" 
                       class="text-white hover:text-red-300 p-2 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 touch-manipulation">
-                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-14 h-14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
               </button>

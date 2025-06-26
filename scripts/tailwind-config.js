@@ -14,7 +14,11 @@ window.globalTailwindConfig = {
             },
             backgroundImage: {
                 'hero-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-            }
+            },
+            backgroundPosition: {
+                'offset-mobile': '-500px center',
+            },
+            
         },
         // Override ALL default font families to use ONLY system-ui
         fontFamily: {
