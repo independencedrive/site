@@ -64,12 +64,12 @@ const footerData = {
     ]
   },
   qualiopiImage: {
-    title: "Certifié Qualiopi",
+    title: "Label Qualité + Qualiopi",
     items: [
       { 
-        name: "Certifié Qualiopi", 
+        name: "Label Qualité + Qualiopi", 
         href: () => getBaseUrl() + 'label-qualiopi/',
-        imageSrc: () => getBaseUrl() + 'media/images/qualiopi-logo-png.png'
+        imageSrc: () => getBaseUrl() + 'media/images/qualiopi-footer.jpeg'
       }
     ]
   },
