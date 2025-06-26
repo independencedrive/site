@@ -13,9 +13,13 @@ const footerData = {
     `,
   },
   contact: {
-    phone: "06 64 20 21 57",
+    phones: [
+      { label: "Gérant Auto-école", number: "06 64 20 21 57" },
+      { label: "Pro Auto-école", number: "07 67 90 12 33" },
+      { label: "Fixe Auto-école", number: "09 56 26 18 37" }
+    ],
     email: "independencedrive2018@gmail.com",
-    address: "83 Rue Michel Ange <p> 34070 Montpellier</p>"
+    address: `<a href="https://www.google.fr/maps/place/Auto-%C3%A9cole+Independence+Drive/@43.6158625,3.8437986,17z/data=!3m1!5s0x12b6aef4a4b4192f:0x19d24cd2ab8df8ee!4m15!1m8!3m7!1s0x12b6aef4a21f441b:0x6465678da24c4430!2s83+Rue+Michel+Ange,+34070+Montpellier!3b1!8m2!3d43.6158586!4d3.8463735!16s%2Fg%2F11nnkr54xc!3m5!1s0x12b6af71a3705463:0x2356cec4fc3a8a45!8m2!3d43.6158575!4d3.8463746!16s%2Fg%2F11ld_nyg5s?hl=fr&entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">83 Rue Michel Ange <p>34070 Montpellier</p></a>`
   },
   services: {
     title: "Nos Prestations",
@@ -316,15 +320,15 @@ class FooterComponent {
               
               <!-- Contact Info -->
               <div class="space-y-2">
-                <div class="flex items-center text-sm text-gray-600">
-                  <svg class="w-4 h-4 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                  </svg>
-                  <a href="tel:${footerData.contact.phone.replace(/\s/g, '')}" 
-                     class="hover:text-red-600 transition-colors duration-200">
-                    ${footerData.contact.phone}
-                  </a>
-                </div>
+                ${footerData.contact.phones.map(phone => `
+                  <div class="flex items-center text-sm text-gray-600">
+                    <svg class="w-4 h-4 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                    <span class="font-semibold mr-2">${phone.label}:</span>
+                    <a href="tel:${phone.number.replace(/\s/g, '')}" class="hover:text-red-600 transition-colors duration-200">${phone.number}</a>
+                  </div>
+                `).join('')}
                 
                 <div class="flex items-center text-sm text-gray-600">
                   <svg class="w-4 h-4 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
