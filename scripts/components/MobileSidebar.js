@@ -64,7 +64,7 @@ class MobileSidebar {
                 { name: "Conduite Accompagnée (AAC)", href: () => getBaseUrl() + 'permis-aac-conduite-accompagnee/' },
                 { name: "Permis B + Voyage Disney", href: () => getBaseUrl() + 'permis-b-voyage-disney/' },
                 { name: "Code de la route", href: () => getBaseUrl() + 'preparation-au-code-de-la-route/' },
-                { name: "Prestations diverses", href: () => getBaseUrl() + 'prestations-diverses/' }
+                { name: "Prestations diverses", href: () => getBaseUrl() + 'cours-theoriques/' }
               ]
             }
           ]

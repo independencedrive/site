@@ -31,7 +31,7 @@ const footerData = {
       { name: "Permis B + Voyage à Disney", href: () => getBaseUrl() + 'permis-b-voyage-disney//' },
       { name: "Conduite accompagnée (AAC)", href: () => getBaseUrl() + 'permis-aac-conduite-accompagnee/' },
       { name: "Code de la route", href: () => getBaseUrl() + 'preparation-au-code-de-la-route/' },
-      { name: "Prestations Diverses", href: () => getBaseUrl() + 'prestations-diverses/' }
+      { name: "Cours théoriques", href: () => getBaseUrl() + 'cours-theoriques/' }
     ]
   },
   autoEcole: {
