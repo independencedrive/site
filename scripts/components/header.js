@@ -112,13 +112,22 @@ const navigationData = {
               </svg>`
             },
             {
-              name: 'Prestations diverses',
-              href: () => getBaseUrl() + 'prestations-diverses/',
-              description: 'Autres services personnalisés',
+              name: 'Formation Passerelle',
+              href: () => getBaseUrl() + 'formation-passerelle/',
+              description: 'Boîte Auto ➜ Boîte Manuelle',
               icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
               </svg>`
-            }
+            },
+            {
+              name: 'Formation Post-Permis',
+              href: () => getBaseUrl() + 'formation-post-permis/',
+              description: 'Réduisez votre période jeune conducteur',
+              icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+              </svg>`
+            },
+            
           ]
         }
       ]
