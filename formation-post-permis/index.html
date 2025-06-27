@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation Post Permis - Independence Drive</title>
+    <meta name="description" content="Découvrez la formation post-permis proposée par Independence Drive : conditions, programme, durée, prix et avantages pour les jeunes conducteurs.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../scripts/tailwind-config.js"></script>
+</head>
+<body class="font-sans bg-white">
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Hero Section (background image and overlay) -->
+    <section class="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 bg-cover bg-center" style="background-image: url('../media/images/horaires.webp');">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative text-center text-white px-6 max-w-3xl">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Formation Post Permis</h1>
+            <a href="#bento-section" id="show-bento-btn" class="mt-4 inline-block bg-white text-blue-900 font-semibold px-8 py-3 rounded-lg text-lg shadow-lg hover:bg-blue-100 transition-colors duration-300">En savoir plus</a>
+        </div>
+    </section>
+
+    <!-- Bento Section -->
+    <section id="bento-section" class="py-16 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 flex flex-col gap-8">
+            <!-- Intro Bento Full Width -->
+            <div class="bg-gradient-to-r from-blue-100 to-blue-50 border border-blue-200 rounded-2xl shadow-lg p-8 flex flex-col gap-4">
+                <p class="text-lg md:text-xl text-blue-900 font-semibold">
+                    L’auto-école Independence Drive est habilitée à proposer la formation post-permis grâce à son label qualité (Critère 1.6). Cela garantit que la formation est encadrée par des enseignants formés spécifiquement et suit un programme validé par l’État.
+                </p>
+            </div>
+            <!-- Bloc 1: C'est quoi le Post Permis ? -->
+            <div class="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 rounded-2xl shadow-lg p-8 flex flex-col gap-4">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="text-2xl text-red-600">❓</span>
+                    <h2 class="text-2xl font-bold text-gray-900">C’est quoi le Post Permis ?</h2>
+                </div>
+                <p class="text-gray-800">La formation post-permis est une formation complémentaire volontaire destinée aux jeunes conducteurs titulaires d’un premier permis (A1, A2, B1 ou B).<br>Elle dure 7 heures en une seule journée, en groupe, et se concentre sur :</p>
+                <ul class="list-disc list-inside text-gray-800 ml-2">
+                    <li>La gestion des risques (vitesse, alcool, fatigue, etc.),</li>
+                    <li>La perception des dangers,</li>
+                    <li>Les situations complexes de conduite,</li>
+                    <li>Les choix de mobilité plus responsables (sécurité, écologie, citoyenneté).</li>
+                </ul>
+                <p class="mt-4 flex items-center gap-2"><span class="text-yellow-500 text-xl">👉</span><span class="font-semibold text-green-700">Elle permet surtout de réduire la durée de la période probatoire (ex. : de 3 ans à 2 ans pour le permis B).</span></p>
+            </div>
+            <!-- Bloc 2: Conditions d'accès -->
+            <div class="bg-gradient-to-r from-green-50 to-green-100 border border-green-200 rounded-2xl shadow-lg p-8 flex flex-col gap-4">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="text-2xl">📋</span>
+                    <h2 class="text-2xl font-bold text-gray-900">Quelles sont les conditions d’accès ?</h2>
+                </div>
+                <ul class="list-disc list-inside text-gray-800 ml-2">
+                    <li>Avoir obtenu son premier permis (A1, A2, B1 ou B).</li>
+                    <li>La formation doit être suivie entre le 6ᵉ et le 12ᵉ mois après l’obtention du permis.</li>
+                    <li>Ne pas avoir commis d’infraction entraînant un retrait de points, restriction ou suspension du permis.</li>
+                </ul>
+            </div>
+            <!-- Bloc 3: Prix Full Width -->
+            <div class="bg-gradient-to-r from-orange-50 to-yellow-100 border border-orange-200 rounded-2xl shadow-lg p-8 flex flex-col gap-4">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="text-2xl text-orange-500">💶</span>
+                    <h2 class="text-2xl font-bold text-gray-900">Le prix : 150€ la journée (7 heures)</h2>
+                </div>
+                <p class="text-gray-800">Le tarif est fixé à <span class="font-semibold text-blue-700">150€ TTC</span> pour la formation complète d’une journée, soit 7 heures de formation, comprenant :</p>
+                <ul class="list-disc list-inside text-gray-800 ml-2">
+                    <li>La matinée (4h) sur les risques et situations complexes,</li>
+                    <li>L’après-midi (3h) sur les choix de mobilité et engagement citoyen.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <div id="cta-container"></div>
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+    <!-- Load Components -->
+    <script src="../scripts/components/MobileSidebar.js"></script>
+    <script src="../scripts/components/header.js"></script>
+    <script src="../scripts/components/footer.js"></script>
+    <script src="../scripts/components/cta.js"></script>
+    <script>
+    // Remove all JS related to hiding/showing the bento section, content is always visible
+    </script>
+</body>
+</html>
