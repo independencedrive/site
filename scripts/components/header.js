@@ -328,13 +328,13 @@ const navigationData = {
           items: [
             {
               name: 'Tuto Suppression du mandat',
-              href: `${getBaseUrl()}/media/pdf/Aide-Explicatif-connexion.pdf`,
+              href: () => getBaseUrl() + 'media/pdf/Aide-Explicatif-connexion.pdf',
               description: 'Télécharger le tutoriel PDF',
               icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>`
             },
             {
               name: 'Questions pour l\'examen',
-              href: `${getBaseUrl()}/media/pdf/Aide-Questions-permis.pdf`,
+              href: () => getBaseUrl() + 'media/pdf/Aide-Questions-permis.pdf',
               description: 'Télécharger la liste de questions PDF',
               icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>`
             }
