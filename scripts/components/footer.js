@@ -49,7 +49,7 @@ const footerData = {
   externalLinks: {
     title: "Aides/Financements",
     items: [
-      { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/" },
+      // { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/" },
       { name: "Le permis à 1 € par jour", href: () => "https://www.securite-routiere.gouv.fr/passer-son-permis-de-conduire/financement-du-permis-de-conduire/permis-1-eu-par-jour" },
       { name: "Fonds d'aide aux jeunes (FAJ)", href: () => "https://herault.fr/615-fdaj.htm" },
       { name: "Service national universel (SNU)", href: () => "https://www.snu.gouv.fr/" },
@@ -57,8 +57,11 @@ const footerData = {
 
     ]
   },
+
   cpfImage: {
     title: "Mon Compte Formation (CPF)",
+    // Set enabled to false to hide this widget while keeping code intact
+    enabled: false,
     items: [
       { 
         name: "Mon Compte Formation (CPF)", 
@@ -67,6 +70,7 @@ const footerData = {
       }
     ]
   },
+  
   qualiopiImage: {
     title: "Label Qualité + Qualiopi",
     items: [
@@ -199,6 +203,10 @@ class FooterComponent {
 
   // Generate image widget section (for CPF and Qualiopi)
   generateImageSection(section) {
+    // If the section is disabled or has no items, render nothing
+    if (!section || section.enabled === false || !section.items || section.items.length === 0) {
+      return '';
+    }
     return `
       <div>
       <h3 class="text-gray-900 font-semibold text-lg mb-4">${section.title}</h3>
