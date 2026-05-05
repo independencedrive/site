@@ -38,6 +38,7 @@ const footerData = {
     title: "L'Auto-École",
     items: [
       { name: "À propos", href: () => getBaseUrl() + 'a-propos/' },
+      { name: "Notre équipe", href: () => getBaseUrl() + 'equipe/' },
       { name: "Contact", href: () => getBaseUrl() + 'contact/' },
       { name: "Horaires", href: () => getBaseUrl() + 'horaires/' },
       { name: "Actualités", href: () => getBaseUrl() + 'actualites/' },
@@ -118,8 +119,7 @@ const footerData = {
     bureau: {
       title: "Bureau",
       items: [
-        { day: "Lun - Mer, Ven - Sam", hours: "13h-20h" },
-        { day: "Jeudi", hours: "17h-20h" },
+        { day: "Lun - Sam", hours: "10h-13h / 14h-18h" },
         { day: "Dimanche", hours: "Fermé", closed: true },
         { day: "Jours fériés", hours: "Fermés", closed: true }
       ]
