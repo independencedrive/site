@@ -259,7 +259,7 @@ const pageComponents = {
               </div>
               <div>
                 <h3 class="text-lg font-semibold text-gray-900 mb-1">Adresse</h3>
-                <p class="text-gray-600">83 Rue Michel Ange<br>34070 Montpellier</p>
+                <p class="text-gray-600">77 Rue Michel Ange<br>34070 Montpellier</p>
               </div>
             </div>
           </div>

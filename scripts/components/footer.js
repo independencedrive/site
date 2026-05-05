@@ -19,7 +19,7 @@ const footerData = {
       { label: "Fixe Auto-école", number: "09 56 26 18 37" }
     ],
     email: "independencedrive2018@gmail.com",
-    address: `<a href="https://www.google.fr/maps/place/Auto-%C3%A9cole+Independence+Drive/@43.6158625,3.8437986,17z/data=!3m1!5s0x12b6aef4a4b4192f:0x19d24cd2ab8df8ee!4m15!1m8!3m7!1s0x12b6aef4a21f441b:0x6465678da24c4430!2s83+Rue+Michel+Ange,+34070+Montpellier!3b1!8m2!3d43.6158586!4d3.8463735!16s%2Fg%2F11nnkr54xc!3m5!1s0x12b6af71a3705463:0x2356cec4fc3a8a45!8m2!3d43.6158575!4d3.8463746!16s%2Fg%2F11ld_nyg5s?hl=fr&entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">83 Rue Michel Ange <p>34070 Montpellier</p></a>`
+    address: `<a href="https://www.google.fr/maps/place/Auto-%C3%A9cole+Independence+Drive/@43.6158625,3.8437986,17z/data=!3m1!5s0x12b6aef4a4b4192f:0x19d24cd2ab8df8ee!4m15!1m8!3m7!1s0x12b6aef4a21f441b:0x6465678da24c4430!2s77+Rue+Michel+Ange,+34070+Montpellier!3b1!8m2!3d43.6158586!4d3.8463735!16s%2Fg%2F11nnkr54xc!3m5!1s0x12b6af71a3705463:0x2356cec4fc3a8a45!8m2!3d43.6158575!4d3.8463746!16s%2Fg%2F11ld_nyg5s?hl=fr&entry=ttu&g_ep=EgoyMDI1MDYyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">77 Rue Michel Ange <p>34070 Montpellier</p></a>`
   },
   services: {
     title: "Nos Prestations",
@@ -49,7 +49,7 @@ const footerData = {
   externalLinks: {
     title: "Aides/Financements",
     items: [
-      // { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/" },
+      { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/" },
       { name: "Le permis à 1 € par jour", href: () => "https://www.securite-routiere.gouv.fr/passer-son-permis-de-conduire/financement-du-permis-de-conduire/permis-1-eu-par-jour" },
       { name: "Fonds d'aide aux jeunes (FAJ)", href: () => "https://herault.fr/615-fdaj.htm" },
       { name: "Service national universel (SNU)", href: () => "https://www.snu.gouv.fr/" },
@@ -61,7 +61,7 @@ const footerData = {
   cpfImage: {
     title: "Mon Compte Formation (CPF)",
     // Set enabled to false to hide this widget while keeping code intact
-    enabled: false,
+    enabled: true,
     items: [
       { 
         name: "Mon Compte Formation (CPF)", 
