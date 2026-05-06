@@ -50,7 +50,7 @@ const footerData = {
   externalLinks: {
     title: "Aides/Financements",
     items: [
-      { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/" },
+      { name: "Mon Compte Formation (CPF)", href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/resultats?q=%7B%22ou%22:%7B%22modality%22:%22EN_CENTRE_MIXTE%22,%22type%22:%22CP%22,%22ville%22:%7B%22nom%22:%22MONTPELLIER%22,%22codePostal%22:%2234000%22,%22codeInsee%22:%2234172%22,%22coordonnee%22:%7B%22longitude%22:3.869198,%22latitude%22:43.613087%7D,%22eligibleCpf%22:true%7D%7D,%22debutPagination%22:1,%22nombreOccurences%22:10,%22contexteFormation%22:%22ACTIVITE_PROFESSIONNELLE%22,%22distance%22:%225%22,%22quoi%22:null,%22quoiReferentiel%22:%7B%22code%22:%22CPF206%22,%22libelle%22:%22PERMIS%20B%22,%22type%22:%22CERTIFICATION%22,%22publics%22:%5B%22GD_PUBLIC%22%5D%7D,%22nomOrganisme%22:%22INDEPENDENCE%20DRIVE%22,%22conformiteReglementaire%22:null,%22endDate%22:null,%22startDate%22:null,%22evaluation%22:null,%22niveauSortie%22:null,%22minPrix%22:null,%22maxPrix%22:null,%22rythme%22:null,%22onlyWithAbondementsEligibles%22:null,%22durationHours%22:null,%22certifications%22:null,%22certificationComplete%22:null,%22vae%22:null,%22codesCategorisationOffre%22:null,%22vaeAutocomplete%22:%22%22%7D" },
       { name: "Le permis à 1 € par jour", href: () => "https://www.securite-routiere.gouv.fr/passer-son-permis-de-conduire/financement-du-permis-de-conduire/permis-1-eu-par-jour" },
       { name: "Fonds d'aide aux jeunes (FAJ)", href: () => "https://herault.fr/615-fdaj.htm" },
       { name: "Service national universel (SNU)", href: () => "https://www.snu.gouv.fr/" },
@@ -66,7 +66,7 @@ const footerData = {
     items: [
       { 
         name: "Mon Compte Formation (CPF)", 
-        href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/",
+        href: () => "https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/resultats?q=%7B%22ou%22:%7B%22modality%22:%22EN_CENTRE_MIXTE%22,%22type%22:%22CP%22,%22ville%22:%7B%22nom%22:%22MONTPELLIER%22,%22codePostal%22:%2234000%22,%22codeInsee%22:%2234172%22,%22coordonnee%22:%7B%22longitude%22:3.869198,%22latitude%22:43.613087%7D,%22eligibleCpf%22:true%7D%7D,%22debutPagination%22:1,%22nombreOccurences%22:10,%22contexteFormation%22:%22ACTIVITE_PROFESSIONNELLE%22,%22distance%22:%225%22,%22quoi%22:null,%22quoiReferentiel%22:%7B%22code%22:%22CPF206%22,%22libelle%22:%22PERMIS%20B%22,%22type%22:%22CERTIFICATION%22,%22publics%22:%5B%22GD_PUBLIC%22%5D%7D,%22nomOrganisme%22:%22INDEPENDENCE%20DRIVE%22,%22conformiteReglementaire%22:null,%22endDate%22:null,%22startDate%22:null,%22evaluation%22:null,%22niveauSortie%22:null,%22minPrix%22:null,%22maxPrix%22:null,%22rythme%22:null,%22onlyWithAbondementsEligibles%22:null,%22durationHours%22:null,%22certifications%22:null,%22certificationComplete%22:null,%22vae%22:null,%22codesCategorisationOffre%22:null,%22vaeAutocomplete%22:%22%22%7D",
         imageSrc: () => getBaseUrl() + 'media/images/compte-formation.png'
       }
     ]
